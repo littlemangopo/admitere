@@ -101,10 +101,7 @@ body {
 }
 
 .grade-field {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
+  display: none;
 }
 
 .grade-field label {
@@ -596,6 +593,35 @@ body {
 }
 
 .mobile-stats-mini { display: none; }
+.mobile-grade-block { display: none; }
+
+/* Desktop grade block in sidebar */
+.desktop-grade-input {
+  width: 100%;
+  font-size: 1.4rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  padding: 7px 10px;
+  border: 2px solid var(--accent);
+  border-radius: 4px;
+  background: var(--accent-bg);
+  color: var(--text);
+  outline: none;
+  font-family: inherit;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.desktop-grade-input::placeholder { color: var(--text-2); font-weight: 400; font-size: 0.9rem; }
+.desktop-grade-input:focus { background: #fff; }
+
+.desktop-qualify-info {
+  font-size: 0.75rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 4px;
+  min-height: 1.1em;
+}
 
 /* ── Mobile search bar ──────────────────────────────── */
 .mobile-search-bar {
@@ -810,6 +836,37 @@ body {
   #statsLabel, #summaryStats { display: none; }
   #histLabel, .histogram-wrap { display: none; }
 
+  /* Grade block on mobile */
+  .mobile-grade-block { display: block; }
+  .desktop-grade-block { display: none; }
+
+  .mobile-grade-big {
+    width: 100%;
+    font-size: 1.6rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 700;
+    padding: 8px 12px;
+    border: 2px solid var(--accent);
+    border-radius: 4px;
+    background: var(--accent-bg);
+    color: var(--text);
+    outline: none;
+    font-family: inherit;
+    margin-top: 4px;
+    text-align: center;
+  }
+
+  .mobile-grade-big::placeholder { color: var(--text-2); font-weight: 400; font-size: 1rem; }
+  .mobile-grade-big:focus { border-color: var(--accent); background: #fff; }
+
+  .mobile-qualify-info {
+    font-size: 0.75rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-top: 4px;
+    min-height: 1.2em;
+  }
+
   /* Mini stats on mobile */
   .mobile-stats-mini {
     display: grid !important;
@@ -844,6 +901,16 @@ body {
 
   .mini-stat-val.highlight { color: var(--accent); }
 
+  .mini-stat-year {
+    grid-column: 1 / -1;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: -2px;
+  }
+
   /* Detail table: scroll horizontally, hide less important columns */
   .card-specs { overflow-x: auto; }
   .specs-table { font-size: 0.75rem; min-width: 0; width: 100%; }
@@ -856,6 +923,9 @@ body {
   .logo em { display: none; }
   .header-search { display: none; }
   .grade-field { display: none; }
+  .header .year-toggle { display: none; }
+  .header-divider:nth-child(4) { display: none; }
+  #yearToggleMobile { display: flex; }
   .header { gap: 10px; padding: 0 12px; flex-wrap: nowrap; overflow: hidden; }
   .mobile-search-bar { display: block; }
 
@@ -924,9 +994,12 @@ body {
 </header>
 
 <div class="mobile-search-bar">
-  <div style="display:flex;gap:8px;align-items:center">
+  <div style="display:flex;gap:8px;align-items:center;margin-bottom:6px">
+    <div class="year-toggle" id="yearToggleMobile">
+      <button class="yr-btn" data-year="2024">2024</button>
+      <button class="yr-btn active" data-year="2025">2025</button>
+    </div>
     <input class="mobile-search-input" id="searchInputMobile" type="text" placeholder="Caută un liceu…" style="flex:1">
-    <input class="grade-input" id="myGradeMobile" type="number" min="1" max="10" step="0.01" placeholder="Medie" style="width:80px;flex-shrink:0">
   </div>
 </div>
 
@@ -943,6 +1016,12 @@ body {
       </table>
     </div>
 
+    <div class="mobile-grade-block" id="mobileGradeBlock">
+      <label class="s-label" for="myGradeMobile">Media ta</label>
+      <input class="mobile-grade-big" id="myGradeMobile" type="number" min="1" max="10" step="0.01" placeholder="ex: 9.75">
+      <div class="mobile-qualify-info" id="mobileQualifyInfo"></div>
+    </div>
+
     <div class="mobile-stats-mini" id="mobileStatsMini"></div>
 
     <div>
@@ -950,6 +1029,12 @@ body {
       <div class="spec-filters" id="specFilters">
         <div class="spec-hint">Selectează una sau mai multe</div>
       </div>
+    </div>
+
+    <div class="desktop-grade-block">
+      <div class="s-label">Media ta</div>
+      <input class="desktop-grade-input" id="myGradeDesktop" type="number" min="1" max="10" step="0.01" placeholder="ex: 9.75">
+      <div class="desktop-qualify-info" id="desktopQualifyInfo"></div>
     </div>
 
     <div>
@@ -1228,7 +1313,8 @@ function buildMobileStats() {
     { label: '≥ 9.0', val: above90.toLocaleString('ro') },
   ];
 
-  el.innerHTML = items.map(i => `
+  el.innerHTML = `<div class="mini-stat-year">Statistici ${yr}</div>` +
+    items.map(i => `
     <div class="mini-stat">
       <span class="mini-stat-label">${i.label}</span>
       <span class="mini-stat-val">${i.val}</span>
@@ -1440,17 +1526,31 @@ function buildSpecsTable(school) {
 }
 
 // ── Event listeners ───────────────────────────────────────
-function handleGrade(val, otherId) {
+function handleGrade(val, otherId) { handleGradeInput(val, otherId === 'myGrade' ? 'myGradeMobile' : 'myGrade'); }
+
+function syncAllGradeInputs(val, exceptId) {
+  ['myGrade','myGradeMobile','myGradeDesktop'].forEach(id => {
+    if (id !== exceptId) document.getElementById(id).value = val;
+  });
+}
+
+function handleGradeInput(val, sourceId) {
   const v = parseFloat(val);
   myGrade = (!isNaN(v) && v >= 1 && v <= 10) ? v : null;
-  document.getElementById(otherId).value = val;
+  syncAllGradeInputs(val, sourceId);
   updateHistogramMarker(myGrade ? Math.round(myGrade * 10) / 10 : null);
   buildSummaryStats(); buildMobileStats();
   render();
+  const count = myGrade != null ? DATA_JSON.schools.filter(s => qualifiesFor(s)).length : null;
+  const txt = count != null ? `Poți intra la ${count} licee` : '';
+  ['mobileQualifyInfo','desktopQualifyInfo'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.textContent = txt;
+  });
 }
 
-document.getElementById('myGrade').addEventListener('input', e => handleGrade(e.target.value, 'myGradeMobile'));
-document.getElementById('myGradeMobile').addEventListener('input', e => handleGrade(e.target.value, 'myGrade'));
+document.getElementById('myGrade').addEventListener('input', e => handleGradeInput(e.target.value, 'myGrade'));
+document.getElementById('myGradeMobile').addEventListener('input', e => handleGradeInput(e.target.value, 'myGradeMobile'));
+document.getElementById('myGradeDesktop').addEventListener('input', e => handleGradeInput(e.target.value, 'myGradeDesktop'));
 
 function handleSearch(val) {
   searchQuery = val.trim();
