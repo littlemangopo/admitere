@@ -1318,7 +1318,6 @@ function buildSpecsTable(school) {
       <tr>
         <th>Specializare</th>
         <th>Ultima medie ${activeYear}</th>
-        <th>Medie adm. ${activeYear}</th>
         <th>Admiși ${activeYear}</th>
         <th>Clase 2026</th>
         <th>Locuri 2026</th>
@@ -1350,7 +1349,7 @@ function buildSpecsTable(school) {
     html += `<tr>
       <td>${sp.name}${newBadge}${(qFlag && q) ? '<span class="qualify-check" style="margin-left:6px">✓</span>' : ''}</td>
       ${d
-        ? `<td><span class="spec-cutoff">${d.cutoff.toFixed(2)}</span> ${delta} ${badge}</td><td class="spec-avg">${d.avg.toFixed(2)}</td><td class="spec-count">${d.count}</td>`
+        ? `<td><span class="spec-cutoff">${d.cutoff.toFixed(2)}</span> ${delta} ${badge}</td><td class="spec-count">${d.count}</td>`
         : '<td>–</td><td>–</td><td>–</td>'}
       <td class="spec-count">${(()=>{
         const v=sp.officialClasses2026, r=sp.officialClasses;
