@@ -779,9 +779,32 @@ body {
   .layout { grid-template-columns: 1fr; }
   .sidebar { position: static; height: auto; }
   .grade-bar-col { display: none; }
-  .card-grades { gap: 10px; }
   #statsLabel, #summaryStats { display: none; }
   #histLabel, .histogram-wrap { display: none; }
+
+  .card-head {
+    grid-template-columns: 24px 1fr;
+    grid-template-rows: auto auto;
+    gap: 4px 8px;
+  }
+
+  .card-school { grid-column: 2; }
+
+  .school-name { white-space: normal; font-size: 0.85rem; }
+
+  .card-grades {
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    gap: 12px;
+    padding-top: 2px;
+  }
+
+  .card-rank { grid-row: 1; }
+
+  .places-col { min-width: auto; }
+  .places-count { font-size: 0.82rem; }
+
+  .yr-grade { font-size: 0.9rem; }
 }
 </style>
 </head>
