@@ -776,35 +776,54 @@ body {
 
 /* ── Responsive ─────────────────────────────────────── */
 @media (max-width: 768px) {
+  html, body { overflow-x: hidden; }
+
   .layout { grid-template-columns: 1fr; }
   .sidebar { position: static; height: auto; }
-  .grade-bar-col { display: none; }
   #statsLabel, #summaryStats { display: none; }
   #histLabel, .histogram-wrap { display: none; }
 
+  /* Header: hide search and subtitle on mobile */
+  .logo em { display: none; }
+  .header-search { display: none; }
+  .header { gap: 10px; padding: 0 12px; flex-wrap: nowrap; overflow: hidden; }
+
+  /* Spec filter: compact */
+  .spec-btn { padding: 5px 6px; font-size: 0.75rem; }
+
+  /* Card: stack name above grades */
   .card-head {
-    grid-template-columns: 24px 1fr;
-    grid-template-rows: auto auto;
-    gap: 4px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 8px;
+    padding: 10px 12px;
   }
 
-  .card-school { grid-column: 2; }
+  .card-rank { flex-shrink: 0; min-width: 20px; }
 
-  .school-name { white-space: normal; font-size: 0.85rem; }
+  .card-school {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .school-name {
+    white-space: normal;
+    font-size: 0.85rem;
+  }
 
   .card-grades {
-    grid-column: 1 / -1;
+    width: 100%;
     justify-content: flex-start;
     gap: 12px;
-    padding-top: 2px;
+    padding-left: 28px;
   }
 
-  .card-rank { grid-row: 1; }
-
+  .grade-bar-col { display: none; }
   .places-col { min-width: auto; }
-  .places-count { font-size: 0.82rem; }
-
-  .yr-grade { font-size: 0.9rem; }
+  .places-count { font-size: 0.8rem; }
+  .yr-grade { font-size: 0.88rem; }
+  .expand-arrow { margin-left: auto; }
 }
 </style>
 </head>
