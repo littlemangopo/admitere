@@ -846,7 +846,7 @@ body {
 
   /* Detail table: scroll horizontally, hide less important columns */
   .card-specs { overflow-x: auto; }
-  .specs-table { font-size: 0.75rem; min-width: 380px; }
+  .specs-table { font-size: 0.75rem; min-width: 0; width: 100%; }
   .specs-table thead th, .specs-table tbody td { padding: 5px 8px; }
   .specs-table tbody td:first-child { padding-left: 12px; }
   .specs-table thead th:first-child { padding-left: 12px; }
@@ -1387,7 +1387,7 @@ function buildSpecsTable(school) {
       <tr>
         <th>Specializare</th>
         <th>Ultima medie ${activeYear}</th>
-        <th>Admiși ${activeYear}</th>
+        <th class="col-hide-mobile">Admiși ${activeYear}</th>
         <th class="col-hide-mobile">Clase 2026</th>
         <th>Locuri 2026</th>
       </tr>
@@ -1418,7 +1418,7 @@ function buildSpecsTable(school) {
     html += `<tr>
       <td>${sp.name}${newBadge}${(qFlag && q) ? '<span class="qualify-check" style="margin-left:6px">✓</span>' : ''}</td>
       ${d
-        ? `<td><span class="spec-cutoff">${d.cutoff.toFixed(2)}</span> ${delta} ${badge}</td><td class="spec-count">${d.count}</td>`
+        ? `<td><span class="spec-cutoff">${d.cutoff.toFixed(2)}</span> ${delta} ${badge}</td><td class="spec-count col-hide-mobile">${d.count}</td>`
         : '<td>–</td><td>–</td><td>–</td>'}
       <td class="spec-count col-hide-mobile">${(()=>{
         const v=sp.officialClasses2026, r=sp.officialClasses;
