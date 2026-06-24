@@ -1088,6 +1088,7 @@ function buildSummaryStats() {
   }
 
   function cumulative(dist, threshold) {
+    if (!dist) return 0;
     return Object.entries(dist)
       .filter(([k]) => parseFloat(k) >= threshold)
       .reduce((a, [, v]) => a + v, 0);
@@ -1095,21 +1096,57 @@ function buildSummaryStats() {
 
   const el = document.getElementById('summaryStats');
 
-  // header row
+  const allYears = [...new Set([...availableYears, ...Object.keys(DATA_JSON.exam_totals || {})])].sort();
+  const examTotals = allYears.map(y =>
+    DATA_JSON.exam_totals?.[y]?.toLocaleString('ro') ??
+    Object.values(DATA_JSON.exam_distribution?.[y] || {}).reduce((a, b) => a + b, 0).toLocaleString('ro') ??
+    '–'
+  );
+  const placedTotals = allYears.map(y => {
+    const d = getDist(y) || {};
+    const total = Object.values(d).reduce((a, b) => a + b, 0);
+    return total > 0 ? total.toLocaleString('ro') : '–';
+  });
+
   let html = `<div class="stat-row stat-row-header">
     <span class="stat-label"></span>
-    ${availableYears.map(y => `<span class="stat-val">${y}</span>`).join('')}
+    ${allYears.map(y => `<span class="stat-val">${y}</span>`).join('')}
+  </div>
+  ${!singleSpec ? `<div class="stat-row">
+    <span class="stat-label" title="Candidați care au susținut examenul">Examen</span>
+    ${examTotals.map(t => `<span class="stat-val">${t}</span>`).join('')}
+  </div>` : ''}
+  <div class="stat-row" style="border-bottom:2px solid var(--border)">
+    <span class="stat-label" title="Candidați repartizați în București">Admiși</span>
+    ${placedTotals.map(t => `<span class="stat-val">${t}</span>`).join('')}
   </div>`;
 
   for (let g = 10.0; g >= 9.0 - 0.001; g -= 0.1) {
     const threshold = Math.round(g * 10) / 10;
     const isYour = myGrade != null && myGrade >= threshold && myGrade < threshold + 0.1 - 0.001;
-    const counts = availableYears.map(y => cumulative(getDist(y), threshold).toLocaleString('ro'));
+    const counts = allYears.map(y => {
+      const c = cumulative(getDist(y), threshold);
+      return c > 0 ? c.toLocaleString('ro') : '–';
+    });
     html += `<div class="stat-row${isYour ? ' stat-row-highlight' : ''}">
       <span class="stat-label">≥ ${threshold.toFixed(1)}</span>
       ${counts.map(c => `<span class="stat-val">${c}</span>`).join('')}
     </div>`;
   }
+
+  // Exam takers ≥ 5 (from results, not just placed students)
+  if (!singleSpec && DATA_JSON.exam_distribution) {
+    const above5 = availableYears.map(y =>
+      Object.entries(DATA_JSON.exam_distribution[y] || {})
+        .filter(([k]) => parseFloat(k) >= 5.0)
+        .reduce((a, [, v]) => a + v, 0).toLocaleString('ro')
+    );
+    html += `<div class="stat-row" style="border-top:2px solid var(--border);margin-top:2px">
+      <span class="stat-label">≥ 5.0</span>
+      ${above5.map(c => `<span class="stat-val">${c}</span>`).join('')}
+    </div>`;
+  }
+
   el.innerHTML = html;
 }
 

@@ -19,9 +19,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 103,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -40,9 +40,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 102,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -61,9 +61,9 @@
             }
           },
           "officialPlaces": 130,
+          "officialClasses": 5.0,
           "code": 101,
           "officialPlaces2026": 140,
-          "officialClasses": 5.0,
           "officialClasses2026": 5.0
         },
         {
@@ -82,9 +82,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 104,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -114,9 +114,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 344,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -135,9 +135,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 345,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -156,9 +156,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 347,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -177,9 +177,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 346,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -209,9 +209,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 196,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -230,9 +230,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 195,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -251,9 +251,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 197,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -272,9 +272,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 199,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -293,9 +293,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 198,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -325,9 +325,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 116,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -346,9 +346,9 @@
             }
           },
           "officialPlaces": 208,
+          "officialClasses": 8.0,
           "code": 115,
           "officialPlaces2026": 224,
-          "officialClasses": 8.0,
           "officialClasses2026": 8.0
         },
         {
@@ -523,9 +523,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 380,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -544,9 +544,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 379,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -565,9 +565,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 382,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -586,9 +586,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 381,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -617,11 +617,11 @@
               "count": 22
             }
           },
-          "officialPlaces": 52,
-          "code": 200,
-          "officialPlaces2026": 56,
-          "officialClasses": 2.0,
-          "officialClasses2026": 2.0
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 201,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba engleză)",
@@ -639,9 +639,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 200,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -659,11 +659,11 @@
               "count": 25
             }
           },
-          "officialPlaces": 52,
-          "code": 200,
-          "officialPlaces2026": 56,
-          "officialClasses": 2.0,
-          "officialClasses2026": 2.0
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 203,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -681,34 +681,10 @@
             }
           },
           "officialPlaces": 52,
-          "code": 200,
-          "officialPlaces2026": 56,
           "officialClasses": 2.0,
-          "officialClasses2026": 2.0
-        },
-        {
-          "name": "Ştiinţe ale naturii-bilingv limba engleză",
-          "base": "Ştiinţe ale Naturii",
-          "years": {},
-          "new2026": true,
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba engleză",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
+          "code": 202,
           "officialPlaces2026": 56,
           "officialClasses2026": 2.0
-        },
-        {
-          "name": "Ştiinţe sociale-bilingv limba engleză",
-          "base": "Ştiinţe Sociale",
-          "years": {},
-          "new2026": true,
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
         }
       ],
       "best_cutoffs": {
@@ -737,9 +713,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 264,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         },
         {
@@ -758,9 +734,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 265,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -779,9 +755,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 267,
           "officialPlaces2026": 84,
-          "officialClasses": 1.0,
           "officialClasses2026": 3.0
         },
         {
@@ -800,9 +776,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 266,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -832,9 +808,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 187,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -853,9 +829,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 188,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -874,9 +850,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 186,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         }
       ],
@@ -906,9 +882,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 320,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -927,9 +903,9 @@
             }
           },
           "officialPlaces": 130,
+          "officialClasses": 5.0,
           "code": 319,
           "officialPlaces2026": 140,
-          "officialClasses": 5.0,
           "officialClasses2026": 5.0
         },
         {
@@ -948,9 +924,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 321,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -980,9 +956,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 185,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1001,9 +977,9 @@
             }
           },
           "officialPlaces": 208,
+          "officialClasses": 8.0,
           "code": 184,
           "officialPlaces2026": 224,
-          "officialClasses": 8.0,
           "officialClasses2026": 8.0
         }
       ],
@@ -1033,9 +1009,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 323,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1054,9 +1030,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 322,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1075,9 +1051,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 324,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1096,9 +1072,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 326,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1117,9 +1093,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 325,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -1149,9 +1125,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 191,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1170,9 +1146,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 190,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1191,9 +1167,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 189,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1212,9 +1188,9 @@
             }
           },
           "officialPlaces": 26,
-          "code": 190,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
+          "code": 193,
+          "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
         {
@@ -1233,9 +1209,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 192,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1254,16 +1230,8 @@
             }
           },
           "officialPlaces": 26,
-          "code": 190,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba spaniolă",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
+          "code": 193,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
@@ -1344,9 +1312,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 376,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1360,9 +1328,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 377,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1376,9 +1344,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 378,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -1407,9 +1375,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 137,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1428,9 +1396,9 @@
             }
           },
           "officialPlaces": 26,
-          "code": 138,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
+          "code": 139,
+          "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
         {
@@ -1449,9 +1417,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 138,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1470,9 +1438,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 141,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1491,9 +1459,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 140,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -1523,9 +1491,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 316,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1544,9 +1512,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 315,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         },
         {
@@ -1565,9 +1533,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 318,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1586,9 +1554,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 317,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -1618,9 +1586,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 125,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1639,9 +1607,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 124,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -1660,9 +1628,9 @@
             }
           },
           "officialPlaces": 26,
-          "code": 128,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
+          "code": 126,
+          "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
         {
@@ -1681,9 +1649,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 129,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1702,9 +1670,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 127,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1723,16 +1691,8 @@
             }
           },
           "officialPlaces": 26,
-          "code": 128,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba italiană",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
+          "code": 128,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         }
@@ -1763,9 +1723,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 269,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1784,9 +1744,9 @@
             }
           },
           "officialPlaces": 130,
+          "officialClasses": 5.0,
           "code": 268,
           "officialPlaces2026": 112,
-          "officialClasses": 5.0,
           "officialClasses2026": 4.0
         },
         {
@@ -1829,9 +1789,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 376,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -1845,9 +1805,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 377,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1861,9 +1821,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 378,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -1892,9 +1852,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 204,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         },
         {
@@ -1913,9 +1873,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 207,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -1934,9 +1894,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 205,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -1955,24 +1915,8 @@
             }
           },
           "officialPlaces": 26,
-          "code": 205,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba franceză",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba franceză",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
+          "code": 208,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         }
@@ -2003,9 +1947,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 145,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2024,9 +1968,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 147,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2045,9 +1989,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 146,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2066,16 +2010,8 @@
             }
           },
           "officialPlaces": 26,
-          "code": 146,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba spaniolă",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
+          "code": 148,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         }
@@ -2106,9 +2042,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 130,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2127,9 +2063,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 131,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2148,9 +2084,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 132,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -2180,9 +2116,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 348,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2201,9 +2137,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 349,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2222,9 +2158,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 350,
           "officialPlaces2026": 56,
-          "officialClasses": 3.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -2327,9 +2263,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 387,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2348,9 +2284,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 388,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2369,9 +2305,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 389,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2390,9 +2326,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 390,
           "officialPlaces2026": 56,
-          "officialClasses": 3.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -2422,9 +2358,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 224,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -2443,9 +2379,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 225,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -2464,9 +2400,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 226,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -2496,9 +2432,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 167,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -2517,9 +2453,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 168,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         }
       ],
@@ -2590,9 +2526,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 271,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2611,9 +2547,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 275,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2632,9 +2568,9 @@
             }
           },
           "officialPlaces": 26,
-          "code": 272,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
+          "code": 276,
+          "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
         {
@@ -2653,9 +2589,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 272,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2674,16 +2610,8 @@
             }
           },
           "officialPlaces": 26,
-          "code": 273,
-          "officialPlaces2026": 28,
           "officialClasses": 1.0,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba italiană",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
+          "code": 273,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         }
@@ -2714,9 +2642,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 210,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2735,9 +2663,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 211,
           "officialPlaces2026": 28,
-          "officialClasses": 3.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -2767,9 +2695,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 212,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2788,9 +2716,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 214,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2809,9 +2737,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 215,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2830,9 +2758,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 213,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         }
       ],
@@ -2862,9 +2790,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 356,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2883,9 +2811,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 358,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -2904,9 +2832,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 355,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -2925,9 +2853,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 357,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -2957,9 +2885,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 142,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -2978,9 +2906,9 @@
             }
           },
           "officialPlaces": 13,
+          "officialClasses": 0.5,
           "code": null,
           "officialPlaces2026": 14,
-          "officialClasses": 0.5,
           "officialClasses2026": 0.5
         }
       ],
@@ -3065,9 +2993,7 @@
               "avg": 9.02,
               "count": 16
             }
-          },
-          "officialPlaces": 26,
-          "code": 331
+          }
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3083,9 +3009,7 @@
               "avg": 8.85,
               "count": 19
             }
-          },
-          "officialPlaces": 26,
-          "code": 332
+          }
         },
         {
           "name": "Filologie",
@@ -3101,16 +3025,13 @@
               "avg": 8.68,
               "count": 13
             }
-          },
-          "officialPlaces": 26,
-          "code": 333
+          }
         }
       ],
       "best_cutoffs": {
         "2024": 8.67,
         "2025": 8.75
-      },
-      "officialTotalPlaces2025": 78
+      }
     },
     {
       "name": "Liceul Teoretic „Constantin Brâncoveanu”",
@@ -3131,8 +3052,8 @@
             }
           },
           "officialPlaces": 52,
-          "code": 133,
-          "officialClasses": 2.0
+          "officialClasses": 2.0,
+          "code": 133
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3150,8 +3071,8 @@
             }
           },
           "officialPlaces": 52,
-          "code": 134,
-          "officialClasses": 2.0
+          "officialClasses": 2.0,
+          "code": 134
         },
         {
           "name": "Filologie",
@@ -3169,8 +3090,8 @@
             }
           },
           "officialPlaces": 52,
-          "code": 135,
-          "officialClasses": 2.0
+          "officialClasses": 2.0,
+          "code": 135
         },
         {
           "name": "Ştiinţe Sociale",
@@ -3188,8 +3109,8 @@
             }
           },
           "officialPlaces": 52,
-          "code": 136,
-          "officialClasses": 2.0
+          "officialClasses": 2.0,
+          "code": 136
         }
       ],
       "best_cutoffs": {
@@ -3217,9 +3138,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 117,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3256,9 +3177,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 119,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -3288,9 +3209,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 391,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -3309,9 +3230,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 392,
           "officialPlaces2026": 56,
-          "officialClasses": 3.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3330,9 +3251,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 393,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -3362,9 +3283,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 327,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         },
         {
@@ -3383,9 +3304,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 329,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3404,9 +3325,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 328,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -3436,9 +3357,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 383,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -3457,9 +3378,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 384,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -3478,9 +3399,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 385,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -3499,9 +3420,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 386,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -3556,9 +3477,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 277,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3577,9 +3498,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 278,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3598,9 +3519,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 279,
           "officialPlaces2026": 56,
-          "officialClasses": 3.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -3629,6 +3550,9 @@
               "count": 20
             }
           },
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 227,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
@@ -3647,14 +3571,9 @@
               "count": 24
             }
           },
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Ştiinţe sociale-bilingv limba germană",
-          "base": "Ştiinţe Sociale",
-          "years": {},
-          "new2026": true,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 228,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         }
@@ -3663,6 +3582,7 @@
         "2024": 8.05,
         "2025": 8.55
       },
+      "officialTotalPlaces2025": 52,
       "officialTotalPlaces2026": 56
     },
     {
@@ -3725,9 +3645,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 400,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -3746,9 +3666,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 401,
           "officialPlaces2026": 56,
-          "officialClasses": 1.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3767,9 +3687,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 402,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -3847,9 +3767,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 223,
           "officialPlaces2026": 56,
-          "officialClasses": 3.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3868,9 +3788,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 221,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -3889,9 +3809,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 222,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -3921,9 +3841,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 354,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -3942,9 +3862,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 351,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3963,9 +3883,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 352,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -3984,9 +3904,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 353,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -4098,9 +4018,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 282,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4119,9 +4039,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 283,
           "officialPlaces2026": 84,
-          "officialClasses": 2.0,
           "officialClasses2026": 3.0
         },
         {
@@ -4135,9 +4055,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 284,
           "officialPlaces2026": 84,
-          "officialClasses": 1.0,
           "officialClasses2026": 3.0
         },
         {
@@ -4156,9 +4076,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 285,
           "officialPlaces2026": 84,
-          "officialClasses": 4.0,
           "officialClasses2026": 3.0
         }
       ],
@@ -4188,9 +4108,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 415,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4209,9 +4129,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 416,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -4241,9 +4161,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 229,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4262,9 +4182,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 230,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -4283,9 +4203,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 231,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -4304,9 +4224,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 232,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -4336,9 +4256,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 280,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -4357,9 +4277,9 @@
             }
           },
           "officialPlaces": 104,
+          "officialClasses": 4.0,
           "code": 281,
           "officialPlaces2026": 112,
-          "officialClasses": 4.0,
           "officialClasses2026": 4.0
         }
       ],
@@ -4389,9 +4309,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 217,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4410,9 +4330,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 218,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -4431,9 +4351,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 219,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4452,9 +4372,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 220,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -4484,9 +4404,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 155,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         }
       ],
@@ -4573,9 +4493,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 417,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4594,9 +4514,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 418,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -4658,9 +4578,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 169,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4679,9 +4599,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 170,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4743,9 +4663,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 150,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4764,9 +4684,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 150,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4785,9 +4705,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 150,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4806,9 +4726,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 150,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4843,9 +4763,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 150,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -4875,9 +4795,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 299,
           "officialPlaces2026": 56,
-          "officialClasses": 1.0,
           "officialClasses2026": 2.0
         },
         {
@@ -4971,9 +4891,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 239,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -4992,9 +4912,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 240,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5080,9 +5000,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 290,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5101,9 +5021,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 289,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5122,9 +5042,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 291,
           "officialPlaces2026": 28,
-          "officialClasses": 2.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5218,9 +5138,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 158,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5282,9 +5202,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 369,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -5303,9 +5223,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 368,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5394,9 +5314,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 161,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5458,9 +5378,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 245,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5479,9 +5399,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 244,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5527,9 +5447,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 173,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5548,9 +5468,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 174,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -5596,9 +5516,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 334,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5617,9 +5537,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 336,
           "officialPlaces2026": 56,
-          "officialClasses": 1.0,
           "officialClasses2026": 2.0
         },
         {
@@ -5638,9 +5558,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 335,
           "officialPlaces2026": 56,
-          "officialClasses": 1.0,
           "officialClasses2026": 2.0
         },
         {
@@ -5738,9 +5658,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 183,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         }
       ],
@@ -5769,9 +5689,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 422,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -5790,9 +5710,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 421,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -5881,9 +5801,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 395,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -5902,9 +5822,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 396,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -5977,9 +5897,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 164,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -6030,9 +5950,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 310,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -6110,9 +6030,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 359,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -6131,9 +6051,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 360,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -6222,9 +6142,9 @@
             }
           },
           "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 366,
           "officialPlaces2026": 56,
-          "officialClasses": 2.0,
           "officialClasses2026": 2.0
         },
         {
@@ -6243,9 +6163,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 365,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -6387,15 +6307,12 @@
               "avg": 7.98,
               "count": 20
             }
-          },
-          "officialPlaces": 26,
-          "code": 314
+          }
         }
       ],
       "best_cutoffs": {
         "2025": 7.27
-      },
-      "officialTotalPlaces2025": 26
+      }
     },
     {
       "name": "Colegiul Tehnic „Iuliu Maniu”",
@@ -6416,9 +6333,9 @@
             }
           },
           "officialPlaces": 26,
+          "officialClasses": 1.0,
           "code": 410,
           "officialPlaces2026": 28,
-          "officialClasses": 1.0,
           "officialClasses2026": 1.0
         },
         {
@@ -6437,9 +6354,9 @@
             }
           },
           "officialPlaces": 78,
+          "officialClasses": 3.0,
           "code": 411,
           "officialPlaces2026": 84,
-          "officialClasses": 3.0,
           "officialClasses2026": 3.0
         },
         {
@@ -7941,5 +7858,186 @@
         "10.0": 8
       }
     }
+  },
+  "exam_distribution": {
+    "2024": {
+      "1.6": 2,
+      "1.7": 4,
+      "1.9": 3,
+      "2.0": 2,
+      "2.1": 4,
+      "2.2": 5,
+      "2.3": 12,
+      "2.4": 15,
+      "2.5": 11,
+      "2.6": 17,
+      "2.7": 20,
+      "2.8": 25,
+      "2.9": 28,
+      "3.0": 24,
+      "3.1": 46,
+      "3.2": 41,
+      "3.3": 51,
+      "3.4": 59,
+      "3.5": 59,
+      "3.6": 79,
+      "3.7": 79,
+      "3.8": 93,
+      "3.9": 94,
+      "4.0": 106,
+      "4.1": 85,
+      "4.2": 114,
+      "4.3": 116,
+      "4.4": 128,
+      "4.5": 125,
+      "4.6": 125,
+      "4.7": 107,
+      "4.8": 122,
+      "4.9": 126,
+      "5.0": 161,
+      "5.1": 167,
+      "5.2": 150,
+      "5.3": 152,
+      "5.4": 181,
+      "5.5": 179,
+      "5.6": 166,
+      "5.7": 164,
+      "5.8": 167,
+      "5.9": 186,
+      "6.0": 211,
+      "6.1": 177,
+      "6.2": 233,
+      "6.3": 214,
+      "6.4": 241,
+      "6.5": 226,
+      "6.6": 238,
+      "6.7": 214,
+      "6.8": 247,
+      "6.9": 239,
+      "7.0": 258,
+      "7.1": 253,
+      "7.2": 277,
+      "7.3": 260,
+      "7.4": 262,
+      "7.5": 290,
+      "7.6": 298,
+      "7.7": 281,
+      "7.8": 325,
+      "7.9": 296,
+      "8.0": 323,
+      "8.1": 317,
+      "8.2": 368,
+      "8.3": 408,
+      "8.4": 371,
+      "8.5": 393,
+      "8.6": 387,
+      "8.7": 407,
+      "8.8": 382,
+      "8.9": 458,
+      "9.0": 418,
+      "9.1": 479,
+      "9.2": 474,
+      "9.3": 463,
+      "9.4": 459,
+      "9.5": 474,
+      "9.6": 434,
+      "9.7": 396,
+      "9.8": 307,
+      "9.9": 176,
+      "10.0": 32
+    },
+    "2025": {
+      "1.0": 1,
+      "1.4": 1,
+      "1.6": 1,
+      "1.7": 2,
+      "1.8": 1,
+      "2.0": 1,
+      "2.1": 2,
+      "2.2": 8,
+      "2.3": 7,
+      "2.4": 8,
+      "2.5": 8,
+      "2.6": 7,
+      "2.7": 12,
+      "2.8": 11,
+      "2.9": 18,
+      "3.0": 22,
+      "3.1": 22,
+      "3.2": 21,
+      "3.3": 18,
+      "3.4": 19,
+      "3.5": 26,
+      "3.6": 27,
+      "3.7": 34,
+      "3.8": 45,
+      "3.9": 42,
+      "4.0": 36,
+      "4.1": 51,
+      "4.2": 55,
+      "4.3": 64,
+      "4.4": 70,
+      "4.5": 62,
+      "4.6": 78,
+      "4.7": 82,
+      "4.8": 80,
+      "4.9": 89,
+      "5.0": 93,
+      "5.1": 108,
+      "5.2": 126,
+      "5.3": 117,
+      "5.4": 113,
+      "5.5": 128,
+      "5.6": 163,
+      "5.7": 154,
+      "5.8": 157,
+      "5.9": 152,
+      "6.0": 172,
+      "6.1": 191,
+      "6.2": 186,
+      "6.3": 212,
+      "6.4": 194,
+      "6.5": 245,
+      "6.6": 227,
+      "6.7": 231,
+      "6.8": 221,
+      "6.9": 256,
+      "7.0": 259,
+      "7.1": 261,
+      "7.2": 301,
+      "7.3": 274,
+      "7.4": 303,
+      "7.5": 316,
+      "7.6": 347,
+      "7.7": 305,
+      "7.8": 374,
+      "7.9": 351,
+      "8.0": 358,
+      "8.1": 392,
+      "8.2": 414,
+      "8.3": 421,
+      "8.4": 476,
+      "8.5": 489,
+      "8.6": 498,
+      "8.7": 506,
+      "8.8": 520,
+      "8.9": 539,
+      "9.0": 581,
+      "9.1": 630,
+      "9.2": 651,
+      "9.3": 614,
+      "9.4": 622,
+      "9.5": 558,
+      "9.6": 528,
+      "9.7": 458,
+      "9.8": 293,
+      "9.9": 158,
+      "10.0": 33
+    }
+  },
+  "exam_totals": {
+    "2024": 16566,
+    "2025": 17307,
+    "2026": 15643
   }
 }
