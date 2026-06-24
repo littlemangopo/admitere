@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admitere Liceu · București 2024–2025</title>
+<style>
+:root {
+  --bg: #F3F2ED;
+  --surface: #FFFFFF;
+  --surface-2: #EEECE6;
+  --text: #16161E;
+  --text-2: #636082;
+  --accent: #1D47C8;
+  --accent-bg: #EEF2FF;
+  --accent-border: #C0CEFF;
+  --green: #0A7C5C;
+  --green-bg: #ECFDF5;
+  --amber: #B45309;
+  --amber-bg: #FFF7ED;
+  --border: #DDD9CE;
+  --border-soft: #E8E5DC;
+  --bar-track: #E8E5DC;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+/* ── Header ───────────────────────────────────────── */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--text);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+  height: 54px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.logo {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.logo em {
+  font-style: normal;
+  opacity: 0.45;
+  font-size: 0.8rem;
+  margin-left: 6px;
+}
+
+.header-divider {
+  width: 1px;
+  height: 24px;
+  background: rgba(255,255,255,0.15);
+  flex-shrink: 0;
+}
+
+.year-toggle {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.yr-btn {
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: inherit;
+  padding: 4px 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.55);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.15s;
+  letter-spacing: 0.03em;
+}
+
+.yr-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
+
+.yr-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.grade-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.grade-field label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  opacity: 0.55;
+  white-space: nowrap;
+}
+
+.grade-input {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+  font-family: inherit;
+  width: 64px;
+  padding: 3px 8px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.grade-input:focus { border-color: rgba(255,255,255,0.5); }
+.grade-input::placeholder { opacity: 0.3; }
+
+.qualify-badge {
+  font-size: 0.75rem;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 2px 10px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.qualify-badge.visible { opacity: 1; }
+.qualify-badge strong { color: #93C5FD; }
+
+.header-search {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-input {
+  width: 100%;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.85rem;
+  font-family: inherit;
+  padding: 5px 12px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.search-input:focus { border-color: rgba(255,255,255,0.4); }
+.search-input::placeholder { opacity: 0.35; }
+
+/* ── Layout ────────────────────────────────────────── */
+.layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  align-items: start;
+  min-height: calc(100vh - 54px);
+}
+
+/* ── Sidebar ───────────────────────────────────────── */
+.sidebar {
+  position: sticky;
+  top: 54px;
+  height: calc(100vh - 54px);
+  overflow-y: auto;
+  border-right: 1px solid var(--border);
+  padding: 16px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar::-webkit-scrollbar { width: 4px; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+
+.s-label {
+  font-size: 0.64rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: var(--text-2);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+/* Histogram */
+.histogram-wrap { position: relative; }
+
+.histogram-svg { width: 100%; display: block; }
+
+.hist-your-grade-line {
+  pointer-events: none;
+}
+
+/* Spec filters */
+.spec-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.spec-hint {
+  font-size: 0.65rem;
+  color: var(--text-2);
+  margin-bottom: 4px;
+  font-style: italic;
+}
+
+.spec-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  cursor: pointer;
+  background: var(--surface);
+  color: var(--text);
+  text-align: left;
+  transition: background 0.1s, border-color 0.1s, color 0.1s;
+  width: 100%;
+}
+
+.spec-btn:hover {
+  background: var(--surface-2);
+  border-color: var(--border-strong);
+}
+
+.spec-btn.active {
+  background: var(--accent-bg);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.spec-checkbox {
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid var(--border-strong);
+  border-radius: 2px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.1s, border-color 0.1s;
+  font-size: 0.6rem;
+  color: transparent;
+}
+
+.spec-btn.active .spec-checkbox {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.spec-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Summary stats */
+.stat-row {
+  display: grid;
+  grid-template-columns: 3rem repeat(auto-fill, minmax(3rem, 1fr));
+  align-items: baseline;
+  font-size: 0.75rem;
+  padding: 3px 0;
+  border-bottom: 1px solid var(--border-soft);
+  gap: 2px;
+}
+
+.stat-row:last-child { border-bottom: none; }
+
+.stat-row-header .stat-label { color: transparent; }
+
+.stat-row-header .stat-val {
+  color: var(--text-2);
+  font-weight: 600;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: right;
+}
+
+.stat-label { color: var(--text-2); }
+
+.stat-val {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  text-align: right;
+}
+
+.stat-row-highlight {
+  background: var(--accent-bg);
+  border-radius: 3px;
+  margin: 0 -4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.stat-row-highlight .stat-label {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.stat-row-highlight .stat-val {
+  color: var(--accent);
+}
+
+/* ── Content ────────────────────────────────────────── */
+.content {
+  padding: 16px 20px;
+}
+
+.content-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  gap: 12px;
+}
+
+.result-info {
+  font-size: 0.78rem;
+  color: var(--text-2);
+}
+
+.sort-group {
+  display: flex;
+  gap: 0;
+}
+
+.sort-btn {
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  color: var(--text-2);
+  font-family: inherit;
+  transition: all 0.1s;
+}
+
+.sort-btn:first-child { border-radius: 3px 0 0 3px; }
+.sort-btn:last-child { border-radius: 0 3px 3px 0; border-left: none; }
+
+.sort-btn.active {
+  background: var(--text);
+  color: #fff;
+  border-color: var(--text);
+}
+
+/* ── School cards ───────────────────────────────────── */
+.school-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.school-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+  transition: border-color 0.15s, opacity 0.2s;
+}
+
+.school-card.qualifies {
+  border-left: 3px solid var(--accent);
+}
+
+.school-card.dim { opacity: 0.35; }
+
+.card-head {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 14px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card-head:hover { background: var(--bg); }
+
+.card-rank {
+  font-size: 0.68rem;
+  color: var(--text-2);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.card-school {
+  min-width: 0;
+}
+
+.school-name {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.3;
+}
+
+.school-profile {
+  font-size: 0.68rem;
+  color: var(--text-2);
+  margin-top: 1px;
+}
+
+.card-grades {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.yr-block {
+  text-align: right;
+  min-width: 52px;
+}
+
+.yr-tag {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-2);
+  line-height: 1;
+}
+
+.yr-grade {
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.yr-delta {
+  font-size: 0.62rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.yr-delta.up { color: var(--green); }
+.yr-delta.dn { color: var(--amber); }
+.yr-delta.eq { color: var(--text-2); }
+
+/* places column */
+.places-col {
+  text-align: right;
+  min-width: 110px;
+  flex-shrink: 0;
+}
+
+.places-count {
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text-2);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.expand-arrow {
+  font-size: 0.7rem;
+  color: var(--text-2);
+  transition: transform 0.2s;
+  margin-left: 4px;
+}
+
+.school-card.open .expand-arrow { transform: rotate(90deg); }
+
+/* ── Spec detail ────────────────────────────────────── */
+.card-specs {
+  display: none;
+  border-top: 1px solid var(--border-soft);
+  background: var(--surface);
+}
+
+.school-card.open .card-specs { display: block; }
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.specs-table thead th {
+  padding: 6px 12px 6px 48px;
+  text-align: right;
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-2);
+  background: var(--surface-2);
+  font-weight: 600;
+}
+
+.specs-table thead th:first-child {
+  text-align: left;
+  padding-left: 48px;
+}
+
+.specs-table tbody tr {
+  border-top: 1px solid var(--border-soft);
+}
+
+.specs-table tbody tr:first-child { border-top: none; }
+
+.specs-table tbody td {
+  padding: 7px 12px;
+  vertical-align: middle;
+}
+
+.specs-table tbody td:first-child {
+  padding-left: 48px;
+  color: var(--text);
+}
+
+.specs-table tbody td:not(:first-child) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.spec-cutoff {
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.spec-avg {
+  color: var(--text-2);
+  font-size: 0.78rem;
+}
+
+.spec-count {
+  color: var(--text-2);
+  font-size: 0.75rem;
+}
+
+.qualify-check {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--green-bg);
+  color: var(--green);
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 16px;
+  margin-left: 4px;
+  font-weight: 700;
+}
+
+.no-qualify-x {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #FEF2F2;
+  color: #B91C1C;
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 16px;
+  margin-left: 4px;
+}
+
+/* ── Empty state ─────────────────────────────────────── */
+.empty-state {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 0.9rem;
+}
+
+/* ── View tabs ─────────────────────────────────────── */
+.view-tabs {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.view-tab {
+  font-size: 0.78rem;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 4px 14px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.6);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.15s;
+}
+
+.view-tab:hover { background: rgba(255,255,255,0.15); color: #fff; }
+
+.view-tab.active {
+  background: rgba(255,255,255,0.18);
+  color: #fff;
+  border-color: rgba(255,255,255,0.4);
+}
+
+/* ── Students view ──────────────────────────────────── */
+.students-view {
+  display: none;
+  padding: 16px 20px;
+}
+
+.students-view.visible { display: block; }
+.schools-view { display: block; }
+.schools-view.hidden { display: none; }
+
+.students-table-wrap {
+  overflow-x: auto;
+}
+
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.students-table thead th {
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-2);
+  background: var(--surface-2);
+  font-weight: 600;
+  border-bottom: 2px solid var(--border);
+}
+
+.students-table thead th:first-child,
+.students-table thead th:nth-child(2) { text-align: right; }
+
+.students-table tbody tr {
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.students-table tbody tr:hover { background: var(--bg); }
+.students-table tbody tr.your-row { background: var(--accent-bg); }
+.students-table tbody tr.your-row td { color: var(--accent); font-weight: 600; }
+
+.students-table tbody td {
+  padding: 6px 12px;
+  vertical-align: middle;
+}
+
+.students-table tbody td:first-child,
+.students-table tbody td:nth-child(2) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-2);
+}
+
+.students-table tbody td:nth-child(2) {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.students-table tbody tr.your-row td:nth-child(2) { color: var(--accent); }
+
+.students-pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: var(--text-2);
+}
+
+.page-btn {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.78rem;
+  color: var(--text);
+  transition: background 0.1s;
+}
+
+.page-btn:hover { background: var(--surface-2); }
+.page-btn:disabled { opacity: 0.4; cursor: default; }
+
+.students-loading {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 0.9rem;
+}
+
+/* ── Sidebar disclaimer ─────────────────────────────── */
+.sidebar-disclaimer {
+  font-size: 0.7rem;
+  color: var(--amber);
+  line-height: 1.5;
+  padding: 10px 8px;
+  border-top: 1px solid var(--border-soft);
+  border-left: 2px solid var(--amber);
+  background: var(--amber-bg);
+  border-radius: 0 3px 3px 0;
+}
+
+.sidebar-disclaimer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.sidebar-disclaimer a:hover { text-decoration: underline; }
+
+.disclaimer-links {
+  margin-top: 6px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.disclaimer-links td {
+  padding: 2px 0;
+  font-size: 0.7rem;
+}
+
+.disclaimer-links td::before {
+  content: '→ ';
+  color: var(--text-2);
+}
+
+/* ── Footer ─────────────────────────────────────────── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface);
+  color: var(--text-2);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.site-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-footer a:hover { text-decoration: underline; }
+
+.site-footer strong { color: var(--text); }
+
+/* ── Responsive ─────────────────────────────────────── */
+@media (max-width: 768px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; height: auto; }
+  .grade-bar-col { display: none; }
+  .card-grades { gap: 10px; }
+  #statsLabel, #summaryStats { display: none; }
+  #histLabel, .histogram-wrap { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">Admitere Liceu <em>București 2024–2025</em></div>
+  <div class="header-divider"></div>
+  <div class="view-tabs">
+    <button class="view-tab active" data-view="schools">Licee</button>
+    <button class="view-tab" data-view="students">Candidați</button>
+  </div>
+  <div class="header-divider"></div>
+  <div class="year-toggle">
+    <button class="yr-btn" data-year="2024">2024</button>
+    <button class="yr-btn active" data-year="2025">2025</button>
+  </div>
+  <div class="header-divider"></div>
+  <div class="grade-field">
+    <label for="myGrade">Media ta</label>
+    <input class="grade-input" id="myGrade" type="number" min="1" max="10" step="0.01" placeholder="9.75">
+    <div class="qualify-badge" id="qualifyBadge">Poți intra la <strong id="qualifyCount">0</strong> licee</div>
+  </div>
+  <div class="header-search">
+    <input class="search-input" id="searchInput" type="text" placeholder="Caută un liceu…">
+  </div>
+</header>
+
+<div class="schools-view">
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-disclaimer">
+      <p>Site neoficial construit cu AI. Poate conține erori. Verificați întotdeauna cu datele oficiale.</p>
+      <table class="disclaimer-links">
+        <tr><td><a href="http://ismb.edu.ro/index.php/admitere" target="_blank" rel="noopener">ISMB Admitere</a></td></tr>
+        <tr><td><a href="https://static.admitere.edu.ro/2026/" target="_blank" rel="noopener">Date oficiale 2026</a></td></tr>
+        <tr><td><a href="http://www.ismb.edu.ro/documente/examene/admitere/2026_2027/BROSURA_ADMITERE_2026_1.pdf" target="_blank" rel="noopener">Broșură admitere 2026</a></td></tr>
+        <tr><td><a href="2025/brosura bucuresti 2025.pdf" target="_blank">Broșură admitere 2025</a></td></tr>
+      </table>
+    </div>
+
+    <div>
+      <div class="s-label">Specializare</div>
+      <div class="spec-filters" id="specFilters">
+        <div class="spec-hint">Selectează una sau mai multe</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="s-label" id="histLabel">Distribuție medii 2025</div>
+      <div class="histogram-wrap">
+        <svg class="histogram-svg" id="histSvg" viewBox="0 0 208 88" preserveAspectRatio="none"></svg>
+      </div>
+    </div>
+
+    <div>
+      <div class="s-label" id="statsLabel">Statistici</div>
+      <div id="summaryStats"></div>
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="content-bar">
+      <div class="result-info" id="resultInfo"></div>
+    </div>
+    <div class="school-list" id="schoolList"></div>
+  </main>
+</div>
+</div>
+
+<div class="students-view" id="studentsView">
+  <div id="studentsContent"><div class="students-loading">Se încarcă datele…</div></div>
+</div>
+
+<script>
+let DATA_JSON = null;
+
+function removeDiacritics(s) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+// ── State ───────────────────────────────────────────────
+let myGrade = null;
+let searchQuery = '';
+let activeSpecs = new Set();
+let sortBy = 'best';
+let activeYear = '2025';
+let openCards = new Set();
+
+// ── Spec colors ─────────────────────────────────────────
+const SPEC_COLORS = {
+  'Matematică-Informatică': '#1D47C8',
+  'Ştiinţe ale Naturii': '#0A7C5C',
+  'Ştiinţe Sociale': '#7C3AED',
+  'Filologie': '#B45309',
+};
+
+function specColor(name) {
+  for (const [k, v] of Object.entries(SPEC_COLORS)) {
+    if (name.startsWith(k)) return v;
+  }
+  return '#636082';
+}
+
+// ── Histogram ────────────────────────────────────────────
+function buildHistogram() {
+  const singleSpec = activeSpecs.size === 1 ? [...activeSpecs][0] : null;
+  const dist = singleSpec
+    ? (DATA_JSON.spec_distribution[singleSpec]?.[activeYear] || {})
+    : DATA_JSON.distribution[activeYear];
+  const specLabel = activeSpecs.size === 1 ? ' · ' + singleSpec.split(' ')[0] : (activeSpecs.size > 1 ? ' · selecție' : '');
+  document.getElementById('histLabel').textContent = `Distribuție medii ${activeYear}${specLabel}`;
+  const entries = Object.entries(dist)
+    .map(([k, v]) => [parseFloat(k), v])
+    .filter(([k]) => k >= 7.0)
+    .sort((a, b) => a[0] - b[0]);
+
+  const maxVal = Math.max(...entries.map(e => e[1]));
+  const W = 208, H = 88;
+  const chartH = H - 16;
+  const barW = W / entries.length;
+  const svg = document.getElementById('histSvg');
+
+  let bars = '';
+  entries.forEach(([grade, count], i) => {
+    const barH = ((count / maxVal) * chartH);
+    const x = i * barW;
+    const y = chartH - barH;
+    const isHighlight = grade >= 9.0;
+    bars += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${(barW - 0.5).toFixed(1)}" height="${barH.toFixed(1)}" fill="${isHighlight ? 'var(--accent)' : 'var(--bar-track)'}" opacity="${isHighlight ? 0.7 : 0.9}" rx="0.5"/>`;
+  });
+
+  // x-axis labels
+  const ticks = [7.0, 8.0, 9.0, 10.0];
+  let labels = '';
+  ticks.forEach(t => {
+    const idx = entries.findIndex(e => e[0] === t);
+    if (idx >= 0) {
+      const x = (idx * barW + barW / 2).toFixed(1);
+      labels += `<text x="${x}" y="${H}" font-size="9" fill="var(--text-2)" font-family="system-ui" text-anchor="middle" font-weight="600">${t.toFixed(0)}</text>`;
+    }
+  });
+
+  svg.innerHTML = bars + labels + `<line id="gradeMarkerLine" x1="0" y1="0" x2="0" y2="${chartH}" stroke="var(--green)" stroke-width="1.5" opacity="0" stroke-dasharray="2,2"/>`;
+
+  svg._entries = entries;
+  svg._barW = barW;
+  svg._H = chartH;
+}
+
+function updateHistogramMarker(grade) {
+  const svg = document.getElementById('histSvg');
+  const line = document.getElementById('gradeMarkerLine');
+  if (!line || !svg._entries) return;
+  if (!grade) { line.setAttribute('opacity', '0'); return; }
+
+  const idx = svg._entries.findIndex(e => Math.abs(e[0] - grade) < 0.05);
+  if (idx >= 0) {
+    const x = (idx * svg._barW + svg._barW / 2).toFixed(1);
+    line.setAttribute('x1', x);
+    line.setAttribute('x2', x);
+    line.setAttribute('opacity', '1');
+  } else {
+    line.setAttribute('opacity', '0');
+  }
+}
+
+// ── Spec filters ─────────────────────────────────────────
+function buildSpecFilters() {
+  const specs = new Set();
+  DATA_JSON.schools.forEach(s => s.specs.forEach(sp => {
+    const base = sp.name.split('(')[0].trim();
+    if (['Matematică-Informatică','Ştiinţe ale Naturii','Ştiinţe Sociale','Filologie'].some(k => base.startsWith(k.split('î')[0].substring(0,10)))) {
+      specs.add(base);
+    }
+  }));
+
+  // Always show these four in order
+  const mainSpecs = ['Matematică-Informatică','Ştiinţe ale Naturii','Ştiinţe Sociale','Filologie'];
+  const container = document.getElementById('specFilters');
+  container.innerHTML = '';
+  mainSpecs.forEach(sp => {
+    const btn = document.createElement('button');
+    btn.className = 'spec-btn';
+    btn.dataset.spec = sp;
+
+    const checkbox = document.createElement('span');
+    checkbox.className = 'spec-checkbox';
+    checkbox.textContent = '✓';
+
+    const dot = document.createElement('span');
+    dot.className = 'spec-dot';
+    dot.style.background = specColor(sp);
+
+    btn.appendChild(checkbox);
+    btn.appendChild(dot);
+    btn.appendChild(document.createTextNode(sp));
+    btn.onclick = () => toggleSpec(sp, btn);
+    container.appendChild(btn);
+  });
+}
+
+function toggleSpec(sp, btn) {
+  if (activeSpecs.has(sp)) {
+    activeSpecs.delete(sp);
+    btn.classList.remove('active');
+  } else {
+    activeSpecs.add(sp);
+    btn.classList.add('active');
+  }
+  buildHistogram();
+  buildSummaryStats();
+  render();
+}
+
+// ── Summary stats ─────────────────────────────────────────
+function buildSummaryStats() {
+  const singleSpec = activeSpecs.size === 1 ? [...activeSpecs][0] : null;
+  const specLabel = activeSpecs.size === 1 ? ' · ' + singleSpec.split(' ')[0] : (activeSpecs.size > 1 ? ' · selecție' : '');
+  document.getElementById('statsLabel').textContent = `Statistici${specLabel}`;
+
+  const availableYears = Object.keys(DATA_JSON.distribution).sort();
+
+  function getDist(year) {
+    return singleSpec
+      ? (DATA_JSON.spec_distribution[singleSpec]?.[year] || {})
+      : DATA_JSON.distribution[year];
+  }
+
+  function cumulative(dist, threshold) {
+    return Object.entries(dist)
+      .filter(([k]) => parseFloat(k) >= threshold)
+      .reduce((a, [, v]) => a + v, 0);
+  }
+
+  const el = document.getElementById('summaryStats');
+
+  // header row
+  let html = `<div class="stat-row stat-row-header">
+    <span class="stat-label"></span>
+    ${availableYears.map(y => `<span class="stat-val">${y}</span>`).join('')}
+  </div>`;
+
+  for (let g = 10.0; g >= 9.0 - 0.001; g -= 0.1) {
+    const threshold = Math.round(g * 10) / 10;
+    const isYour = myGrade != null && myGrade >= threshold && myGrade < threshold + 0.1 - 0.001;
+    const counts = availableYears.map(y => cumulative(getDist(y), threshold).toLocaleString('ro'));
+    html += `<div class="stat-row${isYour ? ' stat-row-highlight' : ''}">
+      <span class="stat-label">≥ ${threshold.toFixed(1)}</span>
+      ${counts.map(c => `<span class="stat-val">${c}</span>`).join('')}
+    </div>`;
+  }
+  el.innerHTML = html;
+}
+
+// ── Grade bar helpers ─────────────────────────────────────
+const GRADE_SCALE_MIN = 9.0;
+const GRADE_SCALE_MAX = 10.0;
+
+function gradeToPercent(g) {
+  return Math.max(0, Math.min(100, (g - GRADE_SCALE_MIN) / (GRADE_SCALE_MAX - GRADE_SCALE_MIN) * 100));
+}
+
+function formatDelta(a, b) {
+  if (a == null || b == null) return '';
+  const d = (b - a).toFixed(2);
+  if (Math.abs(d) < 0.005) return '<span class="yr-delta eq">–</span>';
+  if (d > 0) return `<span class="yr-delta up">▲${Math.abs(d)}</span>`;
+  return `<span class="yr-delta dn">▼${Math.abs(d)}</span>`;
+}
+
+// returns the relevant cutoff for sorting/display for a school+year
+// with activeSpecs: lowest cutoff among selected specs
+// with no filter: lowest cutoff across all specs (last admitted grade)
+function schoolSpecCutoff(school, year) {
+  const specs = activeSpecs.size > 0
+    ? school.specs.filter(s => activeSpecs.has(s.base))
+    : school.specs;
+  const cutoffs = specs.map(s => s.years[year]?.cutoff).filter(v => v != null);
+  return cutoffs.length ? Math.min(...cutoffs) : null;
+}
+
+// ── Filter & sort ─────────────────────────────────────────
+function filteredSchools() {
+  let schools = DATA_JSON.schools;
+
+  if (searchQuery) {
+    const q = removeDiacritics(searchQuery.toLowerCase());
+    schools = schools.filter(s => removeDiacritics(s.name.toLowerCase()).includes(q));
+  }
+
+  if (activeSpecs.size > 0) {
+    schools = schools.filter(s => s.specs.some(sp => activeSpecs.has(sp.base)));
+  }
+
+  const otherYear = activeYear === '2025' ? '2024' : '2025';
+  schools = [...schools].sort((a, b) => {
+    const ca = schoolSpecCutoff(a, activeYear) ?? schoolSpecCutoff(a, otherYear) ?? 0;
+    const cb = schoolSpecCutoff(b, activeYear) ?? schoolSpecCutoff(b, otherYear) ?? 0;
+    return cb - ca;
+  });
+
+  return schools;
+}
+
+function qualifiesFor(school) {
+  if (myGrade == null) return null;
+  const otherYear = activeYear === '2025' ? '2024' : '2025';
+  const cutoff = schoolSpecCutoff(school, activeYear) ?? schoolSpecCutoff(school, otherYear);
+  return cutoff != null ? myGrade >= cutoff : false;
+}
+
+// ── Render ────────────────────────────────────────────────
+function render() {
+  const schools = filteredSchools();
+  const container = document.getElementById('schoolList');
+
+  // qualify count
+  const totalQualify = myGrade != null
+    ? DATA_JSON.schools.filter(s => qualifiesFor(s)).length
+    : 0;
+
+  const badge = document.getElementById('qualifyBadge');
+  const countEl = document.getElementById('qualifyCount');
+  if (myGrade != null) {
+    countEl.textContent = totalQualify;
+    badge.classList.add('visible');
+  } else {
+    badge.classList.remove('visible');
+  }
+
+  // result info
+  document.getElementById('resultInfo').textContent =
+    `${schools.length} ${schools.length === 1 ? 'liceu' : 'licee'}` +
+    (myGrade != null ? ` · ${schools.filter(s => qualifiesFor(s)).length} accesibile cu media ta` : '');
+
+  if (schools.length === 0) {
+    container.innerHTML = '<div class="empty-state">Niciun liceu găsit pentru filtrele selectate.</div>';
+    return;
+  }
+
+  container.innerHTML = '';
+  schools.forEach((school, idx) => {
+    const q = qualifiesFor(school);
+    const card = buildCard(school, idx + 1, q);
+    container.appendChild(card);
+  });
+}
+
+function buildCard(school, displayRank, qualifies) {
+  const card = document.createElement('div');
+  card.className = 'school-card';
+  if (myGrade != null) {
+    card.classList.add(qualifies ? 'qualifies' : 'dim');
+  }
+  if (openCards.has(school.name)) card.classList.add('open');
+
+  const otherYear = activeYear === '2025' ? '2024' : '2025';
+  const cActive = schoolSpecCutoff(school, activeYear);
+  const cOther = schoolSpecCutoff(school, otherYear);
+
+  const profile = school.profile ? `<span class="school-profile">${school.profile}</span>` : '';
+
+  // count places for selected specs (or all specs)
+  const relevantSpecs = activeSpecs.size > 0
+    ? school.specs.filter(s => activeSpecs.has(s.base))
+    : school.specs;
+  const places25 = relevantSpecs.reduce((sum, s) => sum + (s.officialPlaces ?? s.years['2025']?.count ?? 0), 0);
+  const places26 = relevantSpecs.reduce((sum, s) => sum + (s.officialPlaces2026 ?? 0), 0);
+  const placesDelta = places26 && places25 ? places26 - places25 : 0;
+
+  const yrActiveBlock = cActive != null ? `
+    <div class="yr-block">
+      <div class="yr-tag">${activeYear}</div>
+      <div class="yr-grade">${cActive.toFixed(2)}</div>
+      <div>${formatDelta(cOther, cActive)}</div>
+    </div>` : '';
+
+  const yr24Block = cOther != null ? `
+    <div class="yr-block">
+      <div class="yr-tag">${otherYear}</div>
+      <div class="yr-grade" style="color:var(--text-2);font-weight:500">${cOther.toFixed(2)}</div>
+    </div>` : '';
+
+  const yr25Block = yrActiveBlock;
+
+  card.innerHTML = `
+    <div class="card-head">
+      <div class="card-rank">${displayRank}</div>
+      <div class="card-school">
+        <div class="school-name">${school.name}</div>
+        ${profile}
+      </div>
+      <div class="card-grades">
+        ${yr25Block}
+        ${yr24Block}
+        <div class="places-col">
+          <div class="yr-tag">Locuri 2025 → 2026</div>
+          <div class="places-count">${places25 || '–'} <span style="color:var(--text-2);font-weight:400;font-size:0.75rem">→</span> ${places26 || '–'}${placesDelta > 0 ? `<span class="yr-delta up" style="font-size:0.65rem;margin-left:2px">+${placesDelta}</span>` : placesDelta < 0 ? `<span class="yr-delta dn" style="font-size:0.65rem;margin-left:2px">${placesDelta}</span>` : ''}</div>
+        </div>
+        <span class="expand-arrow">›</span>
+      </div>
+    </div>
+    <div class="card-specs">${buildSpecsTable(school)}</div>
+  `;
+
+  card.querySelector('.card-head').addEventListener('click', () => {
+    const isOpen = card.classList.toggle('open');
+    if (isOpen) openCards.add(school.name);
+    else openCards.delete(school.name);
+  });
+
+  return card;
+}
+
+function buildSpecsTable(school) {
+  const otherYear = activeYear === '2025' ? '2024' : '2025';
+
+  let html = `<table class="specs-table">
+    <thead>
+      <tr>
+        <th>Specializare</th>
+        <th>Ultima medie ${activeYear}</th>
+        <th>Medie adm. ${activeYear}</th>
+        <th>Admiși ${activeYear}</th>
+        <th>Clase 2026</th>
+        <th>Locuri 2026</th>
+      </tr>
+    </thead>
+    <tbody>`;
+
+  const sortedSpecs = [...school.specs]
+    .filter(sp => activeSpecs.size === 0 || activeSpecs.has(sp.base))
+    .sort((a, b) => {
+      if (a.new2026 && !b.new2026) return 1;
+      if (!a.new2026 && b.new2026) return -1;
+      const ca = (a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0;
+      const cb = (b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0;
+      return cb - ca;
+    });
+
+  sortedSpecs.forEach(sp => {
+    const d = sp.years[activeYear];
+    const qFlag = myGrade != null;
+    const q = d && myGrade != null ? myGrade >= d.cutoff : null;
+    const badge = qFlag && d
+      ? (q ? '<span class="qualify-check">✓</span>' : '<span class="no-qualify-x">✗</span>')
+      : '';
+    const dOther = sp.years[otherYear];
+    const delta = d && dOther ? formatDelta(dOther.cutoff, d.cutoff) : '';
+    const newBadge = sp.new2026 ? ' <span style="font-size:0.62rem;background:var(--green-bg);color:var(--green);padding:1px 5px;border-radius:3px;font-weight:600">NOU 2026</span>' : '';
+
+    html += `<tr>
+      <td>${sp.name}${newBadge}${(qFlag && q) ? '<span class="qualify-check" style="margin-left:6px">✓</span>' : ''}</td>
+      ${d
+        ? `<td><span class="spec-cutoff">${d.cutoff.toFixed(2)}</span> ${delta} ${badge}</td><td class="spec-avg">${d.avg.toFixed(2)}</td><td class="spec-count">${d.count}</td>`
+        : '<td>–</td><td>–</td><td>–</td>'}
+      <td class="spec-count">${(()=>{
+        const v=sp.officialClasses2026, r=sp.officialClasses;
+        if(v==null) return '–';
+        const d=v-(r??0), ds=d>0?`<span class="yr-delta up">+${d.toFixed(1).replace('.0','')}</span>`:d<0?`<span class="yr-delta dn">${d.toFixed(1).replace('.0','')}</span>`:'';
+        return v+(r!=null&&d!==0?' '+ds:'');
+      })()}</td>
+      <td class="spec-count">${(()=>{
+        const v=sp.officialPlaces2026, r=sp.officialPlaces;
+        if(v==null) return '–';
+        const d=v-(r??0), ds=d>0?`<span class="yr-delta up">+${d}</span>`:d<0?`<span class="yr-delta dn">${d}</span>`:'';
+        return v+(r!=null&&d!==0?' '+ds:'');
+      })()}</td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  return html;
+}
+
+// ── Event listeners ───────────────────────────────────────
+document.getElementById('myGrade').addEventListener('input', e => {
+  const v = parseFloat(e.target.value);
+  myGrade = (!isNaN(v) && v >= 1 && v <= 10) ? v : null;
+  updateHistogramMarker(myGrade ? Math.round(myGrade * 10) / 10 : null);
+  buildSummaryStats();
+  render();
+});
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+
+document.querySelectorAll('.sort-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    sortBy = btn.dataset.sort;
+    render();
+  });
+});
+
+document.querySelectorAll('.yr-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.yr-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeYear = btn.dataset.year;
+    studentsPage = 0;
+    buildHistogram();
+    buildSummaryStats();
+    render();
+    if (activeView === 'students' && studentsData) renderStudentsTable();
+  });
+});
+
+// ── View switching ────────────────────────────────────────
+let activeView = 'schools';
+let studentsData = null;
+let studentsPage = 0;
+const STUDENTS_PER_PAGE = 500;
+const SPEC_NAMES = ['Matematică-Informatică','Ştiinţe ale Naturii','Ştiinţe Sociale','Filologie','Altele'];
+
+document.querySelectorAll('.view-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.view-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeView = btn.dataset.view;
+    document.querySelector('.schools-view').classList.toggle('hidden', activeView !== 'schools');
+    document.getElementById('studentsView').classList.toggle('visible', activeView === 'students');
+    if (activeView === 'students') loadStudents();
+  });
+});
+
+async function loadStudents() {
+  if (studentsData) { renderStudentsTable(); return; }
+  document.getElementById('studentsContent').innerHTML = '<div class="students-loading">Se încarcă datele…</div>';
+  try {
+    const res = await fetch('students.json');
+    studentsData = await res.json();
+    studentsPage = 0;
+    renderStudentsTable();
+  } catch(e) {
+    document.getElementById('studentsContent').innerHTML = '<div class="students-loading">Eroare la încărcarea datelor.</div>';
+  }
+}
+
+function renderStudentsTable() {
+  const yr = studentsData[activeYear];
+  if (!yr) {
+    document.getElementById('studentsContent').innerHTML = '<div class="students-loading">Date indisponibile pentru acest an.</div>';
+    return;
+  }
+  const { flat, ids, origins, originNames } = yr;
+  const total = flat.length / 3;
+  const start = studentsPage * STUDENTS_PER_PAGE;
+  const end = Math.min(start + STUDENTS_PER_PAGE, total);
+
+  let rows = '';
+  for (let i = start; i < end; i++) {
+    const grade = flat[i * 3] / 100;
+    const sidx = flat[i * 3 + 1];
+    const sc = flat[i * 3 + 2];
+    const school = sidx >= 0 ? DATA_JSON.schools[sidx]?.name ?? '–' : '–';
+    const spec = SPEC_NAMES[sc] ?? '–';
+    const id = ids[i] ?? '–';
+    const origin = originNames[origins[i]] ?? '–';
+    const isYour = myGrade != null && Math.abs(grade - myGrade) < 0.005;
+    rows += `<tr${isYour ? ' class="your-row"' : ''}>
+      <td>${i + 1}</td>
+      <td>${grade.toFixed(2)}</td>
+      <td style="color:var(--text-2);font-size:0.75rem">${id}</td>
+      <td>${origin}</td>
+      <td>${school}</td>
+      <td>${spec}</td>
+    </tr>`;
+  }
+
+  const totalPages = Math.ceil(total / STUDENTS_PER_PAGE);
+  const yourRank = myGrade != null ? flat.findIndex((v,i) => i%3===0 && v/100 <= myGrade) / 3 | 0 : -1;
+  const yourInfo = myGrade != null && yourRank >= 0
+    ? `<span style="color:var(--accent);font-weight:600">Media ta (${myGrade}) → aproximativ locul ${yourRank + 1} din ${total.toLocaleString('ro')}</span>`
+    : `${total.toLocaleString('ro')} candidați`;
+
+  document.getElementById('studentsContent').innerHTML = `
+    <div class="content-bar" style="margin-bottom:12px">
+      <div class="result-info">${yourInfo}</div>
+    </div>
+    <div class="students-table-wrap">
+      <table class="students-table">
+        <thead><tr><th>#</th><th>Medie</th><th>Cod candidat</th><th>Școală origine</th><th>Liceu admis</th><th>Specializare</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <div class="students-pagination">
+      <button class="page-btn" id="prevPage" ${studentsPage === 0 ? 'disabled' : ''}>← Înapoi</button>
+      <span>Pagina ${studentsPage + 1} din ${totalPages}</span>
+      <button class="page-btn" id="nextPage" ${studentsPage >= totalPages - 1 ? 'disabled' : ''}>Înainte →</button>
+      <span style="margin-left:8px;font-size:0.72rem">Rânduri ${start + 1}–${end}</span>
+    </div>`;
+
+  document.getElementById('prevPage')?.addEventListener('click', () => { studentsPage--; renderStudentsTable(); window.scrollTo(0,0); });
+  document.getElementById('nextPage')?.addEventListener('click', () => { studentsPage++; renderStudentsTable(); window.scrollTo(0,0); });
+}
+
+// ── Init ──────────────────────────────────────────────────
+(async () => {
+  try {
+    const res = await fetch('stats.json');
+    DATA_JSON = await res.json();
+  } catch(e) {
+    document.body.innerHTML = '<div style="padding:48px;text-align:center;color:#636082">Eroare la încărcarea stats.json. Deschide aplicația printr-un server HTTP.</div>';
+    return;
+  }
+  buildHistogram();
+  buildSpecFilters();
+  buildSummaryStats();
+  render();
+})();
+</script>
+<footer class="site-footer">
+  <p>Site neoficial construit cu AI. Poate conține erori. Verificați întotdeauna cu datele oficiale.</p>
+</footer>
+</body>
+</html>
