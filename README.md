@@ -41,3 +41,4 @@ Scripturile de procesare se află în `utils/`:
 - `extract_pdf.mjs` — extrage text din broșurile PDF (folosește pdfjs-dist)
 - `parse_brosura.py` — parsează textul extras în `brosura.json`
 - `enrich_stats.py` — îmbogățește `stats.json` cu date din broșuri (locuri oficiale, coduri)
+
