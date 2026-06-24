@@ -595,6 +595,31 @@ body {
   font-size: 0.9rem;
 }
 
+/* ── Mobile search bar ──────────────────────────────── */
+.mobile-search-bar {
+  display: none;
+  position: sticky;
+  top: 54px;
+  z-index: 190;
+  background: var(--text);
+  padding: 6px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.mobile-search-input {
+  width: 100%;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: inherit;
+  padding: 6px 12px;
+  outline: none;
+}
+
+.mobile-search-input::placeholder { opacity: 0.4; }
+
 /* ── View tabs ─────────────────────────────────────── */
 .view-tabs {
   display: flex;
@@ -786,7 +811,9 @@ body {
   /* Header: hide search and subtitle on mobile */
   .logo em { display: none; }
   .header-search { display: none; }
+  .grade-field { display: none; }
   .header { gap: 10px; padding: 0 12px; flex-wrap: nowrap; overflow: hidden; }
+  .mobile-search-bar { display: block; }
 
   /* Spec filter: compact */
   .spec-btn { padding: 5px 6px; font-size: 0.75rem; }
@@ -851,6 +878,13 @@ body {
     <input class="search-input" id="searchInput" type="text" placeholder="Caută un liceu…">
   </div>
 </header>
+
+<div class="mobile-search-bar">
+  <div style="display:flex;gap:8px;align-items:center">
+    <input class="mobile-search-input" id="searchInputMobile" type="text" placeholder="Caută un liceu…" style="flex:1">
+    <input class="grade-input" id="myGradeMobile" type="number" min="1" max="10" step="0.01" placeholder="Medie" style="width:80px;flex-shrink:0">
+  </div>
+</div>
 
 <div class="schools-view">
 <div class="layout">
@@ -1301,17 +1335,27 @@ function buildSpecsTable(school) {
 }
 
 // ── Event listeners ───────────────────────────────────────
-document.getElementById('myGrade').addEventListener('input', e => {
-  const v = parseFloat(e.target.value);
+function handleGrade(val, otherId) {
+  const v = parseFloat(val);
   myGrade = (!isNaN(v) && v >= 1 && v <= 10) ? v : null;
+  document.getElementById(otherId).value = val;
   updateHistogramMarker(myGrade ? Math.round(myGrade * 10) / 10 : null);
   buildSummaryStats();
   render();
-});
+}
 
-document.getElementById('searchInput').addEventListener('input', e => {
-  searchQuery = e.target.value.trim();
+document.getElementById('myGrade').addEventListener('input', e => handleGrade(e.target.value, 'myGradeMobile'));
+document.getElementById('myGradeMobile').addEventListener('input', e => handleGrade(e.target.value, 'myGrade'));
+
+function handleSearch(val) {
+  searchQuery = val.trim();
   render();
+}
+
+document.getElementById('searchInput').addEventListener('input', e => handleSearch(e.target.value));
+document.getElementById('searchInputMobile').addEventListener('input', e => {
+  document.getElementById('searchInput').value = e.target.value;
+  handleSearch(e.target.value);
 });
 
 document.querySelectorAll('.sort-btn').forEach(btn => {
