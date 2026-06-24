@@ -1189,7 +1189,7 @@
           },
           "officialPlaces": 26,
           "officialClasses": 1.0,
-          "code": 193,
+          "code": 194,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         },
@@ -1232,14 +1232,6 @@
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 193,
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
-        },
-        {
-          "name": "Filologie-bilingv limba engleză",
-          "base": "Filologie",
-          "years": {},
-          "new2026": true,
           "officialPlaces2026": 28,
           "officialClasses2026": 1.0
         }
@@ -1893,11 +1885,11 @@
               "count": 49
             }
           },
-          "officialPlaces": 26,
-          "officialClasses": 1.0,
+          "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 205,
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
+          "officialPlaces2026": 56,
+          "officialClasses2026": 2.0
         },
         {
           "name": "Filologie (Limba română/Limba franceză)",
@@ -1914,11 +1906,11 @@
               "count": 49
             }
           },
-          "officialPlaces": 26,
-          "officialClasses": 1.0,
+          "officialPlaces": 52,
+          "officialClasses": 2.0,
           "code": 208,
-          "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
+          "officialPlaces2026": 56,
+          "officialClasses2026": 2.0
         }
       ],
       "best_cutoffs": {
@@ -2908,8 +2900,8 @@
           "officialPlaces": 13,
           "officialClasses": 0.5,
           "code": null,
-          "officialPlaces2026": 14,
-          "officialClasses2026": 0.5
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         }
       ],
       "best_cutoffs": {

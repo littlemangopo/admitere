@@ -34,6 +34,36 @@ python3 -m http.server 8765
 # deschide http://localhost:8765
 ```
 
+## Discrepanțe cunoscute între broșură și date agregate
+
+Totalul locurilor din broșură (`officialTotalPlaces`) vs suma locurilor per specializare (`sum(officialPlaces)`) nu se potrivesc la câteva licee. Cauze identificate:
+
+### Licee tehnice/vocaționale (~35 școli)
+**Așteptat.** Totalul din broșură include clase vocaționale (Electric, Mecanică, Comerț etc.) pe care aplicația nu le urmărește. Discrepanța = locuri vocaționale neextrase.
+
+### Sub-numărare la licee teoretice
+
+| Liceu | An | Oficial | Sumă | Diff | Cauză |
+|---|---|---|---|---|---|
+| Liceul Teoretic „Alexandru Ioan Cuza" | 2025 | 234 | 182 | −52 | Științe Sociale neextrase din broșură |
+| Colegiul Național „Aurel Vlaicu" | 2025 | 156 | 104 | −52 | Științe ale Naturii neextrase din broșură |
+| Liceul Teoretic „Dante Alighieri" | 2025 | 182 | 156 | −26 | O specializare neextrasă (probabil Științe Sociale) |
+| Liceul Teoretic „Dante Alighieri" | 2026 | 196 | 168 | −28 | Idem 2026 |
+| Liceul Teoretic „Alexandru Vlahuță" | 2025 | 78 | 65 | −13 | Clasă de 0.5 Filologie bilingv DE neextrasă |
+| Liceul Teoretic „Alexandru Vlahuță" | 2026 | 84 | 70 | −14 | Idem 2026 |
+
+**Rezolvate:** Colegiul Național „Școala Centrală" — clasele duble bilingv FR (cu/fără probă de verificare) sunt acum sumate corect (56 locuri în loc de 28 per specializare bilingv). Colegiul Național „Iulia Hașdeu" — potrivire greșită limbă bilingv EN/ES rezolvată.
+
+### Supra-numărare la licee cu limbi minoritare
+
+| Liceu | An | Oficial | Sumă | Diff | Cauză |
+|---|---|---|---|---|---|
+| Liceul Teoretic „Decebal" | 2026 | 196 | 280 | +84 | Potrivire greșită specs în enrich_stats |
+| Liceul Teoretic Bulgar „Hristo Botev" | 2025 | 104 | 130 | +26 | Filologie romani (rromani) numărată în plus |
+| Liceul Teoretic Bulgar „Hristo Botev" | 2026 | 112 | 140 | +28 | Idem 2026 |
+
+Aceste discrepanțe afectează doar afișarea numărului de locuri în detaliul liceelor respective — mediile de admitere și statisticile generale sunt corecte.
+
 ## Utilitar procesare date
 
 Scripturile de procesare se află în `utils/`:
@@ -41,4 +71,3 @@ Scripturile de procesare se află în `utils/`:
 - `extract_pdf.mjs` — extrage text din broșurile PDF (folosește pdfjs-dist)
 - `parse_brosura.py` — parsează textul extras în `brosura.json`
 - `enrich_stats.py` — îmbogățește `stats.json` cu date din broșuri (locuri oficiale, coduri)
-
