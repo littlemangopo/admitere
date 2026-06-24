@@ -808,6 +808,14 @@ body {
   #statsLabel, #summaryStats { display: none; }
   #histLabel, .histogram-wrap { display: none; }
 
+  /* Detail table: scroll horizontally, hide less important columns */
+  .card-specs { overflow-x: auto; }
+  .specs-table { font-size: 0.75rem; min-width: 380px; }
+  .specs-table thead th, .specs-table tbody td { padding: 5px 8px; }
+  .specs-table tbody td:first-child { padding-left: 12px; }
+  .specs-table thead th:first-child { padding-left: 12px; }
+  .col-hide-mobile { display: none; }
+
   /* Header: hide search and subtitle on mobile */
   .logo em { display: none; }
   .header-search { display: none; }
@@ -1319,7 +1327,7 @@ function buildSpecsTable(school) {
         <th>Specializare</th>
         <th>Ultima medie ${activeYear}</th>
         <th>Admiși ${activeYear}</th>
-        <th>Clase 2026</th>
+        <th class="col-hide-mobile">Clase 2026</th>
         <th>Locuri 2026</th>
       </tr>
     </thead>
@@ -1351,7 +1359,7 @@ function buildSpecsTable(school) {
       ${d
         ? `<td><span class="spec-cutoff">${d.cutoff.toFixed(2)}</span> ${delta} ${badge}</td><td class="spec-count">${d.count}</td>`
         : '<td>–</td><td>–</td><td>–</td>'}
-      <td class="spec-count">${(()=>{
+      <td class="spec-count col-hide-mobile">${(()=>{
         const v=sp.officialClasses2026, r=sp.officialClasses;
         if(v==null) return '–';
         const d=v-(r??0), ds=d>0?`<span class="yr-delta up">+${d.toFixed(1).replace('.0','')}</span>`:d<0?`<span class="yr-delta dn">${d.toFixed(1).replace('.0','')}</span>`:'';
