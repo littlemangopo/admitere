@@ -100,9 +100,8 @@ body {
   color: #fff;
 }
 
-.grade-field {
-  display: none;
-}
+.grade-field { display: none; }
+.year-toggle { display: flex; gap: 2px; flex-shrink: 0; }
 
 .grade-field label {
   font-size: 0.68rem;
@@ -177,12 +176,12 @@ body {
   top: 54px;
   height: calc(100vh - 54px);
   overflow-y: auto;
-  border-right: 1px solid var(--border);
-  padding: 16px;
+  border-right: 1px solid var(--border-soft);
+  padding: 14px;
   background: var(--surface);
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .sidebar::-webkit-scrollbar { width: 4px; }
@@ -211,70 +210,54 @@ body {
 .spec-filters {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.spec-hint {
-  font-size: 0.65rem;
-  color: var(--text-2);
-  margin-bottom: 4px;
-  font-style: italic;
-}
+.spec-hint { display: none; }
 
 .spec-btn {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.78rem;
-  padding: 6px 8px;
-  border: 1px solid var(--border);
-  border-radius: 3px;
+  gap: 6px;
+  font-size: 0.73rem;
+  padding: 5px 8px;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
   cursor: pointer;
   background: var(--surface);
-  color: var(--text);
+  color: var(--text-2);
   text-align: left;
-  transition: background 0.1s, border-color 0.1s, color 0.1s;
-  width: 100%;
+  transition: all 0.15s;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .spec-btn:hover {
-  background: var(--surface-2);
-  border-color: var(--border-strong);
+  border-color: var(--accent);
+  color: var(--text);
+  background: var(--accent-bg);
 }
 
 .spec-btn.active {
-  background: var(--accent-bg);
-  border-color: var(--accent);
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.spec-checkbox {
-  width: 14px;
-  height: 14px;
-  border: 1.5px solid var(--border-strong);
-  border-radius: 2px;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.1s, border-color 0.1s;
-  font-size: 0.6rem;
-  color: transparent;
-}
-
-.spec-btn.active .spec-checkbox {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+  font-weight: 600;
 }
 
+.spec-checkbox { display: none; }
+
 .spec-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   flex-shrink: 0;
+  opacity: 0.8;
 }
+
+.spec-btn.active .spec-dot { opacity: 1; filter: brightness(2); }
 
 /* Summary stats */
 .stat-row {
@@ -372,22 +355,26 @@ body {
 .school-list {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .school-card {
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 2px;
+  border: 1px solid var(--border-soft);
+  border-radius: 8px;
   overflow: hidden;
-  transition: border-color 0.15s, opacity 0.2s;
+  transition: box-shadow 0.15s, opacity 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
+
+.school-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 
 .school-card.qualifies {
   border-left: 3px solid var(--accent);
+  box-shadow: 0 1px 6px rgba(29,71,200,0.12);
 }
 
-.school-card.dim { opacity: 0.35; }
+.school-card.dim { opacity: 0.3; }
 
 .card-head {
   display: grid;
@@ -593,35 +580,70 @@ body {
 }
 
 .mobile-stats-mini { display: none; }
-.mobile-grade-block { display: none; }
 
-/* Desktop grade block in sidebar */
-.desktop-grade-input {
+/* Unified sidebar grade block */
+.sidebar-grade-input {
   width: 100%;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-variant-numeric: tabular-nums;
   font-weight: 700;
-  padding: 7px 10px;
-  border: 2px solid var(--accent);
-  border-radius: 4px;
-  background: var(--accent-bg);
+  padding: 10px 12px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
   color: var(--text);
   outline: none;
   font-family: inherit;
   margin-top: 4px;
   text-align: center;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
 }
 
-.desktop-grade-input::placeholder { color: var(--text-2); font-weight: 400; font-size: 0.9rem; }
-.desktop-grade-input:focus { background: #fff; }
+.sidebar-grade-input::placeholder { color: var(--border-strong); font-weight: 400; font-size: 1rem; }
+.sidebar-grade-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(29,71,200,0.12);
+}
 
-.desktop-qualify-info {
+.sidebar-qualify-info {
   font-size: 0.75rem;
   color: var(--accent);
   font-weight: 600;
   margin-top: 4px;
   min-height: 1.1em;
 }
+
+/* Year toggle in sidebar */
+.sidebar-year-toggle {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.sidebar-year-toggle .yr-btn {
+  flex: 1;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-2);
+  padding: 6px 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+
+.sidebar-year-toggle .yr-btn:hover { background: var(--surface-2); color: var(--text); }
+
+.sidebar-year-toggle .yr-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.year-toggle { display: flex; gap: 2px; }
 
 /* ── Mobile search bar ──────────────────────────────── */
 .mobile-search-bar {
@@ -634,11 +656,28 @@ body {
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
+.mobile-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-search-icon {
+  position: absolute;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  color: rgba(255,255,255,0.45);
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
 .mobile-search-input {
   width: 100%;
   background: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 3px;
+  border-radius: 20px;
+  padding-left: 34px;
   color: #fff;
   font-size: 0.9rem;
   font-family: inherit;
@@ -782,6 +821,8 @@ body {
   border-radius: 0 3px 3px 0;
 }
 
+.disclaimer-inline-link { display: none; }
+
 .sidebar-disclaimer a {
   color: var(--accent);
   text-decoration: none;
@@ -836,36 +877,10 @@ body {
   #statsLabel, #summaryStats { display: none; }
   #histLabel, .histogram-wrap { display: none; }
 
-  /* Grade block on mobile */
-  .mobile-grade-block { display: block; }
-  .desktop-grade-block { display: none; }
 
-  .mobile-grade-big {
-    width: 100%;
-    font-size: 1.6rem;
-    font-variant-numeric: tabular-nums;
-    font-weight: 700;
-    padding: 8px 12px;
-    border: 2px solid var(--accent);
-    border-radius: 4px;
-    background: var(--accent-bg);
-    color: var(--text);
-    outline: none;
-    font-family: inherit;
-    margin-top: 4px;
-    text-align: center;
-  }
-
-  .mobile-grade-big::placeholder { color: var(--text-2); font-weight: 400; font-size: 1rem; }
-  .mobile-grade-big:focus { border-color: var(--accent); background: #fff; }
-
-  .mobile-qualify-info {
-    font-size: 0.75rem;
-    color: var(--accent);
-    font-weight: 600;
-    margin-top: 4px;
-    min-height: 1.2em;
-  }
+  /* Disclaimer: inline link on mobile, hide table */
+  .disclaimer-links { display: none; }
+  .disclaimer-inline-link { display: inline; }
 
   /* Mini stats on mobile */
   .mobile-stats-mini {
@@ -919,18 +934,16 @@ body {
   .specs-table thead th:first-child { padding-left: 12px; }
   .col-hide-mobile { display: none; }
 
-  /* Header: hide search and subtitle on mobile */
+  /* Header: minimal on mobile */
   .logo em { display: none; }
-  .header-search { display: none; }
-  .grade-field { display: none; }
-  .header .year-toggle { display: none; }
-  .header-divider:nth-child(4) { display: none; }
-  #yearToggleMobile { display: flex; }
-  .header { gap: 10px; padding: 0 12px; flex-wrap: nowrap; overflow: hidden; }
+  .logo { font-size: 0.8rem; }
+  .header { gap: 8px; padding: 0 12px; }
   .mobile-search-bar { display: block; }
+  .header-search { display: none; }
 
-  /* Spec filter: compact */
-  .spec-btn { padding: 5px 6px; font-size: 0.75rem; }
+  /* Spec filters: 2-column grid on mobile */
+  .spec-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .spec-btn { padding: 5px 8px; font-size: 0.73rem; overflow: hidden; text-overflow: ellipsis; }
 
   /* Card: stack name above grades */
   .card-head {
@@ -982,24 +995,24 @@ body {
     <button class="yr-btn" data-year="2024">2024</button>
     <button class="yr-btn active" data-year="2025">2025</button>
   </div>
-  <div class="header-divider"></div>
-  <div class="grade-field">
-    <label for="myGrade">Media ta</label>
-    <input class="grade-input" id="myGrade" type="number" min="1" max="10" step="0.01" placeholder="9.75">
-    <div class="qualify-badge" id="qualifyBadge">Poți intra la <strong id="qualifyCount">0</strong> licee</div>
-  </div>
   <div class="header-search">
-    <input class="search-input" id="searchInput" type="text" placeholder="Caută un liceu…">
+    <div style="position:relative;display:flex;align-items:center;width:100%">
+      <svg style="position:absolute;left:10px;width:15px;height:15px;color:rgba(255,255,255,0.45);pointer-events:none;flex-shrink:0" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
+        <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </svg>
+      <input class="search-input" id="searchInput" type="text" placeholder="Caută un liceu…" style="padding-left:32px;border-radius:20px">
+    </div>
   </div>
 </header>
 
 <div class="mobile-search-bar">
-  <div style="display:flex;gap:8px;align-items:center;margin-bottom:6px">
-    <div class="year-toggle" id="yearToggleMobile">
-      <button class="yr-btn" data-year="2024">2024</button>
-      <button class="yr-btn active" data-year="2025">2025</button>
-    </div>
-    <input class="mobile-search-input" id="searchInputMobile" type="text" placeholder="Caută un liceu…" style="flex:1">
+  <div class="mobile-search-wrap">
+    <svg class="mobile-search-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M13 13l3.5 3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+    <input class="mobile-search-input" id="searchInputMobile" type="text" placeholder="Caută un liceu…">
   </div>
 </div>
 
@@ -1007,7 +1020,7 @@ body {
 <div class="layout">
   <aside class="sidebar">
     <div class="sidebar-disclaimer">
-      <p>Site neoficial construit cu AI. Poate conține erori. Verificați întotdeauna cu datele oficiale.</p>
+      <p>Site neoficial construit cu AI. Poate conține erori. Verificați întotdeauna cu datele oficiale — <a href="http://ismb.edu.ro/index.php/admitere" target="_blank" rel="noopener" class="disclaimer-inline-link">ISMB Admitere</a>.</p>
       <table class="disclaimer-links">
         <tr><td><a href="http://ismb.edu.ro/index.php/admitere" target="_blank" rel="noopener">ISMB Admitere</a></td></tr>
         <tr><td><a href="https://static.admitere.edu.ro/2026/" target="_blank" rel="noopener">Date oficiale 2026</a></td></tr>
@@ -1016,14 +1029,15 @@ body {
       </table>
     </div>
 
-    <div class="mobile-grade-block" id="mobileGradeBlock">
-      <label class="s-label" for="myGradeMobile">Media ta</label>
-      <input class="mobile-grade-big" id="myGradeMobile" type="number" min="1" max="10" step="0.01" placeholder="ex: 9.75">
-      <div class="mobile-qualify-info" id="mobileQualifyInfo"></div>
+    <!-- Grade input — same on mobile + desktop -->
+    <div class="sidebar-grade-block">
+      <div class="s-label">Media ta</div>
+      <input class="sidebar-grade-input" id="myGradeDesktop" type="text" inputmode="decimal" placeholder="ex: 9.40" maxlength="5">
+      <input class="sidebar-grade-input" id="myGradeMobile" type="number" min="1" max="10" step="0.01" placeholder="ex: 9.40" style="display:none">
+      <div class="sidebar-qualify-info" id="desktopQualifyInfo"></div>
     </div>
 
-    <div class="mobile-stats-mini" id="mobileStatsMini"></div>
-
+    <!-- Spec filters -->
     <div>
       <div class="s-label">Specializare</div>
       <div class="spec-filters" id="specFilters">
@@ -1031,12 +1045,7 @@ body {
       </div>
     </div>
 
-    <div class="desktop-grade-block">
-      <div class="s-label">Media ta</div>
-      <input class="desktop-grade-input" id="myGradeDesktop" type="number" min="1" max="10" step="0.01" placeholder="ex: 9.75">
-      <div class="desktop-qualify-info" id="desktopQualifyInfo"></div>
-    </div>
-
+    <!-- Distribution histogram (hidden on mobile) -->
     <div>
       <div class="s-label" id="histLabel">Distribuție medii 2025</div>
       <div class="histogram-wrap">
@@ -1044,10 +1053,14 @@ body {
       </div>
     </div>
 
+    <!-- Stats (hidden on mobile, replaced by mini stats) -->
     <div>
       <div class="s-label" id="statsLabel">Statistici</div>
       <div id="summaryStats"></div>
     </div>
+
+    <!-- Mini stats for mobile only -->
+    <div class="mobile-stats-mini" id="mobileStatsMini"></div>
   </aside>
 
   <main class="content">
@@ -1073,7 +1086,11 @@ function removeDiacritics(s) {
 // ── State ───────────────────────────────────────────────
 let myGrade = null;
 let searchQuery = '';
-let activeSpecs = new Set();
+const MAIN_SPECS = ['Matematică-Informatică','Ştiinţe ale Naturii','Ştiinţe Sociale','Filologie'];
+const ALL_SPECS = [...MAIN_SPECS, 'Altele'];
+let activeSpecs = new Set(MAIN_SPECS);
+const isAllSelected = () => MAIN_SPECS.every(s => activeSpecs.has(s));
+const hasNoMainSpec = s => !s.specs.some(sp => MAIN_SPECS.includes(sp.base));
 let sortBy = 'best';
 let activeYear = '2025';
 let openCards = new Set();
@@ -1084,6 +1101,7 @@ const SPEC_COLORS = {
   'Ştiinţe ale Naturii': '#0A7C5C',
   'Ştiinţe Sociale': '#7C3AED',
   'Filologie': '#B45309',
+  'Altele': '#636082',
 };
 
 function specColor(name) {
@@ -1096,10 +1114,10 @@ function specColor(name) {
 // ── Histogram ────────────────────────────────────────────
 function buildHistogram() {
   const singleSpec = activeSpecs.size === 1 ? [...activeSpecs][0] : null;
-  const dist = singleSpec
+  const dist = (singleSpec && !isAllSelected())
     ? (DATA_JSON.spec_distribution[singleSpec]?.[activeYear] || {})
     : DATA_JSON.distribution[activeYear];
-  const specLabel = activeSpecs.size === 1 ? ' · ' + singleSpec.split(' ')[0] : (activeSpecs.size > 1 ? ' · selecție' : '');
+  const specLabel = singleSpec && !isAllSelected() ? ' · ' + singleSpec.split(' ')[0] : (!isAllSelected() && activeSpecs.size > 1 ? ' · selecție' : '');
   document.getElementById('histLabel').textContent = `Distribuție medii ${activeYear}${specLabel}`;
   const entries = Object.entries(dist)
     .map(([k, v]) => [parseFloat(k), v])
@@ -1166,13 +1184,11 @@ function buildSpecFilters() {
     }
   }));
 
-  // Always show these four in order
-  const mainSpecs = ['Matematică-Informatică','Ştiinţe ale Naturii','Ştiinţe Sociale','Filologie'];
   const container = document.getElementById('specFilters');
   container.innerHTML = '';
-  mainSpecs.forEach(sp => {
+  ALL_SPECS.forEach(sp => {
     const btn = document.createElement('button');
-    btn.className = 'spec-btn';
+    btn.className = 'spec-btn' + (activeSpecs.has(sp) ? ' active' : '');
     btn.dataset.spec = sp;
 
     const checkbox = document.createElement('span');
@@ -1206,8 +1222,8 @@ function toggleSpec(sp, btn) {
 
 // ── Summary stats ─────────────────────────────────────────
 function buildSummaryStats() {
-  const singleSpec = activeSpecs.size === 1 ? [...activeSpecs][0] : null;
-  const specLabel = activeSpecs.size === 1 ? ' · ' + singleSpec.split(' ')[0] : (activeSpecs.size > 1 ? ' · selecție' : '');
+  const singleSpec = (!isAllSelected() && activeSpecs.size === 1) ? [...activeSpecs][0] : null;
+  const specLabel = singleSpec ? ' · ' + singleSpec.split(' ')[0] : (!isAllSelected() && activeSpecs.size > 1 ? ' · selecție' : '');
   document.getElementById('statsLabel').textContent = `Statistici${specLabel}`;
 
   const availableYears = Object.keys(DATA_JSON.distribution).sort();
@@ -1322,12 +1338,13 @@ function buildMobileStats() {
 }
 
 // returns the relevant cutoff for sorting/display for a school+year
-// with activeSpecs: lowest cutoff among selected specs
-// with no filter: lowest cutoff across all specs (last admitted grade)
 function schoolSpecCutoff(school, year) {
-  const specs = activeSpecs.size > 0
-    ? school.specs.filter(s => activeSpecs.has(s.base))
-    : school.specs;
+  if (activeSpecs.size === 0) return null;
+  // vocational schools: always use all their specs
+  const useAll = isAllSelected() || hasNoMainSpec(school);
+  const specs = useAll
+    ? school.specs
+    : school.specs.filter(s => activeSpecs.has(s.base));
   const cutoffs = specs.map(s => s.years[year]?.cutoff).filter(v => v != null);
   return cutoffs.length ? Math.min(...cutoffs) : null;
 }
@@ -1341,8 +1358,13 @@ function filteredSchools() {
     schools = schools.filter(s => removeDiacritics(s.name.toLowerCase()).includes(q));
   }
 
-  if (activeSpecs.size > 0) {
-    schools = schools.filter(s => s.specs.some(sp => activeSpecs.has(sp.base)));
+  if (!isAllSelected()) {
+    const showOthers = activeSpecs.has('Altele');
+    const activeMain = new Set([...activeSpecs].filter(s => MAIN_SPECS.includes(s)));
+    schools = schools.filter(s => {
+      if (hasNoMainSpec(s)) return showOthers;
+      return activeMain.size === 0 ? false : s.specs.some(sp => activeMain.has(sp.base));
+    });
   }
 
   const otherYear = activeYear === '2025' ? '2024' : '2025';
@@ -1356,7 +1378,7 @@ function filteredSchools() {
 }
 
 function qualifiesFor(school) {
-  if (myGrade == null) return null;
+  if (myGrade == null || activeSpecs.size === 0) return null;
   const otherYear = activeYear === '2025' ? '2024' : '2025';
   const cutoff = schoolSpecCutoff(school, activeYear) ?? schoolSpecCutoff(school, otherYear);
   return cutoff != null ? myGrade >= cutoff : false;
@@ -1374,17 +1396,15 @@ function render() {
 
   const badge = document.getElementById('qualifyBadge');
   const countEl = document.getElementById('qualifyCount');
-  if (myGrade != null) {
-    countEl.textContent = totalQualify;
-    badge.classList.add('visible');
-  } else {
-    badge.classList.remove('visible');
-  }
+  if (badge) badge.classList.toggle('visible', myGrade != null);
+  if (countEl) countEl.textContent = totalQualify;
 
   // result info
+  const total = DATA_JSON.schools.length;
+  const accessible = myGrade != null ? schools.filter(s => qualifiesFor(s)).length : null;
   document.getElementById('resultInfo').textContent =
-    `${schools.length} ${schools.length === 1 ? 'liceu' : 'licee'}` +
-    (myGrade != null ? ` · ${schools.filter(s => qualifiesFor(s)).length} accesibile cu media ta` : '');
+    `${schools.length} din ${total} licee` +
+    (accessible != null ? ` · ${accessible} accesibile cu media ta` : '');
 
   if (schools.length === 0) {
     container.innerHTML = '<div class="empty-state">Niciun liceu găsit pentru filtrele selectate.</div>';
@@ -1414,9 +1434,9 @@ function buildCard(school, displayRank, qualifies) {
   const profile = school.profile ? `<span class="school-profile">${school.profile}</span>` : '';
 
   // count places for selected specs (or all specs)
-  const relevantSpecs = activeSpecs.size > 0
-    ? school.specs.filter(s => activeSpecs.has(s.base))
-    : school.specs;
+  const relevantSpecs = (isAllSelected() || hasNoMainSpec(school))
+    ? school.specs
+    : school.specs.filter(s => activeSpecs.has(s.base));
   const places25 = relevantSpecs.reduce((sum, s) => sum + (s.officialPlaces ?? s.years['2025']?.count ?? 0), 0);
   const places26 = relevantSpecs.reduce((sum, s) => sum + (s.officialPlaces2026 ?? 0), 0);
   const placesDelta = places26 && places25 ? places26 - places25 : 0;
@@ -1481,7 +1501,7 @@ function buildSpecsTable(school) {
     <tbody>`;
 
   const sortedSpecs = [...school.specs]
-    .filter(sp => activeSpecs.size === 0 || activeSpecs.has(sp.base))
+    .filter(sp => isAllSelected() || hasNoMainSpec(school) || activeSpecs.has(sp.base))
     .sort((a, b) => {
       if (a.new2026 && !b.new2026) return 1;
       if (!a.new2026 && b.new2026) return -1;
@@ -1526,35 +1546,59 @@ function buildSpecsTable(school) {
 }
 
 // ── Event listeners ───────────────────────────────────────
-function handleGrade(val, otherId) { handleGradeInput(val, otherId === 'myGrade' ? 'myGradeMobile' : 'myGrade'); }
-
-function syncAllGradeInputs(val, exceptId) {
-  ['myGrade','myGradeMobile','myGradeDesktop'].forEach(id => {
-    if (id !== exceptId) document.getElementById(id).value = val;
-  });
-}
-
-function handleGradeInput(val, sourceId) {
+function handleGradeInput(val) {
   const v = parseFloat(val);
   myGrade = (!isNaN(v) && v >= 1 && v <= 10) ? v : null;
-  syncAllGradeInputs(val, sourceId);
   updateHistogramMarker(myGrade ? Math.round(myGrade * 10) / 10 : null);
   buildSummaryStats(); buildMobileStats();
   render();
   const count = myGrade != null ? DATA_JSON.schools.filter(s => qualifiesFor(s)).length : null;
   const txt = count != null ? `Poți intra la ${count} licee` : '';
-  ['mobileQualifyInfo','desktopQualifyInfo'].forEach(id => {
-    const el = document.getElementById(id); if (el) el.textContent = txt;
-  });
+  const el = document.getElementById('desktopQualifyInfo');
+  if (el) el.textContent = txt;
 }
 
-document.getElementById('myGrade').addEventListener('input', e => handleGradeInput(e.target.value, 'myGrade'));
-document.getElementById('myGradeMobile').addEventListener('input', e => handleGradeInput(e.target.value, 'myGradeMobile'));
-document.getElementById('myGradeDesktop').addEventListener('input', e => handleGradeInput(e.target.value, 'myGradeDesktop'));
+function sanitizeGradeInput(el) {
+  let val = el.value;
+  // Allow only digits and one decimal point
+  val = val.replace(/[^0-9.]/g, '');
+  const parts = val.split('.');
+  if (parts.length > 2) val = parts[0] + '.' + parts.slice(1).join('');
+  // Max 2 decimal places
+  if (parts[1]?.length > 2) val = parts[0] + '.' + parts[1].slice(0, 2);
+  // Clamp to 10
+  if (parseFloat(val) > 10) val = '10';
+  if (val !== el.value) el.value = val;
+
+  const valid = val !== '' && !isNaN(parseFloat(val)) && parseFloat(val) >= 1 && parseFloat(val) <= 10;
+  el.style.borderColor = val === '' ? '' : valid ? '' : 'var(--amber)';
+  el.style.boxShadow = val === '' ? '' : valid ? '' : '0 0 0 3px rgba(180,83,9,0.12)';
+  handleGradeInput(val);
+}
+
+function clampGradeOnBlur(el) {
+  const v = parseFloat(el.value);
+  if (!isNaN(v)) {
+    const clamped = Math.max(1, Math.min(10, Math.round(v * 100) / 100));
+    el.value = clamped.toFixed(2).replace(/\.?0+$/, '');
+    el.style.borderColor = '';
+    el.style.boxShadow = '';
+    handleGradeInput(el.value);
+  }
+}
+
+const gradeInputEl = document.getElementById('myGradeDesktop');
+gradeInputEl.addEventListener('input', e => sanitizeGradeInput(e.target));
+gradeInputEl.addEventListener('blur', e => clampGradeOnBlur(e.target));
+// Legacy hidden inputs for compatibility
+document.getElementById('myGrade')?.addEventListener('input', e => handleGradeInput(e.target.value));
+document.getElementById('myGradeMobile')?.addEventListener('input', e => handleGradeInput(e.target.value));
 
 function handleSearch(val) {
   searchQuery = val.trim();
+  studentsPage = 0;
   render();
+  if (activeView === 'students' && studentsData) renderStudentsTable();
 }
 
 document.getElementById('searchInput').addEventListener('input', e => handleSearch(e.target.value));
@@ -1623,12 +1667,32 @@ function renderStudentsTable() {
     return;
   }
   const { flat, ids, origins, originNames } = yr;
-  const total = flat.length / 3;
+  const totalAll = flat.length / 3;
+
+  // Build filtered index list
+  const q = searchQuery ? removeDiacritics(searchQuery.toLowerCase()) : null;
+  const indices = [];
+  for (let i = 0; i < totalAll; i++) {
+    if (q) {
+      const id = ids[i] ?? '';
+      const origin = originNames[origins[i]] ?? '';
+      const sidx = flat[i * 3 + 1];
+      const school = sidx >= 0 ? DATA_JSON.schools[sidx]?.name ?? '' : '';
+      const matches = removeDiacritics(id.toLowerCase()).includes(q) ||
+                      removeDiacritics(origin.toLowerCase()).includes(q) ||
+                      removeDiacritics(school.toLowerCase()).includes(q);
+      if (!matches) continue;
+    }
+    indices.push(i);
+  }
+
+  const total = indices.length;
   const start = studentsPage * STUDENTS_PER_PAGE;
   const end = Math.min(start + STUDENTS_PER_PAGE, total);
 
   let rows = '';
-  for (let i = start; i < end; i++) {
+  for (let j = start; j < end; j++) {
+    const i = indices[j];
     const grade = flat[i * 3] / 100;
     const sidx = flat[i * 3 + 1];
     const sc = flat[i * 3 + 2];
@@ -1648,9 +1712,10 @@ function renderStudentsTable() {
   }
 
   const totalPages = Math.ceil(total / STUDENTS_PER_PAGE);
-  const yourRank = myGrade != null ? flat.findIndex((v,i) => i%3===0 && v/100 <= myGrade) / 3 | 0 : -1;
-  const yourInfo = myGrade != null && yourRank >= 0
-    ? `<span style="color:var(--accent);font-weight:600">Media ta (${myGrade}) → aproximativ locul ${yourRank + 1} din ${total.toLocaleString('ro')}</span>`
+  const yourRank = !q && myGrade != null ? flat.findIndex((v,i) => i%3===0 && v/100 <= myGrade) / 3 | 0 : -1;
+  const yourInfo = !q && myGrade != null && yourRank >= 0
+    ? `<span style="color:var(--accent);font-weight:600">Media ta (${myGrade}) → aproximativ locul ${yourRank + 1} din ${totalAll.toLocaleString('ro')}</span>`
+    : q ? `${total.toLocaleString('ro')} rezultate pentru „${searchQuery}"`
     : `${total.toLocaleString('ro')} candidați`;
 
   document.getElementById('studentsContent').innerHTML = `
