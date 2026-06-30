@@ -1788,7 +1788,10 @@ function renderStudentsTable() {
     : q ? `${total.toLocaleString('ro')} rezultate pentru „${searchQuery}"`
     : `${total.toLocaleString('ro')} candidați`;
 
+  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--amber-bg);border-left:3px solid #A03030;border-radius:0 4px 4px 0;font-size:0.75rem;color:#A03030;line-height:1.5">Note înainte de contestație — medie evaluare națională (română + matematică), fără nota școlii. Liceu admis și specializarea nu sunt disponibile (repartizarea nu a avut loc).</div>` : '';
+
   document.getElementById('studentsContent').innerHTML = `
+    ${disclaimer2026}
     <div class="content-bar" style="margin-bottom:12px">
       <div class="result-info">${yourInfo}</div>
     </div>
