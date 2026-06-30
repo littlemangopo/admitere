@@ -960,8 +960,11 @@ body {
   .logo em { display: none; }
   .logo { font-size: 0.8rem; }
   .header { gap: 8px; padding: 0 12px; }
+  .header .year-toggle { display: none; }
+  .header .header-divider:last-of-type { display: none; }
   .mobile-search-bar { display: block; }
   .header-search { display: none; }
+  #yearToggleMobile { display: flex; }
 
   /* Spec filters: 2-column grid on mobile */
   .spec-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
@@ -1030,6 +1033,13 @@ body {
 </header>
 
 <div class="mobile-search-bar">
+  <div style="display:flex;gap:6px;align-items:center;margin-bottom:6px">
+    <div class="year-toggle" id="yearToggleMobile" style="flex-shrink:0">
+      <button class="yr-btn" data-year="2024">2024</button>
+      <button class="yr-btn" data-year="2025">2025</button>
+      <button class="yr-btn active" data-year="2026">2026</button>
+    </div>
+  </div>
   <div class="mobile-search-wrap">
     <svg class="mobile-search-icon" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="8.5" cy="8.5" r="5.5" stroke="currentColor" stroke-width="1.8"/>
