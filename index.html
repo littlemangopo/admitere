@@ -1521,6 +1521,10 @@ function buildCard(school, displayRank, qualifies) {
       <div class="card-grades">
         ${yr25Block}
         ${yr24Block}
+        <div class="yr-block" title="Repartizare 2026 nepublicată încă">
+          <div class="yr-tag" style="color:#A03030">2026</div>
+          <div class="yr-grade" style="color:#A03030;font-style:italic">–</div>
+        </div>
         <div class="places-col">
           <div class="yr-tag">Locuri 2025 → 2026</div>
           <div class="places-count">${places25 || '–'} <span style="color:var(--text-2);font-weight:400;font-size:0.75rem">→</span> ${places26 || '–'}${placesDelta > 0 ? `<span class="yr-delta up" style="font-size:0.65rem;margin-left:2px">+${placesDelta}</span>` : placesDelta < 0 ? `<span class="yr-delta dn" style="font-size:0.65rem;margin-left:2px">${placesDelta}</span>` : ''}</div>
