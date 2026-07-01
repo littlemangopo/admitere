@@ -18,6 +18,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 9.7,
+          "simulatedCutoff2026_EST2": 9.72,
+          "est1Cutoff2026": 9.7,
+          "est2Cutoff2026": 9.71,
+          "est1Cutoff2026_madm": 9.7,
+          "est2Cutoff2026_madm": 9.71,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 103,
@@ -39,6 +45,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 9.6,
+          "simulatedCutoff2026_EST2": 9.62,
+          "est1Cutoff2026": 9.67,
+          "est2Cutoff2026": 9.7,
+          "est1Cutoff2026_madm": 9.67,
+          "est2Cutoff2026_madm": 9.7,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 102,
@@ -60,6 +72,12 @@
               "count": 126
             }
           },
+          "simulatedCutoff2026": 9.6,
+          "simulatedCutoff2026_EST2": 9.62,
+          "est1Cutoff2026": 9.67,
+          "est2Cutoff2026": 9.7,
+          "est1Cutoff2026_madm": 9.67,
+          "est2Cutoff2026_madm": 9.7,
           "officialPlaces": 130,
           "officialClasses": 5.0,
           "code": 101,
@@ -81,6 +99,12 @@
               "count": 19
             }
           },
+          "simulatedCutoff2026": 9.45,
+          "simulatedCutoff2026_EST2": 9.47,
+          "est1Cutoff2026": 9.42,
+          "est2Cutoff2026": 9.45,
+          "est1Cutoff2026_madm": 9.42,
+          "est2Cutoff2026_madm": 9.45,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 104,
@@ -113,6 +137,12 @@
               "count": 78
             }
           },
+          "simulatedCutoff2026": 9.7,
+          "simulatedCutoff2026_EST2": 9.7,
+          "est1Cutoff2026": 9.62,
+          "est2Cutoff2026": 9.65,
+          "est1Cutoff2026_madm": 9.62,
+          "est2Cutoff2026_madm": 9.65,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 344,
@@ -134,6 +164,12 @@
               "count": 74
             }
           },
+          "simulatedCutoff2026": 9.67,
+          "simulatedCutoff2026_EST2": 9.7,
+          "est1Cutoff2026": 9.65,
+          "est2Cutoff2026": 9.67,
+          "est1Cutoff2026_madm": 9.65,
+          "est2Cutoff2026_madm": 9.67,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 345,
@@ -155,6 +191,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 9.5,
+          "simulatedCutoff2026_EST2": 9.55,
+          "est1Cutoff2026": 9.47,
+          "est2Cutoff2026": 9.52,
+          "est1Cutoff2026_madm": 9.47,
+          "est2Cutoff2026_madm": 9.52,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 347,
@@ -176,6 +218,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 9.47,
+          "simulatedCutoff2026_EST2": 9.5,
+          "est1Cutoff2026": 9.47,
+          "est2Cutoff2026": 9.5,
+          "est1Cutoff2026_madm": 9.47,
+          "est2Cutoff2026_madm": 9.5,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 346,
@@ -208,6 +256,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 9.65,
+          "simulatedCutoff2026_EST2": 9.67,
+          "est1Cutoff2026": 9.6,
+          "est2Cutoff2026": 9.62,
+          "est1Cutoff2026_madm": 9.6,
+          "est2Cutoff2026_madm": 9.62,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 196,
@@ -229,6 +283,12 @@
               "count": 51
             }
           },
+          "simulatedCutoff2026": 9.65,
+          "simulatedCutoff2026_EST2": 9.67,
+          "est1Cutoff2026": 9.6,
+          "est2Cutoff2026": 9.62,
+          "est1Cutoff2026_madm": 9.6,
+          "est2Cutoff2026_madm": 9.62,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 195,
@@ -250,6 +310,12 @@
               "count": 51
             }
           },
+          "simulatedCutoff2026": 9.6,
+          "simulatedCutoff2026_EST2": 9.62,
+          "est1Cutoff2026": 9.42,
+          "est2Cutoff2026": 9.45,
+          "est1Cutoff2026_madm": 9.42,
+          "est2Cutoff2026_madm": 9.45,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 197,
@@ -271,6 +337,12 @@
               "count": 51
             }
           },
+          "simulatedCutoff2026": 9.42,
+          "simulatedCutoff2026_EST2": 9.45,
+          "est1Cutoff2026": 9.37,
+          "est2Cutoff2026": 9.4,
+          "est1Cutoff2026_madm": 9.37,
+          "est2Cutoff2026_madm": 9.4,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 199,
@@ -292,6 +364,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 9.38,
+          "simulatedCutoff2026_EST2": 9.42,
+          "est1Cutoff2026": 9.32,
+          "est2Cutoff2026": 9.35,
+          "est1Cutoff2026_madm": 9.32,
+          "est2Cutoff2026_madm": 9.35,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 198,
@@ -324,6 +402,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 9.47,
+          "simulatedCutoff2026_EST2": 9.5,
+          "est1Cutoff2026": 9.42,
+          "est2Cutoff2026": 9.45,
+          "est1Cutoff2026_madm": 9.42,
+          "est2Cutoff2026_madm": 9.45,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 116,
@@ -345,6 +429,12 @@
               "count": 195
             }
           },
+          "simulatedCutoff2026": 9.47,
+          "simulatedCutoff2026_EST2": 9.5,
+          "est1Cutoff2026": 9.42,
+          "est2Cutoff2026": 9.45,
+          "est1Cutoff2026_madm": 9.42,
+          "est2Cutoff2026_madm": 9.45,
           "officialPlaces": 208,
           "officialClasses": 8.0,
           "code": 115,
@@ -357,7 +447,11 @@
           "years": {},
           "new2026": true,
           "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 9.32,
+          "est1Cutoff2026_madm": 9.32,
+          "est2Cutoff2026": 9.35,
+          "est2Cutoff2026_madm": 9.35
         }
       ],
       "best_cutoffs": {
@@ -384,7 +478,16 @@
               "avg": 9.74,
               "count": 25
             }
-          }
+          },
+          "est1Cutoff2026": 9.32,
+          "est1Cutoff2026_madm": 9.32,
+          "est2Cutoff2026": 9.35,
+          "est2Cutoff2026_madm": 9.35,
+          "officialPlaces": 39,
+          "officialClasses": 1.5,
+          "code": null,
+          "officialPlaces2026": 14,
+          "officialClasses2026": 0.5
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba engleză)",
@@ -400,7 +503,16 @@
               "avg": 9.64,
               "count": 25
             }
-          }
+          },
+          "est1Cutoff2026": 9.32,
+          "est1Cutoff2026_madm": 9.32,
+          "est2Cutoff2026": 9.35,
+          "est2Cutoff2026_madm": 9.35,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 108,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -416,7 +528,16 @@
               "avg": 9.61,
               "count": 23
             }
-          }
+          },
+          "est1Cutoff2026": 9.25,
+          "est1Cutoff2026_madm": 9.25,
+          "est2Cutoff2026": 9.27,
+          "est2Cutoff2026_madm": 9.27,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 109,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Matematică-Informatică",
@@ -432,7 +553,16 @@
               "avg": 9.54,
               "count": 71
             }
-          }
+          },
+          "est1Cutoff2026": 9.32,
+          "est1Cutoff2026_madm": 9.32,
+          "est2Cutoff2026": 9.35,
+          "est2Cutoff2026_madm": 9.35,
+          "officialPlaces": 78,
+          "officialClasses": 3.0,
+          "code": 105,
+          "officialPlaces2026": 84,
+          "officialClasses2026": 3.0
         },
         {
           "name": "Ştiinţe Sociale",
@@ -448,7 +578,16 @@
               "avg": 9.49,
               "count": 24
             }
-          }
+          },
+          "est1Cutoff2026": 9.05,
+          "est1Cutoff2026_madm": 9.05,
+          "est2Cutoff2026": 9.07,
+          "est2Cutoff2026_madm": 9.07,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 114,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -464,7 +603,16 @@
               "avg": 9.43,
               "count": 23
             }
-          }
+          },
+          "est1Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.15,
+          "est2Cutoff2026": 9.17,
+          "est2Cutoff2026_madm": 9.17,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 113,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Filologie",
@@ -480,7 +628,16 @@
               "avg": 9.33,
               "count": 21
             }
-          }
+          },
+          "est1Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.15,
+          "est2Cutoff2026": 9.17,
+          "est2Cutoff2026_madm": 9.17,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 110,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Filologie (Limba română/Limba germană)",
@@ -496,13 +653,24 @@
               "avg": 9.34,
               "count": 22
             }
-          }
+          },
+          "est1Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.15,
+          "est2Cutoff2026": 9.17,
+          "est2Cutoff2026_madm": 9.17,
+          "officialPlaces": 13,
+          "officialClasses": 0.5,
+          "code": null,
+          "officialPlaces2026": 14,
+          "officialClasses2026": 0.5
         }
       ],
       "best_cutoffs": {
         "2024": 9.6,
         "2025": 9.6
-      }
+      },
+      "officialTotalPlaces2025": 260,
+      "officialTotalPlaces2026": 280
     },
     {
       "name": "Colegiul Naţional „Grigore Moisil”",
@@ -522,6 +690,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 9.45,
+          "simulatedCutoff2026_EST2": 9.47,
+          "est1Cutoff2026": 9.3,
+          "est2Cutoff2026": 9.32,
+          "est1Cutoff2026_madm": 9.3,
+          "est2Cutoff2026_madm": 9.32,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 380,
@@ -543,6 +717,12 @@
               "count": 74
             }
           },
+          "simulatedCutoff2026": 9.37,
+          "simulatedCutoff2026_EST2": 9.4,
+          "est1Cutoff2026": 9.25,
+          "est2Cutoff2026": 9.27,
+          "est1Cutoff2026_madm": 9.25,
+          "est2Cutoff2026_madm": 9.27,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 379,
@@ -564,6 +744,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 9.17,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.02,
+          "est2Cutoff2026": 9.05,
+          "est1Cutoff2026_madm": 9.02,
+          "est2Cutoff2026_madm": 9.05,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 382,
@@ -585,6 +771,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.05,
+          "simulatedCutoff2026_EST2": 9.12,
+          "est1Cutoff2026": 8.97,
+          "est2Cutoff2026": 9.0,
+          "est1Cutoff2026_madm": 8.97,
+          "est2Cutoff2026_madm": 9.0,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 381,
@@ -617,6 +809,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 9.42,
+          "simulatedCutoff2026_EST2": 9.45,
+          "est1Cutoff2026": 9.27,
+          "est2Cutoff2026": 9.3,
+          "est1Cutoff2026_madm": 9.27,
+          "est2Cutoff2026_madm": 9.3,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 201,
@@ -638,6 +836,12 @@
               "count": 51
             }
           },
+          "simulatedCutoff2026": 9.35,
+          "simulatedCutoff2026_EST2": 9.38,
+          "est1Cutoff2026": 9.22,
+          "est2Cutoff2026": 9.25,
+          "est1Cutoff2026_madm": 9.22,
+          "est2Cutoff2026_madm": 9.25,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 200,
@@ -659,6 +863,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 9.32,
+          "simulatedCutoff2026_EST2": 9.35,
+          "est1Cutoff2026": 9.32,
+          "est2Cutoff2026": 9.35,
+          "est1Cutoff2026_madm": 9.32,
+          "est2Cutoff2026_madm": 9.35,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 203,
@@ -680,6 +890,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 9.12,
+          "simulatedCutoff2026_EST2": 9.17,
+          "est1Cutoff2026": 9.07,
+          "est2Cutoff2026": 9.11,
+          "est1Cutoff2026_madm": 9.07,
+          "est2Cutoff2026_madm": 9.11,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 202,
@@ -712,6 +928,12 @@
               "count": 103
             }
           },
+          "simulatedCutoff2026": 9.4,
+          "simulatedCutoff2026_EST2": 9.45,
+          "est1Cutoff2026": 9.3,
+          "est2Cutoff2026": 9.32,
+          "est1Cutoff2026_madm": 9.3,
+          "est2Cutoff2026_madm": 9.32,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 264,
@@ -733,6 +955,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 9.4,
+          "simulatedCutoff2026_EST2": 9.45,
+          "est1Cutoff2026": 9.22,
+          "est2Cutoff2026": 9.25,
+          "est1Cutoff2026_madm": 9.22,
+          "est2Cutoff2026_madm": 9.25,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 265,
@@ -754,6 +982,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 9.32,
+          "simulatedCutoff2026_EST2": 9.37,
+          "est1Cutoff2026": 9.07,
+          "est2Cutoff2026": 9.1,
+          "est1Cutoff2026_madm": 9.07,
+          "est2Cutoff2026_madm": 9.1,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 267,
@@ -775,6 +1009,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 9.27,
+          "simulatedCutoff2026_EST2": 9.32,
+          "est1Cutoff2026": 9.22,
+          "est2Cutoff2026": 9.25,
+          "est1Cutoff2026_madm": 9.22,
+          "est2Cutoff2026_madm": 9.25,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 266,
@@ -807,6 +1047,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 9.2,
+          "simulatedCutoff2026_EST2": 9.25,
+          "est1Cutoff2026": 9.25,
+          "est2Cutoff2026": 9.27,
+          "est1Cutoff2026_madm": 9.25,
+          "est2Cutoff2026_madm": 9.27,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 187,
@@ -828,6 +1074,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 9.2,
+          "simulatedCutoff2026_EST2": 9.25,
+          "est1Cutoff2026": 9.12,
+          "est2Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.12,
+          "est2Cutoff2026_madm": 9.15,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 188,
@@ -849,6 +1101,12 @@
               "count": 101
             }
           },
+          "simulatedCutoff2026": 9.2,
+          "simulatedCutoff2026_EST2": 9.25,
+          "est1Cutoff2026": 9.25,
+          "est2Cutoff2026": 9.27,
+          "est1Cutoff2026_madm": 9.25,
+          "est2Cutoff2026_madm": 9.27,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 186,
@@ -881,6 +1139,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 9.37,
+          "simulatedCutoff2026_EST2": 9.4,
+          "est1Cutoff2026": 9.2,
+          "est2Cutoff2026": 9.22,
+          "est1Cutoff2026_madm": 9.2,
+          "est2Cutoff2026_madm": 9.22,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 320,
@@ -902,6 +1166,12 @@
               "count": 117
             }
           },
+          "simulatedCutoff2026": 9.3,
+          "simulatedCutoff2026_EST2": 9.35,
+          "est1Cutoff2026": 9.22,
+          "est2Cutoff2026": 9.25,
+          "est1Cutoff2026_madm": 9.22,
+          "est2Cutoff2026_madm": 9.25,
           "officialPlaces": 130,
           "officialClasses": 5.0,
           "code": 319,
@@ -923,6 +1193,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 9.17,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.1,
+          "est2Cutoff2026": 9.12,
+          "est1Cutoff2026_madm": 9.1,
+          "est2Cutoff2026_madm": 9.12,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 321,
@@ -955,6 +1231,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 9.35,
+          "simulatedCutoff2026_EST2": 9.4,
+          "est1Cutoff2026": 9.2,
+          "est2Cutoff2026": 9.22,
+          "est1Cutoff2026_madm": 9.2,
+          "est2Cutoff2026_madm": 9.22,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 185,
@@ -976,6 +1258,12 @@
               "count": 195
             }
           },
+          "simulatedCutoff2026": 9.25,
+          "simulatedCutoff2026_EST2": 9.3,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.02,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.02,
           "officialPlaces": 208,
           "officialClasses": 8.0,
           "code": 184,
@@ -1008,6 +1296,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 9.25,
+          "simulatedCutoff2026_EST2": 9.3,
+          "est1Cutoff2026": 9.12,
+          "est2Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.12,
+          "est2Cutoff2026_madm": 9.15,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 323,
@@ -1029,6 +1323,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 9.25,
+          "simulatedCutoff2026_EST2": 9.3,
+          "est1Cutoff2026": 9.12,
+          "est2Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.12,
+          "est2Cutoff2026_madm": 9.15,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 322,
@@ -1050,6 +1350,12 @@
               "count": 51
             }
           },
+          "simulatedCutoff2026": 9.17,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.12,
+          "est2Cutoff2026": 9.15,
+          "est1Cutoff2026_madm": 9.12,
+          "est2Cutoff2026_madm": 9.15,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 324,
@@ -1071,6 +1377,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.02,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.02,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 326,
@@ -1092,6 +1404,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 9.0,
+          "simulatedCutoff2026_EST2": 9.07,
+          "est1Cutoff2026": 8.93,
+          "est2Cutoff2026": 8.95,
+          "est1Cutoff2026_madm": 8.93,
+          "est2Cutoff2026_madm": 8.95,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 325,
@@ -1124,6 +1442,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.3,
+          "simulatedCutoff2026_EST2": 9.35,
+          "est1Cutoff2026": 9.15,
+          "est2Cutoff2026": 9.17,
+          "est1Cutoff2026_madm": 9.15,
+          "est2Cutoff2026_madm": 9.17,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 191,
@@ -1145,6 +1469,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.22,
+          "simulatedCutoff2026_EST2": 9.25,
+          "est1Cutoff2026": 9.07,
+          "est2Cutoff2026": 9.1,
+          "est1Cutoff2026_madm": 9.07,
+          "est2Cutoff2026_madm": 9.1,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 190,
@@ -1166,6 +1496,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 9.22,
+          "simulatedCutoff2026_EST2": 9.25,
+          "est1Cutoff2026": 9.07,
+          "est2Cutoff2026": 9.1,
+          "est1Cutoff2026_madm": 9.07,
+          "est2Cutoff2026_madm": 9.1,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 189,
@@ -1187,6 +1523,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 9.15,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.02,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.02,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 194,
@@ -1208,6 +1550,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 9.15,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.02,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.02,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 192,
@@ -1229,6 +1577,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 9.15,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.02,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.02,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 193,
@@ -1260,7 +1614,11 @@
               "avg": 9.38,
               "count": 1
             }
-          }
+          },
+          "est1Cutoff2026": 8.85,
+          "est1Cutoff2026_madm": 8.85,
+          "est2Cutoff2026": 8.87,
+          "est2Cutoff2026_madm": 8.87
         },
         {
           "name": "Ştiinţe Sociale",
@@ -1282,7 +1640,11 @@
               "avg": 5.73,
               "count": 2
             }
-          }
+          },
+          "est1Cutoff2026": 8.85,
+          "est1Cutoff2026_madm": 8.85,
+          "est2Cutoff2026": 8.87,
+          "est2Cutoff2026_madm": 8.87
         }
       ],
       "best_cutoffs": {
@@ -1303,6 +1665,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 9.15,
+          "simulatedCutoff2026_EST2": 9.2,
+          "est1Cutoff2026": 8.97,
+          "est2Cutoff2026": 9.0,
+          "est1Cutoff2026_madm": 8.97,
+          "est2Cutoff2026_madm": 9.0,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 376,
@@ -1319,6 +1687,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.92,
+          "simulatedCutoff2026_EST2": 9.02,
+          "est1Cutoff2026": 8.87,
+          "est2Cutoff2026": 8.9,
+          "est1Cutoff2026_madm": 8.87,
+          "est2Cutoff2026_madm": 8.9,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 377,
@@ -1335,6 +1709,12 @@
               "count": 19
             }
           },
+          "simulatedCutoff2026": 8.92,
+          "simulatedCutoff2026_EST2": 9.02,
+          "est1Cutoff2026": 8.87,
+          "est2Cutoff2026": 8.9,
+          "est1Cutoff2026_madm": 8.87,
+          "est2Cutoff2026_madm": 8.9,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 378,
@@ -1366,6 +1746,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 9.12,
+          "simulatedCutoff2026_EST2": 9.2,
+          "est1Cutoff2026": 8.97,
+          "est2Cutoff2026": 9.0,
+          "est1Cutoff2026_madm": 8.97,
+          "est2Cutoff2026_madm": 9.0,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 137,
@@ -1387,6 +1773,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.17,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.01,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.01,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 139,
@@ -1408,6 +1800,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.17,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.0,
+          "est2Cutoff2026": 9.01,
+          "est1Cutoff2026_madm": 9.0,
+          "est2Cutoff2026_madm": 9.01,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 138,
@@ -1429,6 +1827,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.0,
+          "simulatedCutoff2026_EST2": 9.07,
+          "est1Cutoff2026": 8.95,
+          "est2Cutoff2026": 8.96,
+          "est1Cutoff2026_madm": 8.95,
+          "est2Cutoff2026_madm": 8.96,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 141,
@@ -1450,6 +1854,12 @@
               "count": 20
             }
           },
+          "simulatedCutoff2026": 8.92,
+          "simulatedCutoff2026_EST2": 9.02,
+          "est1Cutoff2026": 8.9,
+          "est2Cutoff2026": 8.92,
+          "est1Cutoff2026_madm": 8.9,
+          "est2Cutoff2026_madm": 8.92,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 140,
@@ -1482,6 +1892,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 8.95,
+          "est2Cutoff2026": 8.97,
+          "est1Cutoff2026_madm": 8.95,
+          "est2Cutoff2026_madm": 8.97,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 316,
@@ -1503,6 +1919,12 @@
               "count": 97
             }
           },
+          "simulatedCutoff2026": 9.05,
+          "simulatedCutoff2026_EST2": 9.12,
+          "est1Cutoff2026": 8.92,
+          "est2Cutoff2026": 8.95,
+          "est1Cutoff2026_madm": 8.92,
+          "est2Cutoff2026_madm": 8.95,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 315,
@@ -1524,6 +1946,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 9.02,
+          "simulatedCutoff2026_EST2": 9.1,
+          "est1Cutoff2026": 8.88,
+          "est2Cutoff2026": 8.92,
+          "est1Cutoff2026_madm": 8.88,
+          "est2Cutoff2026_madm": 8.92,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 318,
@@ -1545,6 +1973,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 8.97,
+          "simulatedCutoff2026_EST2": 9.05,
+          "est1Cutoff2026": 8.92,
+          "est2Cutoff2026": 8.95,
+          "est1Cutoff2026_madm": 8.92,
+          "est2Cutoff2026_madm": 8.95,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 317,
@@ -1577,6 +2011,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 8.87,
+          "est2Cutoff2026": 8.9,
+          "est1Cutoff2026_madm": 8.87,
+          "est2Cutoff2026_madm": 8.9,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 125,
@@ -1598,6 +2038,12 @@
               "count": 71
             }
           },
+          "simulatedCutoff2026": 9.02,
+          "simulatedCutoff2026_EST2": 9.1,
+          "est1Cutoff2026": 8.87,
+          "est2Cutoff2026": 8.9,
+          "est1Cutoff2026_madm": 8.87,
+          "est2Cutoff2026_madm": 8.9,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 124,
@@ -1619,6 +2065,12 @@
               "count": 20
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 8.87,
+          "est2Cutoff2026": 8.9,
+          "est1Cutoff2026_madm": 8.87,
+          "est2Cutoff2026_madm": 8.9,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 126,
@@ -1640,6 +2092,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 8.9,
+          "simulatedCutoff2026_EST2": 9.0,
+          "est1Cutoff2026": 8.85,
+          "est2Cutoff2026": 8.87,
+          "est1Cutoff2026_madm": 8.85,
+          "est2Cutoff2026_madm": 8.87,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 129,
@@ -1661,6 +2119,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.87,
+          "simulatedCutoff2026_EST2": 8.97,
+          "est1Cutoff2026": 8.82,
+          "est2Cutoff2026": 8.85,
+          "est1Cutoff2026_madm": 8.82,
+          "est2Cutoff2026_madm": 8.85,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 127,
@@ -1682,6 +2146,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.87,
+          "simulatedCutoff2026_EST2": 8.97,
+          "est1Cutoff2026": 8.82,
+          "est2Cutoff2026": 8.85,
+          "est1Cutoff2026_madm": 8.82,
+          "est2Cutoff2026_madm": 8.85,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 128,
@@ -1714,6 +2184,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 9.15,
+          "simulatedCutoff2026_EST2": 9.22,
+          "est1Cutoff2026": 9.17,
+          "est2Cutoff2026": 9.2,
+          "est1Cutoff2026_madm": 9.17,
+          "est2Cutoff2026_madm": 9.2,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 269,
@@ -1735,6 +2211,12 @@
               "count": 125
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 8.87,
+          "est2Cutoff2026": 8.9,
+          "est1Cutoff2026_madm": 8.87,
+          "est2Cutoff2026_madm": 8.9,
           "officialPlaces": 130,
           "officialClasses": 5.0,
           "code": 268,
@@ -1756,6 +2238,12 @@
               "count": 50
             }
           },
+          "simulatedCutoff2026": 8.9,
+          "simulatedCutoff2026_EST2": 9.0,
+          "est1Cutoff2026": 8.82,
+          "est2Cutoff2026": 8.85,
+          "est1Cutoff2026_madm": 8.82,
+          "est2Cutoff2026_madm": 8.85,
           "officialPlaces2026": 56,
           "officialClasses2026": 2.0
         }
@@ -1780,6 +2268,10 @@
               "count": 47
             }
           },
+          "est1Cutoff2026": 6.9,
+          "est1Cutoff2026_madm": 6.9,
+          "est2Cutoff2026": 6.92,
+          "est2Cutoff2026_madm": 6.92,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 376,
@@ -1796,6 +2288,10 @@
               "count": 23
             }
           },
+          "est1Cutoff2026": 6.87,
+          "est1Cutoff2026_madm": 6.87,
+          "est2Cutoff2026": 6.87,
+          "est2Cutoff2026_madm": 6.87,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 377,
@@ -1812,6 +2308,10 @@
               "count": 19
             }
           },
+          "est1Cutoff2026": 6.87,
+          "est1Cutoff2026_madm": 6.87,
+          "est2Cutoff2026": 6.87,
+          "est2Cutoff2026_madm": 6.87,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 378,
@@ -1843,6 +2343,12 @@
               "count": 96
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 8.8,
+          "est2Cutoff2026": 8.82,
+          "est1Cutoff2026_madm": 8.8,
+          "est2Cutoff2026_madm": 8.82,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 204,
@@ -1864,6 +2370,12 @@
               "count": 76
             }
           },
+          "simulatedCutoff2026": 8.85,
+          "simulatedCutoff2026_EST2": 8.95,
+          "est1Cutoff2026": 8.72,
+          "est2Cutoff2026": 8.75,
+          "est1Cutoff2026_madm": 8.72,
+          "est2Cutoff2026_madm": 8.75,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 207,
@@ -1885,6 +2397,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 9.07,
+          "simulatedCutoff2026_EST2": 9.15,
+          "est1Cutoff2026": 8.8,
+          "est2Cutoff2026": 8.82,
+          "est1Cutoff2026_madm": 8.8,
+          "est2Cutoff2026_madm": 8.82,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 205,
@@ -1906,6 +2424,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 8.85,
+          "simulatedCutoff2026_EST2": 8.95,
+          "est1Cutoff2026": 8.72,
+          "est2Cutoff2026": 8.75,
+          "est1Cutoff2026_madm": 8.72,
+          "est2Cutoff2026_madm": 8.75,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 208,
@@ -1938,6 +2462,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.97,
+          "simulatedCutoff2026_EST2": 9.05,
+          "est1Cutoff2026": 8.8,
+          "est2Cutoff2026": 8.82,
+          "est1Cutoff2026_madm": 8.8,
+          "est2Cutoff2026_madm": 8.82,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 145,
@@ -1959,6 +2489,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 8.8,
+          "simulatedCutoff2026_EST2": 8.87,
+          "est1Cutoff2026": 8.72,
+          "est2Cutoff2026": 8.75,
+          "est1Cutoff2026_madm": 8.72,
+          "est2Cutoff2026_madm": 8.75,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 147,
@@ -1980,6 +2516,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 8.97,
+          "simulatedCutoff2026_EST2": 9.05,
+          "est1Cutoff2026": 8.8,
+          "est2Cutoff2026": 8.82,
+          "est1Cutoff2026_madm": 8.8,
+          "est2Cutoff2026_madm": 8.82,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 146,
@@ -2001,6 +2543,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 8.8,
+          "simulatedCutoff2026_EST2": 8.87,
+          "est1Cutoff2026": 8.72,
+          "est2Cutoff2026": 8.75,
+          "est1Cutoff2026_madm": 8.72,
+          "est2Cutoff2026_madm": 8.75,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 148,
@@ -2033,6 +2581,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 8.95,
+          "simulatedCutoff2026_EST2": 9.05,
+          "est1Cutoff2026": 8.77,
+          "est2Cutoff2026": 8.8,
+          "est1Cutoff2026_madm": 8.77,
+          "est2Cutoff2026_madm": 8.8,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 130,
@@ -2054,6 +2608,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 8.92,
+          "simulatedCutoff2026_EST2": 9.02,
+          "est1Cutoff2026": 8.82,
+          "est2Cutoff2026": 8.85,
+          "est1Cutoff2026_madm": 8.82,
+          "est2Cutoff2026_madm": 8.85,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 131,
@@ -2075,6 +2635,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 8.8,
+          "simulatedCutoff2026_EST2": 8.9,
+          "est1Cutoff2026": 8.72,
+          "est2Cutoff2026": 8.75,
+          "est1Cutoff2026_madm": 8.72,
+          "est2Cutoff2026_madm": 8.75,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 132,
@@ -2107,6 +2673,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 8.87,
+          "simulatedCutoff2026_EST2": 8.97,
+          "est1Cutoff2026": 8.75,
+          "est2Cutoff2026": 8.77,
+          "est1Cutoff2026_madm": 8.75,
+          "est2Cutoff2026_madm": 8.77,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 348,
@@ -2128,6 +2700,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 8.82,
+          "simulatedCutoff2026_EST2": 8.92,
+          "est1Cutoff2026": 8.72,
+          "est2Cutoff2026": 8.75,
+          "est1Cutoff2026_madm": 8.72,
+          "est2Cutoff2026_madm": 8.75,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 349,
@@ -2149,6 +2727,12 @@
               "count": 73
             }
           },
+          "simulatedCutoff2026": 8.72,
+          "simulatedCutoff2026_EST2": 8.82,
+          "est1Cutoff2026": 8.57,
+          "est2Cutoff2026": 8.6,
+          "est1Cutoff2026_madm": 8.57,
+          "est2Cutoff2026_madm": 8.6,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 350,
@@ -2254,6 +2838,12 @@
               "count": 40
             }
           },
+          "simulatedCutoff2026": 8.77,
+          "simulatedCutoff2026_EST2": 8.87,
+          "est1Cutoff2026": 8.7,
+          "est2Cutoff2026": 8.72,
+          "est1Cutoff2026_madm": 8.7,
+          "est2Cutoff2026_madm": 8.72,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 387,
@@ -2275,6 +2865,12 @@
               "count": 40
             }
           },
+          "simulatedCutoff2026": 8.7,
+          "simulatedCutoff2026_EST2": 8.8,
+          "est1Cutoff2026": 8.55,
+          "est2Cutoff2026": 8.57,
+          "est1Cutoff2026_madm": 8.55,
+          "est2Cutoff2026_madm": 8.57,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 388,
@@ -2296,6 +2892,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 8.61,
+          "simulatedCutoff2026_EST2": 8.72,
+          "est1Cutoff2026": 8.62,
+          "est2Cutoff2026": 8.65,
+          "est1Cutoff2026_madm": 8.62,
+          "est2Cutoff2026_madm": 8.65,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 389,
@@ -2317,6 +2919,12 @@
               "count": 66
             }
           },
+          "simulatedCutoff2026": 8.57,
+          "simulatedCutoff2026_EST2": 8.67,
+          "est1Cutoff2026": 8.46,
+          "est2Cutoff2026": 8.5,
+          "est1Cutoff2026_madm": 8.46,
+          "est2Cutoff2026_madm": 8.5,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 390,
@@ -2349,6 +2957,12 @@
               "count": 67
             }
           },
+          "simulatedCutoff2026": 8.8,
+          "simulatedCutoff2026_EST2": 8.87,
+          "est1Cutoff2026": 8.65,
+          "est2Cutoff2026": 8.67,
+          "est1Cutoff2026_madm": 8.65,
+          "est2Cutoff2026_madm": 8.67,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 224,
@@ -2370,6 +2984,12 @@
               "count": 63
             }
           },
+          "simulatedCutoff2026": 8.75,
+          "simulatedCutoff2026_EST2": 8.82,
+          "est1Cutoff2026": 8.62,
+          "est2Cutoff2026": 8.65,
+          "est1Cutoff2026_madm": 8.62,
+          "est2Cutoff2026_madm": 8.65,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 225,
@@ -2391,6 +3011,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 8.73,
+          "simulatedCutoff2026_EST2": 8.82,
+          "est1Cutoff2026": 8.67,
+          "est2Cutoff2026": 8.7,
+          "est1Cutoff2026_madm": 8.67,
+          "est2Cutoff2026_madm": 8.7,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 226,
@@ -2423,6 +3049,12 @@
               "count": 71
             }
           },
+          "simulatedCutoff2026": 8.77,
+          "simulatedCutoff2026_EST2": 8.87,
+          "est1Cutoff2026": 8.65,
+          "est2Cutoff2026": 8.67,
+          "est1Cutoff2026_madm": 8.65,
+          "est2Cutoff2026_madm": 8.67,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 167,
@@ -2444,6 +3076,12 @@
               "count": 69
             }
           },
+          "simulatedCutoff2026": 8.62,
+          "simulatedCutoff2026_EST2": 8.72,
+          "est1Cutoff2026": 8.52,
+          "est2Cutoff2026": 8.55,
+          "est1Cutoff2026_madm": 8.52,
+          "est2Cutoff2026_madm": 8.55,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 168,
@@ -2517,6 +3155,12 @@
               "count": 51
             }
           },
+          "simulatedCutoff2026": 8.85,
+          "simulatedCutoff2026_EST2": 8.95,
+          "est1Cutoff2026": 8.57,
+          "est2Cutoff2026": 8.6,
+          "est1Cutoff2026_madm": 8.57,
+          "est2Cutoff2026_madm": 8.6,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 271,
@@ -2538,6 +3182,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.37,
+          "simulatedCutoff2026_EST2": 8.5,
+          "est1Cutoff2026": 8.47,
+          "est2Cutoff2026": 8.5,
+          "est1Cutoff2026_madm": 8.47,
+          "est2Cutoff2026_madm": 8.5,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 275,
@@ -2559,6 +3209,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.37,
+          "simulatedCutoff2026_EST2": 8.5,
+          "est1Cutoff2026": 8.47,
+          "est2Cutoff2026": 8.5,
+          "est1Cutoff2026_madm": 8.47,
+          "est2Cutoff2026_madm": 8.5,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 276,
@@ -2580,6 +3236,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 8.85,
+          "simulatedCutoff2026_EST2": 8.95,
+          "est1Cutoff2026": 8.57,
+          "est2Cutoff2026": 8.6,
+          "est1Cutoff2026_madm": 8.57,
+          "est2Cutoff2026_madm": 8.6,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 272,
@@ -2601,6 +3263,12 @@
               "count": 49
             }
           },
+          "simulatedCutoff2026": 8.67,
+          "simulatedCutoff2026_EST2": 8.77,
+          "est1Cutoff2026": 8.4,
+          "est2Cutoff2026": 8.42,
+          "est1Cutoff2026_madm": 8.4,
+          "est2Cutoff2026_madm": 8.42,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 273,
@@ -2633,6 +3301,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.7,
+          "simulatedCutoff2026_EST2": 8.8,
+          "est1Cutoff2026": 8.55,
+          "est2Cutoff2026": 8.57,
+          "est1Cutoff2026_madm": 8.55,
+          "est2Cutoff2026_madm": 8.57,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 210,
@@ -2654,6 +3328,12 @@
               "count": 64
             }
           },
+          "simulatedCutoff2026": 8.52,
+          "simulatedCutoff2026_EST2": 8.62,
+          "est1Cutoff2026": 8.4,
+          "est2Cutoff2026": 8.42,
+          "est1Cutoff2026_madm": 8.4,
+          "est2Cutoff2026_madm": 8.42,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 211,
@@ -2686,6 +3366,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 8.6,
+          "simulatedCutoff2026_EST2": 8.7,
+          "est1Cutoff2026": 8.47,
+          "est2Cutoff2026": 8.5,
+          "est1Cutoff2026_madm": 8.47,
+          "est2Cutoff2026_madm": 8.5,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 212,
@@ -2707,6 +3393,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.17,
+          "simulatedCutoff2026_EST2": 8.3,
+          "est1Cutoff2026": 8.2,
+          "est2Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.2,
+          "est2Cutoff2026_madm": 8.25,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 214,
@@ -2728,6 +3420,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 8.15,
+          "simulatedCutoff2026_EST2": 8.27,
+          "est1Cutoff2026": 8.22,
+          "est2Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.22,
+          "est2Cutoff2026_madm": 8.25,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 215,
@@ -2749,6 +3447,12 @@
               "count": 79
             }
           },
+          "simulatedCutoff2026": 8.1,
+          "simulatedCutoff2026_EST2": 8.22,
+          "est1Cutoff2026": 8.12,
+          "est2Cutoff2026": 8.15,
+          "est1Cutoff2026_madm": 8.12,
+          "est2Cutoff2026_madm": 8.15,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 213,
@@ -2781,6 +3485,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.57,
+          "simulatedCutoff2026_EST2": 8.67,
+          "est1Cutoff2026": 8.5,
+          "est2Cutoff2026": 8.52,
+          "est1Cutoff2026_madm": 8.5,
+          "est2Cutoff2026_madm": 8.52,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 356,
@@ -2802,6 +3512,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 8.38,
+          "simulatedCutoff2026_EST2": 8.5,
+          "est1Cutoff2026": 8.37,
+          "est2Cutoff2026": 8.4,
+          "est1Cutoff2026_madm": 8.37,
+          "est2Cutoff2026_madm": 8.4,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 358,
@@ -2823,6 +3539,12 @@
               "count": 66
             }
           },
+          "simulatedCutoff2026": 8.35,
+          "simulatedCutoff2026_EST2": 8.47,
+          "est1Cutoff2026": 8.35,
+          "est2Cutoff2026": 8.37,
+          "est1Cutoff2026_madm": 8.35,
+          "est2Cutoff2026_madm": 8.37,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 355,
@@ -2844,6 +3566,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 8.32,
+          "simulatedCutoff2026_EST2": 8.45,
+          "est1Cutoff2026": 8.37,
+          "est2Cutoff2026": 8.4,
+          "est1Cutoff2026_madm": 8.37,
+          "est2Cutoff2026_madm": 8.4,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 357,
@@ -2876,6 +3604,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 8.65,
+          "simulatedCutoff2026_EST2": 8.75,
+          "est1Cutoff2026": 8.42,
+          "est2Cutoff2026": 8.45,
+          "est1Cutoff2026_madm": 8.42,
+          "est2Cutoff2026_madm": 8.45,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 142,
@@ -2897,6 +3631,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.65,
+          "simulatedCutoff2026_EST2": 8.75,
+          "est1Cutoff2026": 8.42,
+          "est2Cutoff2026": 8.45,
+          "est1Cutoff2026_madm": 8.42,
+          "est2Cutoff2026_madm": 8.45,
           "officialPlaces": 13,
           "officialClasses": 0.5,
           "code": null,
@@ -2985,7 +3725,16 @@
               "avg": 9.02,
               "count": 16
             }
-          }
+          },
+          "est1Cutoff2026": 8.4,
+          "est1Cutoff2026_madm": 8.4,
+          "est2Cutoff2026": 8.45,
+          "est2Cutoff2026_madm": 8.45,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 331,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3001,7 +3750,16 @@
               "avg": 8.85,
               "count": 19
             }
-          }
+          },
+          "est1Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.25,
+          "est2Cutoff2026": 8.27,
+          "est2Cutoff2026_madm": 8.27,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 332,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Filologie",
@@ -3017,13 +3775,24 @@
               "avg": 8.68,
               "count": 13
             }
-          }
+          },
+          "est1Cutoff2026": 8.12,
+          "est1Cutoff2026_madm": 8.12,
+          "est2Cutoff2026": 8.15,
+          "est2Cutoff2026_madm": 8.15,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 333,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         }
       ],
       "best_cutoffs": {
         "2024": 8.67,
         "2025": 8.75
-      }
+      },
+      "officialTotalPlaces2025": 78,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Teoretic „Constantin Brâncoveanu”",
@@ -3043,9 +3812,15 @@
               "count": 44
             }
           },
+          "est1Cutoff2026": 8.4,
+          "est1Cutoff2026_madm": 8.4,
+          "est2Cutoff2026": 8.42,
+          "est2Cutoff2026_madm": 8.42,
           "officialPlaces": 52,
           "officialClasses": 2.0,
-          "code": 133
+          "code": 133,
+          "officialPlaces2026": 56,
+          "officialClasses2026": 2.0
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3062,9 +3837,15 @@
               "count": 43
             }
           },
+          "est1Cutoff2026": 8.27,
+          "est1Cutoff2026_madm": 8.27,
+          "est2Cutoff2026": 8.3,
+          "est2Cutoff2026_madm": 8.3,
           "officialPlaces": 52,
           "officialClasses": 2.0,
-          "code": 134
+          "code": 134,
+          "officialPlaces2026": 56,
+          "officialClasses2026": 2.0
         },
         {
           "name": "Filologie",
@@ -3081,9 +3862,15 @@
               "count": 43
             }
           },
+          "est1Cutoff2026": 8.15,
+          "est1Cutoff2026_madm": 8.15,
+          "est2Cutoff2026": 8.17,
+          "est2Cutoff2026_madm": 8.17,
           "officialPlaces": 52,
           "officialClasses": 2.0,
-          "code": 135
+          "code": 135,
+          "officialPlaces2026": 56,
+          "officialClasses2026": 2.0
         },
         {
           "name": "Ştiinţe Sociale",
@@ -3102,14 +3889,21 @@
           },
           "officialPlaces": 52,
           "officialClasses": 2.0,
-          "code": 136
+          "code": 136,
+          "officialPlaces2026": 56,
+          "officialClasses2026": 2.0,
+          "est1Cutoff2026": 8.1,
+          "est1Cutoff2026_madm": 8.1,
+          "est2Cutoff2026": 8.12,
+          "est2Cutoff2026_madm": 8.12
         }
       ],
       "best_cutoffs": {
         "2024": 8.47,
         "2025": 8.72
       },
-      "officialTotalPlaces2025": 208
+      "officialTotalPlaces2025": 208,
+      "officialTotalPlaces2026": 224
     },
     {
       "name": "Colegiul Naţional „Aurel Vlaicu”",
@@ -3129,6 +3923,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 8.4,
+          "simulatedCutoff2026_EST2": 8.52,
+          "est1Cutoff2026": 8.4,
+          "est2Cutoff2026": 8.4,
+          "est1Cutoff2026_madm": 8.4,
+          "est2Cutoff2026_madm": 8.4,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 117,
@@ -3150,6 +3950,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 8.3,
+          "simulatedCutoff2026_EST2": 8.42,
+          "est1Cutoff2026": 8.32,
+          "est2Cutoff2026": 8.35,
+          "est1Cutoff2026_madm": 8.32,
+          "est2Cutoff2026_madm": 8.35,
           "officialPlaces2026": 56,
           "officialClasses2026": 2.0
         },
@@ -3168,6 +3974,12 @@
               "count": 50
             }
           },
+          "simulatedCutoff2026": 8.25,
+          "simulatedCutoff2026_EST2": 8.37,
+          "est1Cutoff2026": 8.3,
+          "est2Cutoff2026": 8.32,
+          "est1Cutoff2026_madm": 8.3,
+          "est2Cutoff2026_madm": 8.32,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 119,
@@ -3200,6 +4012,12 @@
               "count": 67
             }
           },
+          "simulatedCutoff2026": 8.37,
+          "simulatedCutoff2026_EST2": 8.5,
+          "est1Cutoff2026": 8.35,
+          "est2Cutoff2026": 8.37,
+          "est1Cutoff2026_madm": 8.35,
+          "est2Cutoff2026_madm": 8.37,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 391,
@@ -3221,6 +4039,12 @@
               "count": 63
             }
           },
+          "simulatedCutoff2026": 8.35,
+          "simulatedCutoff2026_EST2": 8.47,
+          "est1Cutoff2026": 8.22,
+          "est2Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.22,
+          "est2Cutoff2026_madm": 8.25,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 392,
@@ -3242,6 +4066,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.35,
+          "simulatedCutoff2026_EST2": 8.47,
+          "est1Cutoff2026": 8.22,
+          "est2Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.22,
+          "est2Cutoff2026_madm": 8.25,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 393,
@@ -3274,6 +4104,12 @@
               "count": 96
             }
           },
+          "simulatedCutoff2026": 8.32,
+          "simulatedCutoff2026_EST2": 8.45,
+          "est1Cutoff2026": 8.3,
+          "est2Cutoff2026": 8.32,
+          "est1Cutoff2026_madm": 8.3,
+          "est2Cutoff2026_madm": 8.32,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 327,
@@ -3295,6 +4131,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 8.25,
+          "simulatedCutoff2026_EST2": 8.37,
+          "est1Cutoff2026": 8.25,
+          "est2Cutoff2026": 8.27,
+          "est1Cutoff2026_madm": 8.25,
+          "est2Cutoff2026_madm": 8.27,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 329,
@@ -3316,6 +4158,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 8.17,
+          "simulatedCutoff2026_EST2": 8.3,
+          "est1Cutoff2026": 8.2,
+          "est2Cutoff2026": 8.22,
+          "est1Cutoff2026_madm": 8.2,
+          "est2Cutoff2026_madm": 8.22,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 328,
@@ -3348,6 +4196,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.32,
+          "simulatedCutoff2026_EST2": 8.45,
+          "est1Cutoff2026": 8.3,
+          "est2Cutoff2026": 8.32,
+          "est1Cutoff2026_madm": 8.3,
+          "est2Cutoff2026_madm": 8.32,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 383,
@@ -3369,6 +4223,12 @@
               "count": 25
             }
           },
+          "simulatedCutoff2026": 8.2,
+          "simulatedCutoff2026_EST2": 8.32,
+          "est1Cutoff2026": 8.2,
+          "est2Cutoff2026": 8.2,
+          "est1Cutoff2026_madm": 8.2,
+          "est2Cutoff2026_madm": 8.2,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 384,
@@ -3390,6 +4250,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 8.02,
+          "simulatedCutoff2026_EST2": 8.15,
+          "est1Cutoff2026": 8.1,
+          "est2Cutoff2026": 8.12,
+          "est1Cutoff2026_madm": 8.1,
+          "est2Cutoff2026_madm": 8.12,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 385,
@@ -3411,6 +4277,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 7.95,
+          "simulatedCutoff2026_EST2": 8.1,
+          "est1Cutoff2026": 8.07,
+          "est2Cutoff2026": 8.1,
+          "est1Cutoff2026_madm": 8.07,
+          "est2Cutoff2026_madm": 8.1,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 386,
@@ -3442,13 +4314,24 @@
               "avg": 8.76,
               "count": 25
             }
-          }
+          },
+          "est1Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.25,
+          "est2Cutoff2026": 8.27,
+          "est2Cutoff2026_madm": 8.27,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 330,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         }
       ],
       "best_cutoffs": {
         "2024": 8.3,
         "2025": 8.6
-      }
+      },
+      "officialTotalPlaces2025": 26,
+      "officialTotalPlaces2026": 28
     },
     {
       "name": "Liceul Teoretic „Benjamin Franklin”",
@@ -3468,6 +4351,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 8.25,
+          "simulatedCutoff2026_EST2": 8.37,
+          "est1Cutoff2026": 8.22,
+          "est2Cutoff2026": 8.25,
+          "est1Cutoff2026_madm": 8.22,
+          "est2Cutoff2026_madm": 8.25,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 277,
@@ -3489,6 +4378,12 @@
               "count": 50
             }
           },
+          "simulatedCutoff2026": 8.15,
+          "simulatedCutoff2026_EST2": 8.27,
+          "est1Cutoff2026": 8.17,
+          "est2Cutoff2026": 8.2,
+          "est1Cutoff2026_madm": 8.17,
+          "est2Cutoff2026_madm": 8.2,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 278,
@@ -3510,6 +4405,12 @@
               "count": 70
             }
           },
+          "simulatedCutoff2026": 7.97,
+          "simulatedCutoff2026_EST2": 8.12,
+          "est1Cutoff2026": 8.07,
+          "est2Cutoff2026": 8.1,
+          "est1Cutoff2026_madm": 8.07,
+          "est2Cutoff2026_madm": 8.1,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 279,
@@ -3542,6 +4443,12 @@
               "count": 20
             }
           },
+          "simulatedCutoff2026": 8.22,
+          "simulatedCutoff2026_EST2": 8.35,
+          "est1Cutoff2026": 8.2,
+          "est2Cutoff2026": 8.22,
+          "est1Cutoff2026_madm": 8.2,
+          "est2Cutoff2026_madm": 8.22,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 227,
@@ -3563,6 +4470,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 8.05,
+          "simulatedCutoff2026_EST2": 8.17,
+          "est1Cutoff2026": 8.1,
+          "est2Cutoff2026": 8.12,
+          "est1Cutoff2026_madm": 8.1,
+          "est2Cutoff2026_madm": 8.12,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 228,
@@ -3636,6 +4549,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.0,
+          "simulatedCutoff2026_EST2": 8.15,
+          "est1Cutoff2026": 8.12,
+          "est2Cutoff2026": 8.15,
+          "est1Cutoff2026_madm": 8.12,
+          "est2Cutoff2026_madm": 8.15,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 400,
@@ -3657,6 +4576,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 7.77,
+          "simulatedCutoff2026_EST2": 7.95,
+          "est1Cutoff2026": 7.97,
+          "est2Cutoff2026": 8.0,
+          "est1Cutoff2026_madm": 7.97,
+          "est2Cutoff2026_madm": 8.0,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 401,
@@ -3678,6 +4603,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 7.8,
+          "simulatedCutoff2026_EST2": 7.95,
+          "est1Cutoff2026": 8.0,
+          "est2Cutoff2026": 8.02,
+          "est1Cutoff2026_madm": 8.0,
+          "est2Cutoff2026_madm": 8.02,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 402,
@@ -3758,6 +4689,12 @@
               "count": 71
             }
           },
+          "simulatedCutoff2026": 8.05,
+          "simulatedCutoff2026_EST2": 8.2,
+          "est1Cutoff2026": 8.1,
+          "est2Cutoff2026": 8.12,
+          "est1Cutoff2026_madm": 8.1,
+          "est2Cutoff2026_madm": 8.12,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 223,
@@ -3779,6 +4716,12 @@
               "count": 70
             }
           },
+          "simulatedCutoff2026": 7.95,
+          "simulatedCutoff2026_EST2": 8.1,
+          "est1Cutoff2026": 8.06,
+          "est2Cutoff2026": 8.07,
+          "est1Cutoff2026_madm": 8.06,
+          "est2Cutoff2026_madm": 8.07,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 221,
@@ -3800,6 +4743,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 7.95,
+          "simulatedCutoff2026_EST2": 8.1,
+          "est1Cutoff2026": 8.2,
+          "est2Cutoff2026": 8.2,
+          "est1Cutoff2026_madm": 8.2,
+          "est2Cutoff2026_madm": 8.2,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 222,
@@ -3832,6 +4781,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 8.0,
+          "simulatedCutoff2026_EST2": 8.12,
+          "est1Cutoff2026": 8.1,
+          "est2Cutoff2026": 8.12,
+          "est1Cutoff2026_madm": 8.1,
+          "est2Cutoff2026_madm": 8.12,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 354,
@@ -3853,6 +4808,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 7.92,
+          "simulatedCutoff2026_EST2": 8.07,
+          "est1Cutoff2026": 8.05,
+          "est2Cutoff2026": 8.07,
+          "est1Cutoff2026_madm": 8.05,
+          "est2Cutoff2026_madm": 8.07,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 351,
@@ -3874,6 +4835,12 @@
               "count": 44
             }
           },
+          "simulatedCutoff2026": 7.82,
+          "simulatedCutoff2026_EST2": 8.0,
+          "est1Cutoff2026": 8.0,
+          "est2Cutoff2026": 8.02,
+          "est1Cutoff2026_madm": 8.0,
+          "est2Cutoff2026_madm": 8.02,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 352,
@@ -3895,6 +4862,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 7.8,
+          "simulatedCutoff2026_EST2": 7.95,
+          "est1Cutoff2026": 7.93,
+          "est2Cutoff2026": 7.95,
+          "est1Cutoff2026_madm": 7.93,
+          "est2Cutoff2026_madm": 7.95,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 353,
@@ -3926,7 +4899,16 @@
               "avg": 8.43,
               "count": 22
             }
-          }
+          },
+          "est1Cutoff2026": 8.05,
+          "est1Cutoff2026_madm": 8.05,
+          "est2Cutoff2026": 8.07,
+          "est2Cutoff2026_madm": 8.07,
+          "officialPlaces": 26,
+          "officialClasses": 1.0,
+          "code": 178,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0
         },
         {
           "name": "Construcţii, instalaţii şi lucrări publice",
@@ -3948,7 +4930,9 @@
       "best_cutoffs": {
         "2024": 7.82,
         "2025": 8.3
-      }
+      },
+      "officialTotalPlaces2025": 74,
+      "officialTotalPlaces2026": 56
     },
     {
       "name": "Colegiul Economic „Costin C. Kiriţescu”",
@@ -4009,6 +4993,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 7.75,
+          "simulatedCutoff2026_EST2": 7.9,
+          "est1Cutoff2026": 8.0,
+          "est2Cutoff2026": 8.02,
+          "est1Cutoff2026_madm": 8.0,
+          "est2Cutoff2026_madm": 8.02,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 282,
@@ -4030,6 +5020,12 @@
               "count": 41
             }
           },
+          "simulatedCutoff2026": 7.45,
+          "simulatedCutoff2026_EST2": 7.65,
+          "est1Cutoff2026": 7.65,
+          "est2Cutoff2026": 7.67,
+          "est1Cutoff2026_madm": 7.65,
+          "est2Cutoff2026_madm": 7.67,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 283,
@@ -4046,6 +5042,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.45,
+          "simulatedCutoff2026_EST2": 7.65,
+          "est1Cutoff2026": 7.65,
+          "est2Cutoff2026": 7.67,
+          "est1Cutoff2026_madm": 7.65,
+          "est2Cutoff2026_madm": 7.67,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 284,
@@ -4067,6 +5069,12 @@
               "count": 94
             }
           },
+          "simulatedCutoff2026": 7.37,
+          "simulatedCutoff2026_EST2": 7.62,
+          "est1Cutoff2026": 7.65,
+          "est2Cutoff2026": 7.65,
+          "est1Cutoff2026_madm": 7.65,
+          "est2Cutoff2026_madm": 7.65,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 285,
@@ -4099,6 +5107,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 7.75,
+          "simulatedCutoff2026_EST2": 7.9,
+          "est1Cutoff2026": 8.0,
+          "est2Cutoff2026": 8.0,
+          "est1Cutoff2026_madm": 8.0,
+          "est2Cutoff2026_madm": 8.0,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 415,
@@ -4120,6 +5134,12 @@
               "count": 20
             }
           },
+          "simulatedCutoff2026": 7.75,
+          "simulatedCutoff2026_EST2": 7.9,
+          "est1Cutoff2026": 7.95,
+          "est2Cutoff2026": 8.0,
+          "est1Cutoff2026_madm": 7.95,
+          "est2Cutoff2026_madm": 8.0,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 416,
@@ -4152,6 +5172,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 7.8,
+          "simulatedCutoff2026_EST2": 7.95,
+          "est1Cutoff2026": 8.1,
+          "est2Cutoff2026": 8.1,
+          "est1Cutoff2026_madm": 8.1,
+          "est2Cutoff2026_madm": 8.1,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 229,
@@ -4173,6 +5199,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 7.6,
+          "simulatedCutoff2026_EST2": 7.77,
+          "est1Cutoff2026": 7.87,
+          "est2Cutoff2026": 7.9,
+          "est1Cutoff2026_madm": 7.87,
+          "est2Cutoff2026_madm": 7.9,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 230,
@@ -4194,6 +5226,12 @@
               "count": 48
             }
           },
+          "simulatedCutoff2026": 7.52,
+          "simulatedCutoff2026_EST2": 7.7,
+          "est1Cutoff2026": 7.8,
+          "est2Cutoff2026": 7.82,
+          "est1Cutoff2026_madm": 7.8,
+          "est2Cutoff2026_madm": 7.82,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 231,
@@ -4215,6 +5253,12 @@
               "count": 44
             }
           },
+          "simulatedCutoff2026": 7.5,
+          "simulatedCutoff2026_EST2": 7.67,
+          "est1Cutoff2026": 7.75,
+          "est2Cutoff2026": 7.77,
+          "est1Cutoff2026_madm": 7.75,
+          "est2Cutoff2026_madm": 7.77,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 232,
@@ -4247,6 +5291,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 7.72,
+          "simulatedCutoff2026_EST2": 7.87,
+          "est1Cutoff2026": 7.95,
+          "est2Cutoff2026": 7.95,
+          "est1Cutoff2026_madm": 7.95,
+          "est2Cutoff2026_madm": 7.95,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 280,
@@ -4268,6 +5318,12 @@
               "count": 87
             }
           },
+          "simulatedCutoff2026": 7.52,
+          "simulatedCutoff2026_EST2": 7.7,
+          "est1Cutoff2026": 7.85,
+          "est2Cutoff2026": 7.87,
+          "est1Cutoff2026_madm": 7.85,
+          "est2Cutoff2026_madm": 7.87,
           "officialPlaces": 104,
           "officialClasses": 4.0,
           "code": 281,
@@ -4300,6 +5356,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 7.72,
+          "simulatedCutoff2026_EST2": 7.87,
+          "est1Cutoff2026": 7.92,
+          "est2Cutoff2026": 7.95,
+          "est1Cutoff2026_madm": 7.92,
+          "est2Cutoff2026_madm": 7.95,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 217,
@@ -4321,6 +5383,12 @@
               "count": 43
             }
           },
+          "simulatedCutoff2026": 7.6,
+          "simulatedCutoff2026_EST2": 7.77,
+          "est1Cutoff2026": 7.85,
+          "est2Cutoff2026": 7.87,
+          "est1Cutoff2026_madm": 7.85,
+          "est2Cutoff2026_madm": 7.87,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 218,
@@ -4342,6 +5410,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.55,
+          "simulatedCutoff2026_EST2": 7.72,
+          "est1Cutoff2026": 7.87,
+          "est2Cutoff2026": 7.87,
+          "est1Cutoff2026_madm": 7.87,
+          "est2Cutoff2026_madm": 7.87,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 219,
@@ -4363,6 +5437,12 @@
               "count": 41
             }
           },
+          "simulatedCutoff2026": 7.55,
+          "simulatedCutoff2026_EST2": 7.72,
+          "est1Cutoff2026": 7.8,
+          "est2Cutoff2026": 7.82,
+          "est1Cutoff2026_madm": 7.8,
+          "est2Cutoff2026_madm": 7.82,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 220,
@@ -4395,6 +5475,12 @@
               "count": 47
             }
           },
+          "simulatedCutoff2026": 7.62,
+          "simulatedCutoff2026_EST2": 7.77,
+          "est1Cutoff2026": 7.87,
+          "est2Cutoff2026": 7.9,
+          "est1Cutoff2026_madm": 7.87,
+          "est2Cutoff2026_madm": 7.9,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 155,
@@ -4484,6 +5570,12 @@
               "count": 20
             }
           },
+          "simulatedCutoff2026": 7.5,
+          "simulatedCutoff2026_EST2": 7.7,
+          "est1Cutoff2026": 7.8,
+          "est2Cutoff2026": 7.81,
+          "est1Cutoff2026_madm": 7.8,
+          "est2Cutoff2026_madm": 7.81,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 417,
@@ -4505,6 +5597,12 @@
               "count": 38
             }
           },
+          "simulatedCutoff2026": 7.37,
+          "simulatedCutoff2026_EST2": 7.6,
+          "est1Cutoff2026": 7.65,
+          "est2Cutoff2026": 7.67,
+          "est1Cutoff2026_madm": 7.65,
+          "est2Cutoff2026_madm": 7.67,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 418,
@@ -4569,6 +5667,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.47,
+          "simulatedCutoff2026_EST2": 7.65,
+          "est1Cutoff2026": 7.77,
+          "est2Cutoff2026": 7.8,
+          "est1Cutoff2026_madm": 7.77,
+          "est2Cutoff2026_madm": 7.8,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 169,
@@ -4590,6 +5694,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 7.4,
+          "simulatedCutoff2026_EST2": 7.62,
+          "est1Cutoff2026": 7.65,
+          "est2Cutoff2026": 7.67,
+          "est1Cutoff2026_madm": 7.65,
+          "est2Cutoff2026_madm": 7.67,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 170,
@@ -4654,6 +5764,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 7.32,
+          "simulatedCutoff2026_EST2": 7.55,
+          "est1Cutoff2026": 7.52,
+          "est2Cutoff2026": 7.55,
+          "est1Cutoff2026_madm": 7.52,
+          "est2Cutoff2026_madm": 7.55,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 150,
@@ -4675,6 +5791,12 @@
               "count": 13
             }
           },
+          "simulatedCutoff2026": 7.32,
+          "simulatedCutoff2026_EST2": 7.55,
+          "est1Cutoff2026": 7.52,
+          "est2Cutoff2026": 7.55,
+          "est1Cutoff2026_madm": 7.52,
+          "est2Cutoff2026_madm": 7.55,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 150,
@@ -4696,6 +5818,12 @@
               "count": 13
             }
           },
+          "simulatedCutoff2026": 7.32,
+          "simulatedCutoff2026_EST2": 7.55,
+          "est1Cutoff2026": 7.52,
+          "est2Cutoff2026": 7.55,
+          "est1Cutoff2026_madm": 7.52,
+          "est2Cutoff2026_madm": 7.55,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 150,
@@ -4717,6 +5845,12 @@
               "count": 13
             }
           },
+          "simulatedCutoff2026": 7.32,
+          "simulatedCutoff2026_EST2": 7.55,
+          "est1Cutoff2026": 7.52,
+          "est2Cutoff2026": 7.55,
+          "est1Cutoff2026_madm": 7.52,
+          "est2Cutoff2026_madm": 7.55,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 150,
@@ -4754,6 +5888,12 @@
               "count": 11
             }
           },
+          "simulatedCutoff2026": 7.32,
+          "simulatedCutoff2026_EST2": 7.55,
+          "est1Cutoff2026": 7.52,
+          "est2Cutoff2026": 7.55,
+          "est1Cutoff2026_madm": 7.52,
+          "est2Cutoff2026_madm": 7.55,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 150,
@@ -4786,6 +5926,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 7.27,
+          "simulatedCutoff2026_EST2": 7.5,
+          "est1Cutoff2026": 7.57,
+          "est2Cutoff2026": 7.6,
+          "est1Cutoff2026_madm": 7.57,
+          "est2Cutoff2026_madm": 7.6,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 299,
@@ -4882,6 +6028,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 7.22,
+          "simulatedCutoff2026_EST2": 7.42,
+          "est1Cutoff2026": 7.62,
+          "est2Cutoff2026": 7.65,
+          "est1Cutoff2026_madm": 7.62,
+          "est2Cutoff2026_madm": 7.65,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 239,
@@ -4903,6 +6055,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 7.02,
+          "simulatedCutoff2026_EST2": 7.22,
+          "est1Cutoff2026": 7.52,
+          "est2Cutoff2026": 7.55,
+          "est1Cutoff2026_madm": 7.52,
+          "est2Cutoff2026_madm": 7.55,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 240,
@@ -4963,7 +6121,11 @@
           "years": {},
           "new2026": true,
           "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.47,
+          "est1Cutoff2026_madm": 7.47,
+          "est2Cutoff2026": 7.5,
+          "est2Cutoff2026_madm": 7.5
         }
       ],
       "best_cutoffs": {
@@ -4991,6 +6153,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.22,
+          "simulatedCutoff2026_EST2": 7.4,
+          "est1Cutoff2026": 7.5,
+          "est2Cutoff2026": 7.52,
+          "est1Cutoff2026_madm": 7.5,
+          "est2Cutoff2026_madm": 7.52,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 290,
@@ -5012,6 +6180,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 7.25,
+          "simulatedCutoff2026_EST2": 7.47,
+          "est1Cutoff2026": 7.72,
+          "est2Cutoff2026": 7.75,
+          "est1Cutoff2026_madm": 7.72,
+          "est2Cutoff2026_madm": 7.75,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 289,
@@ -5033,6 +6207,12 @@
               "count": 43
             }
           },
+          "simulatedCutoff2026": 7.17,
+          "simulatedCutoff2026_EST2": 7.35,
+          "est1Cutoff2026": 7.67,
+          "est2Cutoff2026": 7.7,
+          "est1Cutoff2026_madm": 7.67,
+          "est2Cutoff2026_madm": 7.7,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 291,
@@ -5129,6 +6309,12 @@
               "count": 19
             }
           },
+          "simulatedCutoff2026": 7.17,
+          "simulatedCutoff2026_EST2": 7.37,
+          "est1Cutoff2026": 7.5,
+          "est2Cutoff2026": 7.52,
+          "est1Cutoff2026_madm": 7.5,
+          "est2Cutoff2026_madm": 7.52,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 158,
@@ -5193,6 +6379,12 @@
               "count": 45
             }
           },
+          "simulatedCutoff2026": 7.2,
+          "simulatedCutoff2026_EST2": 7.37,
+          "est1Cutoff2026": 7.47,
+          "est2Cutoff2026": 7.5,
+          "est1Cutoff2026_madm": 7.47,
+          "est2Cutoff2026_madm": 7.5,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 369,
@@ -5214,6 +6406,12 @@
               "count": 24
             }
           },
+          "simulatedCutoff2026": 7.2,
+          "simulatedCutoff2026_EST2": 7.37,
+          "est1Cutoff2026": 7.55,
+          "est2Cutoff2026": 7.57,
+          "est1Cutoff2026_madm": 7.55,
+          "est2Cutoff2026_madm": 7.57,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 368,
@@ -5305,6 +6503,12 @@
               "count": 19
             }
           },
+          "simulatedCutoff2026": 7.15,
+          "simulatedCutoff2026_EST2": 7.35,
+          "est1Cutoff2026": 7.45,
+          "est2Cutoff2026": 7.5,
+          "est1Cutoff2026_madm": 7.45,
+          "est2Cutoff2026_madm": 7.5,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 161,
@@ -5369,6 +6573,12 @@
               "count": 19
             }
           },
+          "simulatedCutoff2026": 7.1,
+          "simulatedCutoff2026_EST2": 7.3,
+          "est1Cutoff2026": 7.45,
+          "est2Cutoff2026": 7.47,
+          "est1Cutoff2026_madm": 7.45,
+          "est2Cutoff2026_madm": 7.47,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 245,
@@ -5390,6 +6600,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.0,
+          "simulatedCutoff2026_EST2": 7.22,
+          "est1Cutoff2026": 7.45,
+          "est2Cutoff2026": 7.47,
+          "est1Cutoff2026_madm": 7.45,
+          "est2Cutoff2026_madm": 7.47,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 244,
@@ -5438,6 +6654,12 @@
               "count": 26
             }
           },
+          "simulatedCutoff2026": 7.07,
+          "simulatedCutoff2026_EST2": 7.27,
+          "est1Cutoff2026": 7.6,
+          "est2Cutoff2026": 7.62,
+          "est1Cutoff2026_madm": 7.6,
+          "est2Cutoff2026_madm": 7.62,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 173,
@@ -5459,6 +6681,12 @@
               "count": 43
             }
           },
+          "simulatedCutoff2026": 6.45,
+          "simulatedCutoff2026_EST2": 6.65,
+          "est1Cutoff2026": 7.17,
+          "est2Cutoff2026": 7.2,
+          "est1Cutoff2026_madm": 7.17,
+          "est2Cutoff2026_madm": 7.2,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 174,
@@ -5507,6 +6735,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.05,
+          "simulatedCutoff2026_EST2": 7.25,
+          "est1Cutoff2026": 7.5,
+          "est2Cutoff2026": 7.53,
+          "est1Cutoff2026_madm": 7.5,
+          "est2Cutoff2026_madm": 7.53,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 334,
@@ -5528,6 +6762,12 @@
               "count": 21
             }
           },
+          "simulatedCutoff2026": 6.95,
+          "simulatedCutoff2026_EST2": 7.17,
+          "est1Cutoff2026": 7.37,
+          "est2Cutoff2026": 7.45,
+          "est1Cutoff2026_madm": 7.37,
+          "est2Cutoff2026_madm": 7.45,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 336,
@@ -5549,6 +6789,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 6.9,
+          "simulatedCutoff2026_EST2": 7.15,
+          "est1Cutoff2026": 7.35,
+          "est2Cutoff2026": 7.37,
+          "est1Cutoff2026_madm": 7.35,
+          "est2Cutoff2026_madm": 7.37,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 335,
@@ -5629,12 +6875,38 @@
               "count": 61
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.32,
+          "est1Cutoff2026_madm": 7.32,
+          "est2Cutoff2026": 7.35,
+          "est2Cutoff2026_madm": 7.35
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.32,
+          "est1Cutoff2026_madm": 7.32,
+          "est2Cutoff2026": 7.35,
+          "est2Cutoff2026_madm": 7.35
         }
       ],
       "best_cutoffs": {
         "2024": 7.2,
         "2025": 7.65
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Dimitrie Paciurea",
@@ -5649,6 +6921,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 7.0,
+          "simulatedCutoff2026_EST2": 7.2,
+          "est1Cutoff2026": 7.45,
+          "est2Cutoff2026": 7.47,
+          "est1Cutoff2026_madm": 7.45,
+          "est2Cutoff2026_madm": 7.47,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 183,
@@ -5680,6 +6958,12 @@
               "count": 40
             }
           },
+          "simulatedCutoff2026": 6.9,
+          "simulatedCutoff2026_EST2": 7.12,
+          "est1Cutoff2026": 7.3,
+          "est2Cutoff2026": 7.32,
+          "est1Cutoff2026_madm": 7.3,
+          "est2Cutoff2026_madm": 7.32,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 422,
@@ -5701,6 +6985,12 @@
               "count": 17
             }
           },
+          "simulatedCutoff2026": 6.72,
+          "simulatedCutoff2026_EST2": 6.95,
+          "est1Cutoff2026": 7.3,
+          "est2Cutoff2026": 7.32,
+          "est1Cutoff2026_madm": 7.3,
+          "est2Cutoff2026_madm": 7.32,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 421,
@@ -5792,6 +7082,12 @@
               "count": 43
             }
           },
+          "simulatedCutoff2026": 6.9,
+          "simulatedCutoff2026_EST2": 7.12,
+          "est1Cutoff2026": 7.3,
+          "est2Cutoff2026": 7.32,
+          "est1Cutoff2026_madm": 7.3,
+          "est2Cutoff2026_madm": 7.32,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 395,
@@ -5813,6 +7109,12 @@
               "count": 66
             }
           },
+          "simulatedCutoff2026": 6.7,
+          "simulatedCutoff2026_EST2": 6.92,
+          "est1Cutoff2026": 7.25,
+          "est2Cutoff2026": 7.27,
+          "est1Cutoff2026_madm": 7.25,
+          "est2Cutoff2026_madm": 7.27,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 396,
@@ -5888,6 +7190,12 @@
               "count": 23
             }
           },
+          "simulatedCutoff2026": 6.77,
+          "simulatedCutoff2026_EST2": 7.02,
+          "est1Cutoff2026": 7.3,
+          "est2Cutoff2026": 7.32,
+          "est1Cutoff2026_madm": 7.3,
+          "est2Cutoff2026_madm": 7.32,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 164,
@@ -5941,6 +7249,12 @@
               "count": 20
             }
           },
+          "simulatedCutoff2026": 6.72,
+          "simulatedCutoff2026_EST2": 6.97,
+          "est1Cutoff2026": 7.28,
+          "est2Cutoff2026": 7.3,
+          "est1Cutoff2026_madm": 7.28,
+          "est2Cutoff2026_madm": 7.3,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 310,
@@ -6021,6 +7335,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 6.67,
+          "simulatedCutoff2026_EST2": 6.87,
+          "est1Cutoff2026": 7.25,
+          "est2Cutoff2026": 7.27,
+          "est1Cutoff2026_madm": 7.25,
+          "est2Cutoff2026_madm": 7.27,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 359,
@@ -6042,6 +7362,12 @@
               "count": 46
             }
           },
+          "simulatedCutoff2026": 6.47,
+          "simulatedCutoff2026_EST2": 6.67,
+          "est1Cutoff2026": 7.17,
+          "est2Cutoff2026": 7.22,
+          "est1Cutoff2026_madm": 7.17,
+          "est2Cutoff2026_madm": 7.22,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 360,
@@ -6133,6 +7459,12 @@
               "count": 42
             }
           },
+          "simulatedCutoff2026": 6.67,
+          "simulatedCutoff2026_EST2": 6.9,
+          "est1Cutoff2026": 7.25,
+          "est2Cutoff2026": 7.27,
+          "est1Cutoff2026_madm": 7.25,
+          "est2Cutoff2026_madm": 7.27,
           "officialPlaces": 52,
           "officialClasses": 2.0,
           "code": 366,
@@ -6154,6 +7486,12 @@
               "count": 22
             }
           },
+          "simulatedCutoff2026": 6.65,
+          "simulatedCutoff2026_EST2": 6.87,
+          "est1Cutoff2026": 7.22,
+          "est2Cutoff2026": 7.25,
+          "est1Cutoff2026_madm": 7.22,
+          "est2Cutoff2026_madm": 7.25,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 365,
@@ -6261,12 +7599,38 @@
               "count": 47
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.22,
+          "est1Cutoff2026_madm": 7.22,
+          "est2Cutoff2026": 7.22,
+          "est2Cutoff2026_madm": 7.22
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.2,
+          "est1Cutoff2026_madm": 7.2,
+          "est2Cutoff2026": 7.22,
+          "est2Cutoff2026_madm": 7.22
         }
       ],
       "best_cutoffs": {
         "2024": 6.75,
         "2025": 7.4
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Teoretic „Luca”",
@@ -6280,7 +7644,11 @@
               "avg": 7.4,
               "count": 1
             }
-          }
+          },
+          "est1Cutoff2026": 7.02,
+          "est1Cutoff2026_madm": 7.02,
+          "est2Cutoff2026": 7.05,
+          "est2Cutoff2026_madm": 7.05
         }
       ],
       "best_cutoffs": {
@@ -6324,6 +7692,12 @@
               "count": 18
             }
           },
+          "simulatedCutoff2026": 6.45,
+          "simulatedCutoff2026_EST2": 6.67,
+          "est1Cutoff2026": 7.17,
+          "est2Cutoff2026": 7.2,
+          "est1Cutoff2026_madm": 7.17,
+          "est2Cutoff2026_madm": 7.2,
           "officialPlaces": 26,
           "officialClasses": 1.0,
           "code": 410,
@@ -6345,6 +7719,12 @@
               "count": 61
             }
           },
+          "simulatedCutoff2026": 6.3,
+          "simulatedCutoff2026_EST2": 6.5,
+          "est1Cutoff2026": 7.15,
+          "est2Cutoff2026": 7.15,
+          "est1Cutoff2026_madm": 7.15,
+          "est2Cutoff2026_madm": 7.15,
           "officialPlaces": 78,
           "officialClasses": 3.0,
           "code": 411,
@@ -6548,13 +7928,18 @@
           "years": {},
           "new2026": true,
           "officialPlaces2026": 28,
-          "officialClasses2026": 1.0
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.12,
+          "est1Cutoff2026_madm": 7.12,
+          "est2Cutoff2026": 7.15,
+          "est2Cutoff2026_madm": 7.15
         }
       ],
       "best_cutoffs": {
         "2024": 6.55,
         "2025": 6.97
       },
+      "officialTotalPlaces2025": 100,
       "officialTotalPlaces2026": 196
     },
     {
@@ -6626,7 +8011,11 @@
               "avg": 7.08,
               "count": 21
             }
-          }
+          },
+          "est1Cutoff2026": 6.5,
+          "est1Cutoff2026_madm": 6.5,
+          "est2Cutoff2026": 6.52,
+          "est2Cutoff2026_madm": 6.52
         },
         {
           "name": "Turism şi alimentaţie",
@@ -6705,12 +8094,38 @@
               "count": 51
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.1,
+          "est1Cutoff2026_madm": 7.1,
+          "est2Cutoff2026": 7.12,
+          "est2Cutoff2026_madm": 7.12
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.1,
+          "est1Cutoff2026_madm": 7.1,
+          "est2Cutoff2026": 7.1,
+          "est2Cutoff2026_madm": 7.1
         }
       ],
       "best_cutoffs": {
         "2024": 6.12,
         "2025": 6.75
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Economic Nr. 1",
@@ -6766,6 +8181,12 @@
               "count": 39
             }
           },
+          "simulatedCutoff2026": 5.85,
+          "simulatedCutoff2026_EST2": 6.12,
+          "est1Cutoff2026": 7.07,
+          "est2Cutoff2026": 7.1,
+          "est1Cutoff2026_madm": 7.07,
+          "est2Cutoff2026_madm": 7.1,
           "officialPlaces2026": 56,
           "officialClasses2026": 2.0
         },
@@ -6853,7 +8274,11 @@
               "avg": 6.52,
               "count": 1
             }
-          }
+          },
+          "est1Cutoff2026": 6.47,
+          "est1Cutoff2026_madm": 6.47,
+          "est2Cutoff2026": 6.5,
+          "est2Cutoff2026_madm": 6.5
         }
       ],
       "best_cutoffs": {
@@ -6877,7 +8302,11 @@
               "avg": 7.46,
               "count": 4
             }
-          }
+          },
+          "est1Cutoff2026": 6.85,
+          "est1Cutoff2026_madm": 6.85,
+          "est2Cutoff2026": 6.85,
+          "est2Cutoff2026_madm": 6.85
         }
       ],
       "best_cutoffs": {
@@ -6951,12 +8380,38 @@
               "count": 18
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.07,
+          "est1Cutoff2026_madm": 7.07,
+          "est2Cutoff2026": 7.1,
+          "est2Cutoff2026_madm": 7.1
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.07,
+          "est1Cutoff2026_madm": 7.07,
+          "est2Cutoff2026": 7.07,
+          "est2Cutoff2026_madm": 7.07
         }
       ],
       "best_cutoffs": {
         "2024": 5.82,
         "2025": 6.32
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Tehnologic „Ion I.C. Brătianu”",
@@ -7019,12 +8474,38 @@
               "count": 41
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.05,
+          "est1Cutoff2026_madm": 7.05,
+          "est2Cutoff2026": 7.07,
+          "est2Cutoff2026_madm": 7.07
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.02,
+          "est1Cutoff2026_madm": 7.02,
+          "est2Cutoff2026": 7.05,
+          "est2Cutoff2026_madm": 7.05
         }
       ],
       "best_cutoffs": {
         "2024": 5.97,
         "2025": 6.15
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "LICEUL TEORETIC NAȚIONAL",
@@ -7145,12 +8626,38 @@
               "count": 36
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.02,
+          "est1Cutoff2026_madm": 7.02,
+          "est2Cutoff2026": 7.05,
+          "est2Cutoff2026_madm": 7.05
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 7.0,
+          "est1Cutoff2026_madm": 7.0,
+          "est2Cutoff2026": 7.02,
+          "est2Cutoff2026_madm": 7.02
         }
       ],
       "best_cutoffs": {
         "2024": 4.85,
         "2025": 5.4
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Tehnologic „Dacia”",
@@ -7186,12 +8693,38 @@
               "count": 24
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 6.97,
+          "est1Cutoff2026_madm": 6.97,
+          "est2Cutoff2026": 7.0,
+          "est2Cutoff2026_madm": 7.0
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 6.97,
+          "est1Cutoff2026_madm": 6.97,
+          "est2Cutoff2026": 7.0,
+          "est2Cutoff2026_madm": 7.0
         }
       ],
       "best_cutoffs": {
         "2024": 4.5,
         "2025": 5.32
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul Tehnologic „Petru Poni”",
@@ -7265,12 +8798,38 @@
               "count": 16
             }
           }
+        },
+        {
+          "name": "Ştiinţe ale naturii",
+          "base": "Ştiinţe ale Naturii",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 6.95,
+          "est1Cutoff2026_madm": 6.95,
+          "est2Cutoff2026": 6.97,
+          "est2Cutoff2026_madm": 6.97
+        },
+        {
+          "name": "Ştiinţe sociale",
+          "base": "Ştiinţe Sociale",
+          "years": {},
+          "new2026": true,
+          "officialPlaces2026": 28,
+          "officialClasses2026": 1.0,
+          "est1Cutoff2026": 6.92,
+          "est1Cutoff2026_madm": 6.92,
+          "est2Cutoff2026": 6.95,
+          "est2Cutoff2026_madm": 6.95
         }
       ],
       "best_cutoffs": {
         "2024": 4.82,
         "2025": 5.1
-      }
+      },
+      "officialTotalPlaces2025": 100,
+      "officialTotalPlaces2026": 84
     },
     {
       "name": "Liceul „Profesia”",
@@ -7322,7 +8881,11 @@
               "avg": 3.15,
               "count": 2
             }
-          }
+          },
+          "est1Cutoff2026": 6.45,
+          "est1Cutoff2026_madm": 6.45,
+          "est2Cutoff2026": 6.47,
+          "est2Cutoff2026_madm": 6.47
         }
       ],
       "best_cutoffs": {
@@ -8112,6 +9675,39 @@
       "9.8": 121,
       "9.9": 44,
       "10.0": 3
+    },
+    "2026_est2": {
+      "7.0": 207,
+      "7.1": 225,
+      "7.2": 221,
+      "7.3": 268,
+      "7.4": 159,
+      "7.5": 228,
+      "7.6": 275,
+      "7.7": 261,
+      "7.8": 311,
+      "7.9": 293,
+      "8.0": 347,
+      "8.1": 333,
+      "8.2": 355,
+      "8.3": 367,
+      "8.4": 378,
+      "8.5": 432,
+      "8.6": 433,
+      "8.7": 443,
+      "8.8": 507,
+      "8.9": 473,
+      "9.0": 536,
+      "9.1": 529,
+      "9.2": 571,
+      "9.3": 525,
+      "9.4": 517,
+      "9.5": 443,
+      "9.6": 389,
+      "9.7": 311,
+      "9.8": 185,
+      "9.9": 108,
+      "10.0": 54
     }
   },
   "exam_totals": {

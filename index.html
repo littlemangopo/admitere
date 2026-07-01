@@ -1100,6 +1100,9 @@ body {
     <div class="content-bar">
       <div class="result-info" id="resultInfo"></div>
     </div>
+    <div id="est-disclaimer" style="display:none;margin-bottom:12px;padding:8px 12px;background:#FFF5F5;border-left:3px solid #A03030;border-radius:0 4px 4px 0;font-size:0.73rem;color:#6B2020;line-height:1.6">
+      <strong style="color:#A03030">Estimare 2026</strong> — Simulare repartizare pe baza ierarhiei EN 2026 (note după contestații estimate) și preferințelor din 2025. Acestea nu sunt date oficiale, sunt doar estimări care pot conține erori.
+    </div>
     <div class="school-list" id="schoolList"></div>
   </main>
 </div>
@@ -1521,10 +1524,16 @@ function buildCard(school, displayRank, qualifies) {
       <div class="card-grades">
         ${yr25Block}
         ${yr24Block}
-        <div class="yr-block" title="Repartizare 2026 nepublicată încă">
-          <div class="yr-tag" style="color:#A03030">2026</div>
-          <div class="yr-grade" style="color:#A03030;font-style:italic">–</div>
-        </div>
+        ${(()=>{
+          const simVals2 = relevantSpecs.map(s=>s.est2Cutoff2026_madm).filter(v=>v!=null);
+          const sim2 = simVals2.length ? Math.min(...simVals2).toFixed(2) : '–';
+          const delta2 = simVals2.length && cActive != null ? (Math.min(...simVals2) - cActive).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
+          return sim2 !== '–' ? `<div class="yr-block" title="Estimare 2026 — medie EN după contestații (10% din candidați)">
+            <div class="yr-tag" style="color:#A03030">Estimare 2026</div>
+            <div class="yr-grade" style="color:#A03030;font-style:italic">${sim2}</div>
+            <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}</div>
+          </div>` : '';
+        })()}
         <div class="places-col">
           <div class="yr-tag">Locuri 2025 → 2026</div>
           <div class="places-count">${places25 || '–'} <span style="color:var(--text-2);font-weight:400;font-size:0.75rem">→</span> ${places26 || '–'}${placesDelta > 0 ? `<span class="yr-delta up" style="font-size:0.65rem;margin-left:2px">+${placesDelta}</span>` : placesDelta < 0 ? `<span class="yr-delta dn" style="font-size:0.65rem;margin-left:2px">${placesDelta}</span>` : ''}</div>
@@ -1545,16 +1554,20 @@ function buildCard(school, displayRank, qualifies) {
 }
 
 function buildSpecsTable(school) {
-  const otherYear = activeYear === '2025' ? '2024' : '2025';
+  const is2026view = activeYear === '2026';
+  const otherYear = is2026view ? '2025' : (activeYear === '2025' ? '2024' : '2025');
+  const refYear = is2026view ? '2025' : activeYear;
 
   let html = `<table class="specs-table">
     <thead>
       <tr>
         <th>Specializare</th>
-        <th>Ultima medie ${activeYear}</th>
-        <th class="col-hide-mobile">Admiși ${activeYear}</th>
+        ${is2026view
+          ? `<th>Ultima medie 2025</th><th class="col-hide-mobile">Admiși 2025</th>`
+          : `<th>Ultima medie ${activeYear}</th><th class="col-hide-mobile">Admiși ${activeYear}</th>`}
         <th class="col-hide-mobile">Clase 2026</th>
         <th>Locuri 2026</th>
+        <th style="color:#A03030" title="Medie EN estimată după contestații — 10% din candidați, max +0.4 (sub 9.5) sau max +0.1 (peste 9.5)">Estimare 2026</th>
       </tr>
     </thead>
     <tbody>`;
@@ -1570,13 +1583,14 @@ function buildSpecsTable(school) {
     });
 
   sortedSpecs.forEach(sp => {
-    const d = sp.years[activeYear];
+    // For 2026 view, show 2025 actual data as reference
+    const d = sp.years[refYear];
     const qFlag = myGrade != null;
     const q = d && myGrade != null ? myGrade >= d.cutoff : null;
     const badge = qFlag && d
       ? (q ? '<span class="qualify-check">✓</span>' : '<span class="no-qualify-x">✗</span>')
       : '';
-    const dOther = sp.years[otherYear];
+    const dOther = is2026view ? sp.years['2024'] : sp.years[otherYear];
     const delta = d && dOther ? formatDelta(dOther.cutoff, d.cutoff) : '';
     const newBadge = sp.new2026 ? ' <span style="font-size:0.62rem;background:var(--green-bg);color:var(--green);padding:1px 5px;border-radius:3px;font-weight:600">NOU 2026</span>' : '';
 
@@ -1597,6 +1611,13 @@ function buildSpecsTable(school) {
         const d=v-(r??0), ds=d>0?`<span class="yr-delta up">+${d}</span>`:d<0?`<span class="yr-delta dn">${d}</span>`:'';
         return v+(r!=null&&d!==0?' '+ds:'');
       })()}</td>
+      <td class="spec-count" style="color:#A03030;font-weight:700">${(()=>{
+        const est = sp.est2Cutoff2026_madm;
+        if(est==null) return '–';
+        const ref = sp.years['2025']?.cutoff;
+        const delta = ref ? (est-ref).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
+        return est.toFixed(2) + (delta ? ` <span style="font-size:0.62rem;font-weight:400">${delta}</span>` : '');
+      })()}</td>
     </tr>`;
   });
 
@@ -1606,7 +1627,7 @@ function buildSpecsTable(school) {
 
 // ── Event listeners ───────────────────────────────────────
 function handleGradeInput(val) {
-  const v = parseFloat(val);
+  const v = parseFloat(String(val).replace(',', '.'));
   myGrade = (!isNaN(v) && v >= 1 && v <= 10) ? v : null;
   updateHistogramMarker(myGrade ? Math.round(myGrade * 10) / 10 : null);
   buildSummaryStats(); buildMobileStats();
@@ -1619,6 +1640,8 @@ function handleGradeInput(val) {
 
 function sanitizeGradeInput(el) {
   let val = el.value;
+  // Normalize comma to dot (mobile keyboards often show comma as decimal separator)
+  val = val.replace(',', '.');
   // Allow only digits and one decimal point
   val = val.replace(/[^0-9.]/g, '');
   const parts = val.split('.');
@@ -1681,6 +1704,8 @@ document.querySelectorAll('.yr-btn').forEach(btn => {
     btn.classList.add('active');
     activeYear = btn.dataset.year;
     studentsPage = 0;
+    const ed = document.getElementById('est-disclaimer');
+    if (ed) ed.style.display = activeYear === '2026' ? 'block' : 'none';
     buildHistogram();
     buildSummaryStats(); buildMobileStats();
     render();
@@ -1758,8 +1783,6 @@ function renderStudentsTable() {
     const id = ids[i] ?? '–';
 
     if (is2026) {
-      const nro = flat[i * stride] / 100;
-      const nmate = flat[i * stride + 1] / 100;
       const mev = flat[i * stride + 2] / 100;
       const origin = originNames?.[origins?.[i]] ?? '–';
       const isYour = myGrade != null && Math.abs(mev - myGrade) < 0.005;
@@ -1796,13 +1819,13 @@ function renderStudentsTable() {
   const yourRank = !q && myGrade != null
     ? flat.findIndex((v,i) => i%3===gradeIdx && v/100 <= myGrade) / 3 | 0
     : -1;
-  const note2026 = is2026 ? ' <span style="color:var(--amber);font-size:0.72rem">(medie EN, înainte de contestații, fără repartizare)</span>' : '';
+  const note2026 = is2026 ? ' <span style="color:var(--text-2);font-size:0.72rem">(medie EN, înainte de contestații)</span>' : '';
   const yourInfo = !q && myGrade != null && yourRank >= 0
     ? `<span style="color:var(--accent);font-weight:600">Media ta (${myGrade}) → aproximativ locul ${yourRank + 1} din ${totalAll.toLocaleString('ro')}</span>${note2026}`
     : q ? `${total.toLocaleString('ro')} rezultate pentru „${searchQuery}"`
     : `${total.toLocaleString('ro')} candidați`;
 
-  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--amber-bg);border-left:3px solid #A03030;border-radius:0 4px 4px 0;font-size:0.75rem;color:#A03030;line-height:1.5">Note înainte de contestație — medie evaluare națională (română + matematică), fără nota școlii. Liceu admis și specializarea nu sunt disponibile (repartizarea nu a avut loc).</div>` : '';
+  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--surface);border-left:3px solid var(--border);border-radius:0 4px 4px 0;font-size:0.75rem;color:var(--text-2);line-height:1.5">Ierarhia EN 2026 (note înainte de contestații). Repartizarea oficială nu a avut loc — liceu admis indisponibil.</div>` : '';
 
   document.getElementById('studentsContent').innerHTML = `
     ${disclaimer2026}
@@ -1835,6 +1858,8 @@ function renderStudentsTable() {
     document.body.innerHTML = '<div style="padding:48px;text-align:center;color:#636082">Eroare la încărcarea stats.json. Deschide aplicația printr-un server HTTP.</div>';
     return;
   }
+  const edInit = document.getElementById('est-disclaimer');
+  if (edInit && activeYear === '2026') edInit.style.display = 'block';
   buildHistogram();
   buildSpecFilters();
   buildSummaryStats(); buildMobileStats();
