@@ -1403,6 +1403,10 @@ function schoolSpecCutoff(school, year) {
   const specs = useAll
     ? school.specs
     : school.specs.filter(s => activeSpecs.has(s.base));
+  if (year === '2026') {
+    const cutoffs = specs.map(s => s.est2Cutoff2026).filter(v => v != null);
+    return cutoffs.length ? Math.min(...cutoffs) : null;
+  }
   const cutoffs = specs.map(s => s.years[year]?.cutoff).filter(v => v != null);
   return cutoffs.length ? Math.min(...cutoffs) : null;
 }
@@ -1485,9 +1489,10 @@ function buildCard(school, displayRank, qualifies) {
   }
   if (openCards.has(school.name)) card.classList.add('open');
 
-  const otherYear = activeYear === '2025' ? '2024' : '2025';
-  const cActive = schoolSpecCutoff(school, activeYear);
-  const cOther = schoolSpecCutoff(school, otherYear);
+  const is2026view = activeYear === '2026';
+  const otherYear = is2026view ? '2025' : (activeYear === '2025' ? '2024' : '2025');
+  const cActive = schoolSpecCutoff(school, activeYear);  // est2Cutoff2026 for 2026 view
+  const cOther = schoolSpecCutoff(school, otherYear);    // 2025 actual for 2026 view
 
   const profile = school.profile ? `<span class="school-profile">${school.profile}</span>` : '';
 
@@ -1499,20 +1504,37 @@ function buildCard(school, displayRank, qualifies) {
   const places26 = relevantSpecs.reduce((sum, s) => sum + (s.officialPlaces2026 ?? 0), 0);
   const placesDelta = places26 && places25 ? places26 - places25 : 0;
 
-  const yrActiveBlock = cActive != null ? `
-    <div class="yr-block">
+  // Always 2 grade blocks: active (primary) + previous (secondary)
+  // For 2026: primary = Estimare 2026, secondary = 2025 reference
+  // For 2025: primary = 2025, secondary = 2024
+  let primaryBlock = '', secondaryBlock = '';
+  if (is2026view) {
+    const simVals2 = relevantSpecs.map(s=>s.est2Cutoff2026_madm).filter(v=>v!=null);
+    const sim2 = simVals2.length ? Math.min(...simVals2) : null;
+    const delta2 = sim2 != null && cOther != null
+      ? (sim2 - cOther).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
+    primaryBlock = sim2 != null ? `<div class="yr-block" title="Estimare 2026 — medie EN după contestații">
+      <div class="yr-tag" style="color:#A03030">Estimare 2026</div>
+      <div class="yr-grade" style="color:#A03030;font-style:italic">${sim2.toFixed(2)}</div>
+      <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}</div>
+    </div>` : '';
+    secondaryBlock = cOther != null ? `<div class="yr-block">
+      <div class="yr-tag">2025</div>
+      <div class="yr-grade" style="color:var(--text-2);font-weight:500">${cOther.toFixed(2)}</div>
+      <div></div>
+    </div>` : '';
+  } else {
+    primaryBlock = cActive != null ? `<div class="yr-block">
       <div class="yr-tag">${activeYear}</div>
       <div class="yr-grade">${cActive.toFixed(2)}</div>
       <div>${formatDelta(cOther, cActive)}</div>
     </div>` : '';
-
-  const yr24Block = cOther != null ? `
-    <div class="yr-block">
+    secondaryBlock = cOther != null ? `<div class="yr-block">
       <div class="yr-tag">${otherYear}</div>
       <div class="yr-grade" style="color:var(--text-2);font-weight:500">${cOther.toFixed(2)}</div>
+      <div></div>
     </div>` : '';
-
-  const yr25Block = yrActiveBlock;
+  }
 
   card.innerHTML = `
     <div class="card-head">
@@ -1522,18 +1544,8 @@ function buildCard(school, displayRank, qualifies) {
         ${profile}
       </div>
       <div class="card-grades">
-        ${yr25Block}
-        ${yr24Block}
-        ${(()=>{
-          const simVals2 = relevantSpecs.map(s=>s.est2Cutoff2026_madm).filter(v=>v!=null);
-          const sim2 = simVals2.length ? Math.min(...simVals2).toFixed(2) : '–';
-          const delta2 = simVals2.length && cActive != null ? (Math.min(...simVals2) - cActive).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
-          return sim2 !== '–' ? `<div class="yr-block" title="Estimare 2026 — medie EN după contestații (10% din candidați)">
-            <div class="yr-tag" style="color:#A03030">Estimare 2026</div>
-            <div class="yr-grade" style="color:#A03030;font-style:italic">${sim2}</div>
-            <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}</div>
-          </div>` : '';
-        })()}
+        ${primaryBlock}
+        ${secondaryBlock}
         <div class="places-col">
           <div class="yr-tag">Locuri 2025 → 2026</div>
           <div class="places-count">${places25 || '–'} <span style="color:var(--text-2);font-weight:400;font-size:0.75rem">→</span> ${places26 || '–'}${placesDelta > 0 ? `<span class="yr-delta up" style="font-size:0.65rem;margin-left:2px">+${placesDelta}</span>` : placesDelta < 0 ? `<span class="yr-delta dn" style="font-size:0.65rem;margin-left:2px">${placesDelta}</span>` : ''}</div>
@@ -1577,8 +1589,8 @@ function buildSpecsTable(school) {
     .sort((a, b) => {
       if (a.new2026 && !b.new2026) return 1;
       if (!a.new2026 && b.new2026) return -1;
-      const ca = (a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0;
-      const cb = (b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0;
+      const ca = is2026view ? (a.est2Cutoff2026 ?? a.years[otherYear]?.cutoff ?? 0) : ((a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0);
+      const cb = is2026view ? (b.est2Cutoff2026 ?? b.years[otherYear]?.cutoff ?? 0) : ((b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0);
       return cb - ca;
     });
 
@@ -1586,8 +1598,13 @@ function buildSpecsTable(school) {
     // For 2026 view, show 2025 actual data as reference
     const d = sp.years[refYear];
     const qFlag = myGrade != null;
-    const q = d && myGrade != null ? myGrade >= d.cutoff : null;
-    const badge = qFlag && d
+    const estCutoff2026 = sp.est2Cutoff2026;
+    const q = myGrade != null
+      ? (is2026view
+          ? (estCutoff2026 != null ? myGrade >= estCutoff2026 : null)
+          : (d ? myGrade >= d.cutoff : null))
+      : null;
+    const badge = qFlag && (is2026view ? estCutoff2026 != null : d != null)
       ? (q ? '<span class="qualify-check">✓</span>' : '<span class="no-qualify-x">✗</span>')
       : '';
     const dOther = is2026view ? sp.years['2024'] : sp.years[otherYear];
