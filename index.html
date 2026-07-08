@@ -1513,16 +1513,10 @@ function buildCard(school, displayRank, qualifies) {
     const sim2 = simVals2.length ? Math.min(...simVals2) : null;
     const delta2 = sim2 != null && cOther != null
       ? (sim2 - cOther).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
-    const mcMins = relevantSpecs.map(s=>s.est2CutoffMin2026).filter(v=>v!=null);
-    const mcMaxs = relevantSpecs.map(s=>s.est2CutoffMax2026).filter(v=>v!=null);
-    const mcMin = mcMins.length ? Math.min(...mcMins) : null;
-    const mcMax = mcMaxs.length ? Math.max(...mcMaxs) : null;
-    const rangeStr = (mcMin != null && mcMax != null && mcMin !== mcMax)
-      ? `<div style="font-size:0.60rem;color:#c05050;margin-top:1px">${mcMin.toFixed(2)}–${mcMax.toFixed(2)}</div>` : '';
     primaryBlock = sim2 != null ? `<div class="yr-block" title="Estimare 2026 — medie EN după contestații">
       <div class="yr-tag" style="color:#A03030">Estimare 2026</div>
       <div class="yr-grade" style="color:#A03030;font-style:italic">${sim2.toFixed(2)}</div>
-      <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}${rangeStr}</div>
+      <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}</div>
     </div>` : '';
     secondaryBlock = cOther != null ? `<div class="yr-block">
       <div class="yr-tag">2025</div>
