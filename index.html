@@ -1101,7 +1101,7 @@ body {
       <div class="result-info" id="resultInfo"></div>
     </div>
     <div id="est-disclaimer" style="display:none;margin-bottom:12px;padding:8px 12px;background:#FFF5F5;border-left:3px solid #A03030;border-radius:0 4px 4px 0;font-size:0.73rem;color:#6B2020;line-height:1.6">
-      <strong style="color:#A03030">Estimare 2026</strong> — Simulare repartizare pe baza ierarhiei EN 2026 (note după contestații estimate) și preferințelor din 2025. Acestea nu sunt date oficiale, sunt doar estimări care pot conține erori.
+      <strong style="color:#A03030">Estimare 2026</strong> — Simulare repartizare pe baza ierarhiei EN 2026 (note oficiale după contestații) și preferințelor din 2025. Repartizarea oficială nu a avut loc — acestea sunt estimări care pot conține erori.
     </div>
     <div class="school-list" id="schoolList"></div>
   </main>
@@ -1513,10 +1513,16 @@ function buildCard(school, displayRank, qualifies) {
     const sim2 = simVals2.length ? Math.min(...simVals2) : null;
     const delta2 = sim2 != null && cOther != null
       ? (sim2 - cOther).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
+    const mcMins = relevantSpecs.map(s=>s.est2CutoffMin2026).filter(v=>v!=null);
+    const mcMaxs = relevantSpecs.map(s=>s.est2CutoffMax2026).filter(v=>v!=null);
+    const mcMin = mcMins.length ? Math.min(...mcMins) : null;
+    const mcMax = mcMaxs.length ? Math.max(...mcMaxs) : null;
+    const rangeStr = (mcMin != null && mcMax != null && mcMin !== mcMax)
+      ? `<div style="font-size:0.60rem;color:#c05050;margin-top:1px">${mcMin.toFixed(2)}–${mcMax.toFixed(2)}</div>` : '';
     primaryBlock = sim2 != null ? `<div class="yr-block" title="Estimare 2026 — medie EN după contestații">
       <div class="yr-tag" style="color:#A03030">Estimare 2026</div>
       <div class="yr-grade" style="color:#A03030;font-style:italic">${sim2.toFixed(2)}</div>
-      <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}</div>
+      <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}${rangeStr}</div>
     </div>` : '';
     secondaryBlock = cOther != null ? `<div class="yr-block">
       <div class="yr-tag">2025</div>
@@ -1836,13 +1842,13 @@ function renderStudentsTable() {
   const yourRank = !q && myGrade != null
     ? flat.findIndex((v,i) => i%3===gradeIdx && v/100 <= myGrade) / 3 | 0
     : -1;
-  const note2026 = is2026 ? ' <span style="color:var(--text-2);font-size:0.72rem">(medie EN, înainte de contestații)</span>' : '';
+  const note2026 = is2026 ? ' <span style="color:var(--text-2);font-size:0.72rem">(medie EN după contestații)</span>' : '';
   const yourInfo = !q && myGrade != null && yourRank >= 0
     ? `<span style="color:var(--accent);font-weight:600">Media ta (${myGrade}) → aproximativ locul ${yourRank + 1} din ${totalAll.toLocaleString('ro')}</span>${note2026}`
     : q ? `${total.toLocaleString('ro')} rezultate pentru „${searchQuery}"`
     : `${total.toLocaleString('ro')} candidați`;
 
-  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--surface);border-left:3px solid var(--border);border-radius:0 4px 4px 0;font-size:0.75rem;color:var(--text-2);line-height:1.5">Ierarhia EN 2026 (note înainte de contestații). Repartizarea oficială nu a avut loc — liceu admis indisponibil.</div>` : '';
+  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--surface);border-left:3px solid var(--border);border-radius:0 4px 4px 0;font-size:0.75rem;color:var(--text-2);line-height:1.5">Ierarhia EN 2026 — note oficiale după contestații. Repartizarea oficială nu a avut loc — liceu admis indisponibil.</div>` : '';
 
   document.getElementById('studentsContent').innerHTML = `
     ${disclaimer2026}

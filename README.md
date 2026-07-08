@@ -64,6 +64,45 @@ Totalul locurilor din broșură (`officialTotalPlaces`) vs suma locurilor per sp
 
 Aceste discrepanțe afectează doar afișarea numărului de locuri în detaliul liceelor respective — mediile de admitere și statisticile generale sunt corecte.
 
+## Algoritmul de alocare simulată 2026
+
+**Script:** `utils/simulate_repartizare2026.py` · Reproducibil cu `random.seed(42)`
+
+### Date de intrare
+
+| Fișier | Rol |
+|---|---|
+| `2026/ierarhie_EN.json` | Ierarhia oficială EN 2026 (note înainte de contestații), ordonată după mev = (română + matematică) / 2 |
+| `2025/repartizareB.json` | Repartizarea reală 2025, în ordinea oficială a sistemului (tiebreaker intern păstrat) |
+| `stats.json` | Locuri disponibile 2026 per liceu/specializare (din broșura oficială) |
+
+### Pasul 1 — Tabel de referință 2025
+
+Se sortează `repartizareB.json` descrescător după `madm`. Python `sorted()` stabil păstrează ordinea oficială din JSON pentru ex æquo — rezultând exact aceleași prime 10 poziții ca în clasamentul real 2025. Se salvează `2025/reference_rank_school_spec.json`: **rang → liceu + specializare aleși**.
+
+### Pasul 2 — Injectare preferințe pentru clase noi în 2026
+
+Clasele nou înființate (ex: Ştiinţe Naturii la Tudor Vianu) nu au corespondent în 2025. Algoritmul le injectează sintetic: ultimele `N` poziții (N = locuri noi) din grupul de candidați care au ales aceeași specializare la școli de nivel similar sunt înlocuite cu noua clasă.
+
+### Pasul 3 — Simulare EST1 (note înainte de contestații)
+
+Se parcurge ierarhia 2026 candidat cu candidat:
+
+1. Se preia liceul+specializarea de la același rang din tabelul de referință 2025
+2. Dacă există locuri → candidatul este alocat
+3. Dacă liceul e plin → se caută **următorul liceu disponibil cu aceeași specializare**, ordonat după media ultimului admis 2025 (Lazăr plin → Sava → Haret → Vianu → ...)
+4. **Cutoff EST1** = mev al ultimului candidat admis
+
+### Pasul 4 — Simulare EST2 (după contestații)
+
+Identic cu EST1, dar **10% din candidați** (aleator, `seed=42`) au nota mărită aleator ∈ [nota_curentă, 10]. Lista re-sortată înainte de alocare → cutoffuri EST2 ușor mai ridicate.
+
+### Limitări
+
+- Ierarhia 2026 folosește mev (fără nota școlii); referința 2025 este sortată după madm (cu nota școlii) — aceeași poziție de rang nu corespunde exact aceluiași profil
+- ~5.300 candidați nealocați: ierarhia 2026 (~15.000) depășește referința 2025 (~13.000)
+- Preferințele sunt presupuse invariante față de 2025; clasele noi pot schimba comportamentul în realitate
+
 ## Utilitar procesare date
 
 Scripturile de procesare se află în `utils/`:
@@ -71,3 +110,6 @@ Scripturile de procesare se află în `utils/`:
 - `extract_pdf.mjs` — extrage text din broșurile PDF (folosește pdfjs-dist)
 - `parse_brosura.py` — parsează textul extras în `brosura.json`
 - `enrich_stats.py` — îmbogățește `stats.json` cu date din broșuri (locuri oficiale, coduri)
+- `simulate_repartizare2026.py` — simulează repartizarea 2026 (EST1 + EST2), reproducibil cu `random.seed(42)`
+- `scrape_ierarhie2026.py` — descarcă ierarhia oficială EN 2026 de pe evaluare.edu.ro
+- `scrape_evaluare2026.py` — descarcă notele EN 2026 per școală de proveniență
