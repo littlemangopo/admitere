@@ -1262,7 +1262,7 @@ function buildSummaryStats() {
   const specLabel = singleSpec ? ' · ' + singleSpec.split(' ')[0] : (!isAllSelected() && activeSpecs.size > 1 ? ' · selecție' : '');
   const statsEl = document.getElementById('statsLabel');
   if (activeYear === '2026') {
-    statsEl.innerHTML = `<span style="color:#A03030">Statistici 2026 <span style="font-size:0.85em;font-weight:400">(note înainte de contestație)</span></span>`;
+    statsEl.innerHTML = `<span style="color:#A03030">Statistici 2026 <span style="font-size:0.85em;font-weight:400">(note după contestații)</span></span>`;
   } else {
     statsEl.textContent = `Statistici${specLabel}`;
   }
@@ -1270,6 +1270,7 @@ function buildSummaryStats() {
   const availableYears = Object.keys(DATA_JSON.distribution).sort();
 
   function getDist(year) {
+    if (year === '2026pre') return DATA_JSON.exam_distribution_pre2026 || {};
     if (singleSpec) return DATA_JSON.spec_distribution[singleSpec]?.[year] || {};
     return DATA_JSON.distribution[year] || DATA_JSON.exam_distribution?.[year] || {};
   }
@@ -1284,6 +1285,7 @@ function buildSummaryStats() {
   const el = document.getElementById('summaryStats');
 
   const allYears = [...new Set([...availableYears, ...Object.keys(DATA_JSON.exam_totals || {})])].sort();
+
   const examTotals = allYears.map(y =>
     DATA_JSON.exam_totals?.[y]?.toLocaleString('ro') ??
     Object.values(DATA_JSON.exam_distribution?.[y] || {}).reduce((a, b) => a + b, 0).toLocaleString('ro') ??
@@ -1295,12 +1297,11 @@ function buildSummaryStats() {
     return total > 0 ? total.toLocaleString('ro') : '–';
   });
 
-  const NOTE_2026 = 'Note înainte de contestație — media evaluării naționale (română + matematică), fără nota școlii';
+  const NOTE_POST = 'Note după contestații — media evaluării naționale (română + matematică), fără nota școlii';
   const sv = (y, val, isHeader) => {
     const cls = y === '2026' ? ' stat-val-2026' : '';
-    const note = y === '2026' ? ` title="${NOTE_2026}"` : '';
-    const icon = '';
-    return `<span class="stat-val${cls}"${note}>${val}${icon}</span>`;
+    const note = y === '2026' ? ` title="${NOTE_POST}"` : '';
+    return `<span class="stat-val${cls}"${note}>${val}</span>`;
   };
 
   let html = `<div class="stat-row stat-row-header">
@@ -1331,7 +1332,7 @@ function buildSummaryStats() {
 
   if (!singleSpec && DATA_JSON.exam_distribution) {
     const above5 = allYears.map(y =>
-      Object.entries(DATA_JSON.exam_distribution[y] || {})
+      Object.entries(getDist(y))
         .filter(([k]) => parseFloat(k) >= 5.0)
         .reduce((a, [, v]) => a + v, 0).toLocaleString('ro')
     );
@@ -1342,7 +1343,7 @@ function buildSummaryStats() {
   }
 
   const note2026Html = allYears.includes('2026')
-    ? `<div style="margin-top:6px;font-size:0.65rem;color:#A03030;line-height:1.4">* 2026: note înainte de contestație, medie EN (română + matematică), fără nota școlii</div>`
+    ? `<div style="margin-top:6px;font-size:0.65rem;color:var(--text-2);line-height:1.4">* 2026: note după contestații, medie EN (română + matematică), fără nota școlii</div>`
     : '';
   el.innerHTML = html + note2026Html;
 }
@@ -1378,7 +1379,7 @@ function buildMobileStats() {
   }
 
   const col2026 = yr === '2026' ? ' style="color:#A03030"' : '';
-  const yearLabel = yr === '2026' ? `<span style="color:#A03030">Statistici 2026 <span style="font-size:0.7em;font-weight:400">(note înainte de contestație)</span></span>` : `Statistici ${yr}`;
+  const yearLabel = yr === '2026' ? `<span style="color:#A03030">Statistici 2026 <span style="font-size:0.7em;font-weight:400">(note după contestații)</span></span>` : `Statistici ${yr}`;
   const topRow = `<div class="mini-stat-year">${yearLabel}</div>
     <div class="mini-stat"><span class="mini-stat-label">Examen</span><span class="mini-stat-val"${col2026}>${examTotal?.toLocaleString('ro') ?? '–'}</span></div>`;
 
@@ -1579,7 +1580,7 @@ function buildSpecsTable(school) {
           : `<th>Ultima medie ${activeYear}</th><th class="col-hide-mobile">Admiși ${activeYear}</th>`}
         <th class="col-hide-mobile">Clase 2026</th>
         <th>Locuri 2026</th>
-        <th style="color:#A03030" title="Medie EN estimată după contestații — 10% din candidați, max +0.4 (sub 9.5) sau max +0.1 (peste 9.5)">Estimare 2026</th>
+        <th style="color:#A03030" title="Medie EN după contestații — simulare repartizare cu preferințe flexibile (20% redirect)">Estimare 2026</th>
       </tr>
     </thead>
     <tbody>`;
