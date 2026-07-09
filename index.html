@@ -1405,7 +1405,7 @@ function schoolSpecCutoff(school, year) {
     ? school.specs
     : school.specs.filter(s => activeSpecs.has(s.base));
   if (year === '2026') {
-    const cutoffs = specs.map(s => s.flexRedirectCutoff2026Mean).filter(v => v != null);
+    const cutoffs = specs.map(s => s.hybridCutoff2026Mean).filter(v => v != null);
     return cutoffs.length ? Math.min(...cutoffs) : null;
   }
   const cutoffs = specs.map(s => s.years[year]?.cutoff).filter(v => v != null);
@@ -1510,7 +1510,7 @@ function buildCard(school, displayRank, qualifies) {
   // For 2025: primary = 2025, secondary = 2024
   let primaryBlock = '', secondaryBlock = '';
   if (is2026view) {
-    const simVals2 = relevantSpecs.map(s=>s.flexRedirectCutoff2026Mean).filter(v=>v!=null);
+    const simVals2 = relevantSpecs.map(s=>s.hybridCutoff2026Mean).filter(v=>v!=null);
     const sim2 = simVals2.length ? Math.min(...simVals2) : null;
     const delta2 = sim2 != null && cOther != null
       ? (sim2 - cOther).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
@@ -1590,8 +1590,8 @@ function buildSpecsTable(school) {
     .sort((a, b) => {
       if (a.new2026 && !b.new2026) return 1;
       if (!a.new2026 && b.new2026) return -1;
-      const ca = is2026view ? (a.flexRedirectCutoff2026Mean ?? a.years[otherYear]?.cutoff ?? 0) : ((a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0);
-      const cb = is2026view ? (b.flexRedirectCutoff2026Mean ?? b.years[otherYear]?.cutoff ?? 0) : ((b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0);
+      const ca = is2026view ? (a.hybridCutoff2026Mean ?? a.years[otherYear]?.cutoff ?? 0) : ((a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0);
+      const cb = is2026view ? (b.hybridCutoff2026Mean ?? b.years[otherYear]?.cutoff ?? 0) : ((b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0);
       return cb - ca;
     });
 
@@ -1599,7 +1599,7 @@ function buildSpecsTable(school) {
     // For 2026 view, show 2025 actual data as reference
     const d = sp.years[refYear];
     const qFlag = myGrade != null;
-    const estCutoff2026 = sp.flexRedirectCutoff2026Mean;
+    const estCutoff2026 = sp.hybridCutoff2026Mean;
     const q = myGrade != null
       ? (is2026view
           ? (estCutoff2026 != null ? myGrade >= estCutoff2026 : null)
@@ -1630,7 +1630,7 @@ function buildSpecsTable(school) {
         return v+(r!=null&&d!==0?' '+ds:'');
       })()}</td>
       <td class="spec-count" style="color:#A03030;font-weight:700">${(()=>{
-        const est = sp.flexRedirectCutoff2026Mean;
+        const est = sp.hybridCutoff2026Mean;
         if(est==null) return '–';
         const ref = sp.years['2025']?.cutoff;
         const delta = ref ? (est-ref).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';

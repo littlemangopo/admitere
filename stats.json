@@ -29,7 +29,10 @@
           "redirectCutoff2026Max": 9.72,
           "flexRedirectCutoff2026Mean": 9.72,
           "flexRedirectCutoff2026Min": 9.7,
-          "flexRedirectCutoff2026Max": 9.75
+          "flexRedirectCutoff2026Max": 9.75,
+          "hybridCutoff2026Mean": 9.71,
+          "hybridCutoff2026Min": 9.7,
+          "hybridCutoff2026Max": 9.72
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba engleză)",
@@ -57,7 +60,10 @@
           "redirectCutoff2026Max": 9.67,
           "flexRedirectCutoff2026Mean": 9.68,
           "flexRedirectCutoff2026Min": 9.67,
-          "flexRedirectCutoff2026Max": 9.7
+          "flexRedirectCutoff2026Max": 9.7,
+          "hybridCutoff2026Mean": 9.67,
+          "hybridCutoff2026Min": 9.67,
+          "hybridCutoff2026Max": 9.7
         },
         {
           "name": "Matematică-Informatică",
@@ -85,7 +91,10 @@
           "redirectCutoff2026Max": 9.67,
           "flexRedirectCutoff2026Mean": 9.68,
           "flexRedirectCutoff2026Min": 9.67,
-          "flexRedirectCutoff2026Max": 9.7
+          "flexRedirectCutoff2026Max": 9.7,
+          "hybridCutoff2026Mean": 9.67,
+          "hybridCutoff2026Min": 9.67,
+          "hybridCutoff2026Max": 9.7
         },
         {
           "name": "Filologie",
@@ -113,7 +122,10 @@
           "redirectCutoff2026Max": 9.45,
           "flexRedirectCutoff2026Mean": 9.48,
           "flexRedirectCutoff2026Min": 9.47,
-          "flexRedirectCutoff2026Max": 9.5
+          "flexRedirectCutoff2026Max": 9.5,
+          "hybridCutoff2026Mean": 9.46,
+          "hybridCutoff2026Min": 9.45,
+          "hybridCutoff2026Max": 9.47
         }
       ],
       "best_cutoffs": {
@@ -152,7 +164,10 @@
           "redirectCutoff2026Max": 9.65,
           "flexRedirectCutoff2026Mean": 9.65,
           "flexRedirectCutoff2026Min": 9.65,
-          "flexRedirectCutoff2026Max": 9.65
+          "flexRedirectCutoff2026Max": 9.65,
+          "hybridCutoff2026Mean": 9.65,
+          "hybridCutoff2026Min": 9.65,
+          "hybridCutoff2026Max": 9.65
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -180,7 +195,10 @@
           "redirectCutoff2026Max": 9.65,
           "flexRedirectCutoff2026Mean": 9.66,
           "flexRedirectCutoff2026Min": 9.65,
-          "flexRedirectCutoff2026Max": 9.67
+          "flexRedirectCutoff2026Max": 9.67,
+          "hybridCutoff2026Mean": 9.65,
+          "hybridCutoff2026Min": 9.65,
+          "hybridCutoff2026Max": 9.67
         },
         {
           "name": "Ştiinţe Sociale",
@@ -208,7 +226,10 @@
           "redirectCutoff2026Max": 9.52,
           "flexRedirectCutoff2026Mean": 9.53,
           "flexRedirectCutoff2026Min": 9.52,
-          "flexRedirectCutoff2026Max": 9.55
+          "flexRedirectCutoff2026Max": 9.55,
+          "hybridCutoff2026Mean": 9.52,
+          "hybridCutoff2026Min": 9.52,
+          "hybridCutoff2026Max": 9.52
         },
         {
           "name": "Filologie",
@@ -236,7 +257,10 @@
           "redirectCutoff2026Max": 9.5,
           "flexRedirectCutoff2026Mean": 9.52,
           "flexRedirectCutoff2026Min": 9.52,
-          "flexRedirectCutoff2026Max": 9.55
+          "flexRedirectCutoff2026Max": 9.55,
+          "hybridCutoff2026Mean": 9.52,
+          "hybridCutoff2026Min": 9.5,
+          "hybridCutoff2026Max": 9.52
         }
       ],
       "best_cutoffs": {
@@ -275,7 +299,10 @@
           "redirectCutoff2026Max": 9.62,
           "flexRedirectCutoff2026Mean": 9.62,
           "flexRedirectCutoff2026Min": 9.62,
-          "flexRedirectCutoff2026Max": 9.62
+          "flexRedirectCutoff2026Max": 9.62,
+          "hybridCutoff2026Mean": 9.62,
+          "hybridCutoff2026Min": 9.62,
+          "hybridCutoff2026Max": 9.62
         },
         {
           "name": "Matematică-Informatică",
@@ -303,7 +330,10 @@
           "redirectCutoff2026Max": 9.62,
           "flexRedirectCutoff2026Mean": 9.62,
           "flexRedirectCutoff2026Min": 9.62,
-          "flexRedirectCutoff2026Max": 9.62
+          "flexRedirectCutoff2026Max": 9.62,
+          "hybridCutoff2026Mean": 9.62,
+          "hybridCutoff2026Min": 9.62,
+          "hybridCutoff2026Max": 9.62
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -331,7 +361,10 @@
           "redirectCutoff2026Max": 9.47,
           "flexRedirectCutoff2026Mean": 9.54,
           "flexRedirectCutoff2026Min": 9.5,
-          "flexRedirectCutoff2026Max": 9.57
+          "flexRedirectCutoff2026Max": 9.57,
+          "hybridCutoff2026Mean": 9.5,
+          "hybridCutoff2026Min": 9.47,
+          "hybridCutoff2026Max": 9.52
         },
         {
           "name": "Ştiinţe Sociale",
@@ -359,7 +392,10 @@
           "redirectCutoff2026Max": 9.4,
           "flexRedirectCutoff2026Mean": 9.45,
           "flexRedirectCutoff2026Min": 9.42,
-          "flexRedirectCutoff2026Max": 9.45
+          "flexRedirectCutoff2026Max": 9.45,
+          "hybridCutoff2026Mean": 9.41,
+          "hybridCutoff2026Min": 9.4,
+          "hybridCutoff2026Max": 9.42
         },
         {
           "name": "Filologie",
@@ -387,7 +423,10 @@
           "redirectCutoff2026Max": 9.35,
           "flexRedirectCutoff2026Mean": 9.42,
           "flexRedirectCutoff2026Min": 9.4,
-          "flexRedirectCutoff2026Max": 9.45
+          "flexRedirectCutoff2026Max": 9.45,
+          "hybridCutoff2026Mean": 9.37,
+          "hybridCutoff2026Min": 9.35,
+          "hybridCutoff2026Max": 9.4
         }
       ],
       "best_cutoffs": {
@@ -426,7 +465,10 @@
           "redirectCutoff2026Max": 9.45,
           "flexRedirectCutoff2026Mean": 9.47,
           "flexRedirectCutoff2026Min": 9.47,
-          "flexRedirectCutoff2026Max": 9.5
+          "flexRedirectCutoff2026Max": 9.5,
+          "hybridCutoff2026Mean": 9.46,
+          "hybridCutoff2026Min": 9.45,
+          "hybridCutoff2026Max": 9.47
         },
         {
           "name": "Matematică-Informatică",
@@ -454,7 +496,10 @@
           "redirectCutoff2026Max": 9.45,
           "flexRedirectCutoff2026Mean": 9.47,
           "flexRedirectCutoff2026Min": 9.47,
-          "flexRedirectCutoff2026Max": 9.5
+          "flexRedirectCutoff2026Max": 9.5,
+          "hybridCutoff2026Mean": 9.46,
+          "hybridCutoff2026Min": 9.45,
+          "hybridCutoff2026Max": 9.47
         },
         {
           "name": "Ştiinţe ale naturii",
@@ -469,7 +514,10 @@
           "redirectCutoff2026Max": 9.42,
           "flexRedirectCutoff2026Mean": 9.45,
           "flexRedirectCutoff2026Min": 9.42,
-          "flexRedirectCutoff2026Max": 9.47
+          "flexRedirectCutoff2026Max": 9.47,
+          "hybridCutoff2026Mean": 9.43,
+          "hybridCutoff2026Min": 9.42,
+          "hybridCutoff2026Max": 9.45
         }
       ],
       "best_cutoffs": {
@@ -508,7 +556,10 @@
           "redirectCutoff2026Max": 9.4,
           "flexRedirectCutoff2026Mean": 9.4,
           "flexRedirectCutoff2026Min": 9.4,
-          "flexRedirectCutoff2026Max": 9.4
+          "flexRedirectCutoff2026Max": 9.4,
+          "hybridCutoff2026Mean": 9.39,
+          "hybridCutoff2026Min": 9.37,
+          "hybridCutoff2026Max": 9.4
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba engleză)",
@@ -536,7 +587,10 @@
           "redirectCutoff2026Max": 9.4,
           "flexRedirectCutoff2026Mean": 9.4,
           "flexRedirectCutoff2026Min": 9.4,
-          "flexRedirectCutoff2026Max": 9.4
+          "flexRedirectCutoff2026Max": 9.4,
+          "hybridCutoff2026Mean": 9.39,
+          "hybridCutoff2026Min": 9.37,
+          "hybridCutoff2026Max": 9.4
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -564,7 +618,10 @@
           "redirectCutoff2026Max": 9.37,
           "flexRedirectCutoff2026Mean": 9.4,
           "flexRedirectCutoff2026Min": 9.37,
-          "flexRedirectCutoff2026Max": 9.42
+          "flexRedirectCutoff2026Max": 9.42,
+          "hybridCutoff2026Mean": 9.38,
+          "hybridCutoff2026Min": 9.35,
+          "hybridCutoff2026Max": 9.42
         },
         {
           "name": "Matematică-Informatică",
@@ -592,7 +649,10 @@
           "redirectCutoff2026Max": 9.4,
           "flexRedirectCutoff2026Mean": 9.4,
           "flexRedirectCutoff2026Min": 9.4,
-          "flexRedirectCutoff2026Max": 9.4
+          "flexRedirectCutoff2026Max": 9.4,
+          "hybridCutoff2026Mean": 9.39,
+          "hybridCutoff2026Min": 9.37,
+          "hybridCutoff2026Max": 9.4
         },
         {
           "name": "Ştiinţe Sociale",
@@ -620,7 +680,10 @@
           "redirectCutoff2026Max": 9.07,
           "flexRedirectCutoff2026Mean": 9.17,
           "flexRedirectCutoff2026Min": 9.15,
-          "flexRedirectCutoff2026Max": 9.2
+          "flexRedirectCutoff2026Max": 9.2,
+          "hybridCutoff2026Mean": 9.12,
+          "hybridCutoff2026Min": 9.1,
+          "hybridCutoff2026Max": 9.17
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -648,7 +711,10 @@
           "redirectCutoff2026Max": 9.2,
           "flexRedirectCutoff2026Mean": 9.19,
           "flexRedirectCutoff2026Min": 9.17,
-          "flexRedirectCutoff2026Max": 9.2
+          "flexRedirectCutoff2026Max": 9.2,
+          "hybridCutoff2026Mean": 9.19,
+          "hybridCutoff2026Min": 9.17,
+          "hybridCutoff2026Max": 9.2
         },
         {
           "name": "Filologie",
@@ -676,7 +742,10 @@
           "redirectCutoff2026Max": 9.2,
           "flexRedirectCutoff2026Mean": 9.19,
           "flexRedirectCutoff2026Min": 9.17,
-          "flexRedirectCutoff2026Max": 9.2
+          "flexRedirectCutoff2026Max": 9.2,
+          "hybridCutoff2026Mean": 9.19,
+          "hybridCutoff2026Min": 9.17,
+          "hybridCutoff2026Max": 9.2
         },
         {
           "name": "Filologie (Limba română/Limba germană)",
@@ -704,7 +773,10 @@
           "redirectCutoff2026Max": 9.2,
           "flexRedirectCutoff2026Mean": 9.19,
           "flexRedirectCutoff2026Min": 9.17,
-          "flexRedirectCutoff2026Max": 9.2
+          "flexRedirectCutoff2026Max": 9.2,
+          "hybridCutoff2026Mean": 9.19,
+          "hybridCutoff2026Min": 9.17,
+          "hybridCutoff2026Max": 9.2
         }
       ],
       "best_cutoffs": {
@@ -743,7 +815,10 @@
           "redirectCutoff2026Max": 9.47,
           "flexRedirectCutoff2026Mean": 9.44,
           "flexRedirectCutoff2026Min": 9.42,
-          "flexRedirectCutoff2026Max": 9.47
+          "flexRedirectCutoff2026Max": 9.47,
+          "hybridCutoff2026Mean": 9.42,
+          "hybridCutoff2026Min": 9.4,
+          "hybridCutoff2026Max": 9.45
         },
         {
           "name": "Matematică-Informatică",
@@ -771,7 +846,10 @@
           "redirectCutoff2026Max": 9.3,
           "flexRedirectCutoff2026Mean": 9.28,
           "flexRedirectCutoff2026Min": 9.27,
-          "flexRedirectCutoff2026Max": 9.3
+          "flexRedirectCutoff2026Max": 9.3,
+          "hybridCutoff2026Mean": 9.28,
+          "hybridCutoff2026Min": 9.27,
+          "hybridCutoff2026Max": 9.3
         },
         {
           "name": "Ştiinţe Sociale",
@@ -799,7 +877,10 @@
           "redirectCutoff2026Max": 9.07,
           "flexRedirectCutoff2026Mean": 9.12,
           "flexRedirectCutoff2026Min": 9.1,
-          "flexRedirectCutoff2026Max": 9.12
+          "flexRedirectCutoff2026Max": 9.12,
+          "hybridCutoff2026Mean": 9.1,
+          "hybridCutoff2026Min": 9.1,
+          "hybridCutoff2026Max": 9.1
         },
         {
           "name": "Filologie",
@@ -827,7 +908,10 @@
           "redirectCutoff2026Max": 9.15,
           "flexRedirectCutoff2026Mean": 9.01,
           "flexRedirectCutoff2026Min": 9.0,
-          "flexRedirectCutoff2026Max": 9.02
+          "flexRedirectCutoff2026Max": 9.02,
+          "hybridCutoff2026Mean": 9.0,
+          "hybridCutoff2026Min": 9.0,
+          "hybridCutoff2026Max": 9.05
         }
       ],
       "best_cutoffs": {
@@ -866,7 +950,10 @@
           "redirectCutoff2026Max": 9.52,
           "flexRedirectCutoff2026Mean": 9.42,
           "flexRedirectCutoff2026Min": 9.42,
-          "flexRedirectCutoff2026Max": 9.45
+          "flexRedirectCutoff2026Max": 9.45,
+          "hybridCutoff2026Mean": 9.42,
+          "hybridCutoff2026Min": 9.4,
+          "hybridCutoff2026Max": 9.45
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba engleză)",
@@ -894,7 +981,10 @@
           "redirectCutoff2026Max": 9.37,
           "flexRedirectCutoff2026Mean": 9.27,
           "flexRedirectCutoff2026Min": 9.27,
-          "flexRedirectCutoff2026Max": 9.3
+          "flexRedirectCutoff2026Max": 9.3,
+          "hybridCutoff2026Mean": 9.28,
+          "hybridCutoff2026Min": 9.27,
+          "hybridCutoff2026Max": 9.35
         },
         {
           "name": "Ştiinţe Sociale (Limba română/Limba engleză)",
@@ -922,7 +1012,10 @@
           "redirectCutoff2026Max": 9.35,
           "flexRedirectCutoff2026Mean": 9.38,
           "flexRedirectCutoff2026Min": 9.37,
-          "flexRedirectCutoff2026Max": 9.4
+          "flexRedirectCutoff2026Max": 9.4,
+          "hybridCutoff2026Mean": 9.36,
+          "hybridCutoff2026Min": 9.35,
+          "hybridCutoff2026Max": 9.37
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -950,7 +1043,10 @@
           "redirectCutoff2026Max": 9.1,
           "flexRedirectCutoff2026Mean": 9.1,
           "flexRedirectCutoff2026Min": 9.1,
-          "flexRedirectCutoff2026Max": 9.12
+          "flexRedirectCutoff2026Max": 9.12,
+          "hybridCutoff2026Mean": 9.1,
+          "hybridCutoff2026Min": 9.1,
+          "hybridCutoff2026Max": 9.1
         }
       ],
       "best_cutoffs": {
@@ -989,7 +1085,10 @@
           "redirectCutoff2026Max": 9.37,
           "flexRedirectCutoff2026Mean": 9.37,
           "flexRedirectCutoff2026Min": 9.35,
-          "flexRedirectCutoff2026Max": 9.37
+          "flexRedirectCutoff2026Max": 9.37,
+          "hybridCutoff2026Mean": 9.37,
+          "hybridCutoff2026Min": 9.35,
+          "hybridCutoff2026Max": 9.37
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -1017,7 +1116,10 @@
           "redirectCutoff2026Max": 9.32,
           "flexRedirectCutoff2026Mean": 9.35,
           "flexRedirectCutoff2026Min": 9.35,
-          "flexRedirectCutoff2026Max": 9.37
+          "flexRedirectCutoff2026Max": 9.37,
+          "hybridCutoff2026Mean": 9.33,
+          "hybridCutoff2026Min": 9.32,
+          "hybridCutoff2026Max": 9.35
         },
         {
           "name": "Ştiinţe Sociale",
@@ -1045,7 +1147,10 @@
           "redirectCutoff2026Max": 9.1,
           "flexRedirectCutoff2026Mean": 9.16,
           "flexRedirectCutoff2026Min": 9.12,
-          "flexRedirectCutoff2026Max": 9.2
+          "flexRedirectCutoff2026Max": 9.2,
+          "hybridCutoff2026Mean": 9.12,
+          "hybridCutoff2026Min": 9.1,
+          "hybridCutoff2026Max": 9.12
         },
         {
           "name": "Filologie",
@@ -1073,7 +1178,10 @@
           "redirectCutoff2026Max": 9.27,
           "flexRedirectCutoff2026Mean": 9.28,
           "flexRedirectCutoff2026Min": 9.27,
-          "flexRedirectCutoff2026Max": 9.32
+          "flexRedirectCutoff2026Max": 9.32,
+          "hybridCutoff2026Mean": 9.27,
+          "hybridCutoff2026Min": 9.27,
+          "hybridCutoff2026Max": 9.3
         }
       ],
       "best_cutoffs": {
@@ -1112,7 +1220,10 @@
           "redirectCutoff2026Max": 9.3,
           "flexRedirectCutoff2026Mean": 9.3,
           "flexRedirectCutoff2026Min": 9.28,
-          "flexRedirectCutoff2026Max": 9.3
+          "flexRedirectCutoff2026Max": 9.3,
+          "hybridCutoff2026Mean": 9.29,
+          "hybridCutoff2026Min": 9.27,
+          "hybridCutoff2026Max": 9.3
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -1140,7 +1251,10 @@
           "redirectCutoff2026Max": 9.15,
           "flexRedirectCutoff2026Mean": 9.17,
           "flexRedirectCutoff2026Min": 9.15,
-          "flexRedirectCutoff2026Max": 9.17
+          "flexRedirectCutoff2026Max": 9.17,
+          "hybridCutoff2026Mean": 9.16,
+          "hybridCutoff2026Min": 9.15,
+          "hybridCutoff2026Max": 9.17
         },
         {
           "name": "Matematică-Informatică",
@@ -1168,7 +1282,10 @@
           "redirectCutoff2026Max": 9.3,
           "flexRedirectCutoff2026Mean": 9.3,
           "flexRedirectCutoff2026Min": 9.28,
-          "flexRedirectCutoff2026Max": 9.3
+          "flexRedirectCutoff2026Max": 9.3,
+          "hybridCutoff2026Mean": 9.29,
+          "hybridCutoff2026Min": 9.27,
+          "hybridCutoff2026Max": 9.3
         }
       ],
       "best_cutoffs": {
@@ -1207,7 +1324,10 @@
           "redirectCutoff2026Max": 9.27,
           "flexRedirectCutoff2026Mean": 9.31,
           "flexRedirectCutoff2026Min": 9.3,
-          "flexRedirectCutoff2026Max": 9.32
+          "flexRedirectCutoff2026Max": 9.32,
+          "hybridCutoff2026Mean": 9.27,
+          "hybridCutoff2026Min": 9.27,
+          "hybridCutoff2026Max": 9.3
         },
         {
           "name": "Matematică-Informatică",
@@ -1235,7 +1355,10 @@
           "redirectCutoff2026Max": 9.27,
           "flexRedirectCutoff2026Mean": 9.25,
           "flexRedirectCutoff2026Min": 9.25,
-          "flexRedirectCutoff2026Max": 9.27
+          "flexRedirectCutoff2026Max": 9.27,
+          "hybridCutoff2026Mean": 9.25,
+          "hybridCutoff2026Min": 9.25,
+          "hybridCutoff2026Max": 9.27
         },
         {
           "name": "Filologie",
@@ -1263,7 +1386,10 @@
           "redirectCutoff2026Max": 9.15,
           "flexRedirectCutoff2026Mean": 9.15,
           "flexRedirectCutoff2026Min": 9.12,
-          "flexRedirectCutoff2026Max": 9.15
+          "flexRedirectCutoff2026Max": 9.15,
+          "hybridCutoff2026Mean": 9.15,
+          "hybridCutoff2026Min": 9.12,
+          "hybridCutoff2026Max": 9.15
         }
       ],
       "best_cutoffs": {
@@ -1302,7 +1428,10 @@
           "redirectCutoff2026Max": 9.22,
           "flexRedirectCutoff2026Mean": 9.27,
           "flexRedirectCutoff2026Min": 9.27,
-          "flexRedirectCutoff2026Max": 9.3
+          "flexRedirectCutoff2026Max": 9.3,
+          "hybridCutoff2026Mean": 9.25,
+          "hybridCutoff2026Min": 9.22,
+          "hybridCutoff2026Max": 9.27
         },
         {
           "name": "Matematică-Informatică",
@@ -1330,7 +1459,10 @@
           "redirectCutoff2026Max": 9.07,
           "flexRedirectCutoff2026Mean": 9.07,
           "flexRedirectCutoff2026Min": 9.05,
-          "flexRedirectCutoff2026Max": 9.07
+          "flexRedirectCutoff2026Max": 9.07,
+          "hybridCutoff2026Mean": 9.06,
+          "hybridCutoff2026Min": 9.05,
+          "hybridCutoff2026Max": 9.07
         }
       ],
       "best_cutoffs": {
@@ -1369,7 +1501,10 @@
           "redirectCutoff2026Max": 9.25,
           "flexRedirectCutoff2026Mean": 9.22,
           "flexRedirectCutoff2026Min": 9.22,
-          "flexRedirectCutoff2026Max": 9.25
+          "flexRedirectCutoff2026Max": 9.25,
+          "hybridCutoff2026Mean": 9.22,
+          "hybridCutoff2026Min": 9.2,
+          "hybridCutoff2026Max": 9.25
         },
         {
           "name": "Matematică-Informatică",
@@ -1397,7 +1532,10 @@
           "redirectCutoff2026Max": 9.25,
           "flexRedirectCutoff2026Mean": 9.22,
           "flexRedirectCutoff2026Min": 9.22,
-          "flexRedirectCutoff2026Max": 9.25
+          "flexRedirectCutoff2026Max": 9.25,
+          "hybridCutoff2026Mean": 9.22,
+          "hybridCutoff2026Min": 9.2,
+          "hybridCutoff2026Max": 9.25
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -1425,7 +1563,10 @@
           "redirectCutoff2026Max": 9.15,
           "flexRedirectCutoff2026Mean": 9.15,
           "flexRedirectCutoff2026Min": 9.12,
-          "flexRedirectCutoff2026Max": 9.15
+          "flexRedirectCutoff2026Max": 9.15,
+          "hybridCutoff2026Mean": 9.14,
+          "hybridCutoff2026Min": 9.1,
+          "hybridCutoff2026Max": 9.15
         },
         {
           "name": "Ştiinţe Sociale",
@@ -1453,7 +1594,10 @@
           "redirectCutoff2026Max": 9.05,
           "flexRedirectCutoff2026Mean": 9.09,
           "flexRedirectCutoff2026Min": 9.07,
-          "flexRedirectCutoff2026Max": 9.1
+          "flexRedirectCutoff2026Max": 9.1,
+          "hybridCutoff2026Mean": 9.07,
+          "hybridCutoff2026Min": 9.07,
+          "hybridCutoff2026Max": 9.07
         },
         {
           "name": "Filologie",
@@ -1481,7 +1625,10 @@
           "redirectCutoff2026Max": 8.97,
           "flexRedirectCutoff2026Mean": 8.95,
           "flexRedirectCutoff2026Min": 8.95,
-          "flexRedirectCutoff2026Max": 8.97
+          "flexRedirectCutoff2026Max": 8.97,
+          "hybridCutoff2026Mean": 8.95,
+          "hybridCutoff2026Min": 8.95,
+          "hybridCutoff2026Max": 8.97
         }
       ],
       "best_cutoffs": {
@@ -1520,7 +1667,10 @@
           "redirectCutoff2026Max": 9.22,
           "flexRedirectCutoff2026Mean": 9.24,
           "flexRedirectCutoff2026Min": 9.22,
-          "flexRedirectCutoff2026Max": 9.25
+          "flexRedirectCutoff2026Max": 9.25,
+          "hybridCutoff2026Mean": 9.22,
+          "hybridCutoff2026Min": 9.2,
+          "hybridCutoff2026Max": 9.22
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba engleză)",
@@ -1548,7 +1698,10 @@
           "redirectCutoff2026Max": 9.17,
           "flexRedirectCutoff2026Mean": 9.15,
           "flexRedirectCutoff2026Min": 9.12,
-          "flexRedirectCutoff2026Max": 9.15
+          "flexRedirectCutoff2026Max": 9.15,
+          "hybridCutoff2026Mean": 9.13,
+          "hybridCutoff2026Min": 9.12,
+          "hybridCutoff2026Max": 9.15
         },
         {
           "name": "Matematică-Informatică",
@@ -1576,7 +1729,10 @@
           "redirectCutoff2026Max": 9.17,
           "flexRedirectCutoff2026Mean": 9.15,
           "flexRedirectCutoff2026Min": 9.12,
-          "flexRedirectCutoff2026Max": 9.15
+          "flexRedirectCutoff2026Max": 9.15,
+          "hybridCutoff2026Mean": 9.13,
+          "hybridCutoff2026Min": 9.12,
+          "hybridCutoff2026Max": 9.15
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -1604,7 +1760,10 @@
           "redirectCutoff2026Max": 9.02,
           "flexRedirectCutoff2026Mean": 9.01,
           "flexRedirectCutoff2026Min": 9.0,
-          "flexRedirectCutoff2026Max": 9.02
+          "flexRedirectCutoff2026Max": 9.02,
+          "hybridCutoff2026Mean": 9.0,
+          "hybridCutoff2026Min": 9.0,
+          "hybridCutoff2026Max": 9.02
         },
         {
           "name": "Filologie",
@@ -1632,7 +1791,10 @@
           "redirectCutoff2026Max": 9.02,
           "flexRedirectCutoff2026Mean": 9.01,
           "flexRedirectCutoff2026Min": 9.0,
-          "flexRedirectCutoff2026Max": 9.02
+          "flexRedirectCutoff2026Max": 9.02,
+          "hybridCutoff2026Mean": 9.0,
+          "hybridCutoff2026Min": 9.0,
+          "hybridCutoff2026Max": 9.02
         },
         {
           "name": "Filologie (Limba română/Limba spaniolă)",
@@ -1660,7 +1822,10 @@
           "redirectCutoff2026Max": 9.02,
           "flexRedirectCutoff2026Mean": 9.01,
           "flexRedirectCutoff2026Min": 9.0,
-          "flexRedirectCutoff2026Max": 9.02
+          "flexRedirectCutoff2026Max": 9.02,
+          "hybridCutoff2026Mean": 9.0,
+          "hybridCutoff2026Min": 9.0,
+          "hybridCutoff2026Max": 9.02
         }
       ],
       "best_cutoffs": {
@@ -1741,7 +1906,10 @@
           "redirectCutoff2026Max": 9.07,
           "flexRedirectCutoff2026Mean": 9.06,
           "flexRedirectCutoff2026Min": 9.05,
-          "flexRedirectCutoff2026Max": 9.07
+          "flexRedirectCutoff2026Max": 9.07,
+          "hybridCutoff2026Mean": 9.05,
+          "hybridCutoff2026Min": 9.05,
+          "hybridCutoff2026Max": 9.07
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -1764,7 +1932,10 @@
           "redirectCutoff2026Max": 8.92,
           "flexRedirectCutoff2026Mean": 8.89,
           "flexRedirectCutoff2026Min": 8.87,
-          "flexRedirectCutoff2026Max": 8.9
+          "flexRedirectCutoff2026Max": 8.9,
+          "hybridCutoff2026Mean": 8.9,
+          "hybridCutoff2026Min": 8.87,
+          "hybridCutoff2026Max": 8.9
         },
         {
           "name": "Filologie",
@@ -1787,7 +1958,10 @@
           "redirectCutoff2026Max": 8.92,
           "flexRedirectCutoff2026Mean": 8.89,
           "flexRedirectCutoff2026Min": 8.87,
-          "flexRedirectCutoff2026Max": 8.9
+          "flexRedirectCutoff2026Max": 8.9,
+          "hybridCutoff2026Mean": 8.9,
+          "hybridCutoff2026Min": 8.87,
+          "hybridCutoff2026Max": 8.9
         }
       ],
       "best_cutoffs": {
@@ -1825,7 +1999,10 @@
           "redirectCutoff2026Max": 9.05,
           "flexRedirectCutoff2026Mean": 9.05,
           "flexRedirectCutoff2026Min": 9.02,
-          "flexRedirectCutoff2026Max": 9.05
+          "flexRedirectCutoff2026Max": 9.05,
+          "hybridCutoff2026Mean": 9.04,
+          "hybridCutoff2026Min": 9.02,
+          "hybridCutoff2026Max": 9.05
         },
         {
           "name": "Ştiinţe ale Naturii (Limba română/Limba engleză)",
@@ -1853,7 +2030,10 @@
           "redirectCutoff2026Max": 9.02,
           "flexRedirectCutoff2026Mean": 9.03,
           "flexRedirectCutoff2026Min": 9.02,
-          "flexRedirectCutoff2026Max": 9.05
+          "flexRedirectCutoff2026Max": 9.05,
+          "hybridCutoff2026Mean": 9.03,
+          "hybridCutoff2026Min": 9.0,
+          "hybridCutoff2026Max": 9.05
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -1881,7 +2061,10 @@
           "redirectCutoff2026Max": 9.02,
           "flexRedirectCutoff2026Mean": 9.03,
           "flexRedirectCutoff2026Min": 9.02,
-          "flexRedirectCutoff2026Max": 9.05
+          "flexRedirectCutoff2026Max": 9.05,
+          "hybridCutoff2026Mean": 9.03,
+          "hybridCutoff2026Min": 9.0,
+          "hybridCutoff2026Max": 9.05
         },
         {
           "name": "Ştiinţe Sociale",
@@ -1909,7 +2092,10 @@
           "redirectCutoff2026Max": 9.0,
           "flexRedirectCutoff2026Mean": 9.04,
           "flexRedirectCutoff2026Min": 9.02,
-          "flexRedirectCutoff2026Max": 9.05
+          "flexRedirectCutoff2026Max": 9.05,
+          "hybridCutoff2026Mean": 9.02,
+          "hybridCutoff2026Min": 9.02,
+          "hybridCutoff2026Max": 9.05
         },
         {
           "name": "Filologie",
@@ -1937,7 +2123,10 @@
           "redirectCutoff2026Max": 8.92,
           "flexRedirectCutoff2026Mean": 8.92,
           "flexRedirectCutoff2026Min": 8.92,
-          "flexRedirectCutoff2026Max": 8.92
+          "flexRedirectCutoff2026Max": 8.92,
+          "hybridCutoff2026Mean": 8.92,
+          "hybridCutoff2026Min": 8.92,
+          "hybridCutoff2026Max": 8.92
         }
       ],
       "best_cutoffs": {
@@ -1976,7 +2165,10 @@
           "redirectCutoff2026Max": 9.0,
           "flexRedirectCutoff2026Mean": 9.0,
           "flexRedirectCutoff2026Min": 9.0,
-          "flexRedirectCutoff2026Max": 9.0
+          "flexRedirectCutoff2026Max": 9.0,
+          "hybridCutoff2026Mean": 8.99,
+          "hybridCutoff2026Min": 8.97,
+          "hybridCutoff2026Max": 9.0
         },
         {
           "name": "Matematică-Informatică",
@@ -2004,7 +2196,10 @@
           "redirectCutoff2026Max": 9.0,
           "flexRedirectCutoff2026Mean": 8.97,
           "flexRedirectCutoff2026Min": 8.97,
-          "flexRedirectCutoff2026Max": 9.0
+          "flexRedirectCutoff2026Max": 9.0,
+          "hybridCutoff2026Mean": 8.97,
+          "hybridCutoff2026Min": 8.95,
+          "hybridCutoff2026Max": 9.0
         },
         {
           "name": "Ştiinţe Sociale",
@@ -2032,7 +2227,10 @@
           "redirectCutoff2026Max": 8.95,
           "flexRedirectCutoff2026Mean": 9.01,
           "flexRedirectCutoff2026Min": 9.0,
-          "flexRedirectCutoff2026Max": 9.02
+          "flexRedirectCutoff2026Max": 9.02,
+          "hybridCutoff2026Mean": 9.0,
+          "hybridCutoff2026Min": 8.97,
+          "hybridCutoff2026Max": 9.01
         },
         {
           "name": "Filologie",
@@ -2060,7 +2258,10 @@
           "redirectCutoff2026Max": 8.95,
           "flexRedirectCutoff2026Mean": 8.95,
           "flexRedirectCutoff2026Min": 8.92,
-          "flexRedirectCutoff2026Max": 8.95
+          "flexRedirectCutoff2026Max": 8.95,
+          "hybridCutoff2026Mean": 8.95,
+          "hybridCutoff2026Min": 8.92,
+          "hybridCutoff2026Max": 8.95
         }
       ],
       "best_cutoffs": {
@@ -2099,7 +2300,10 @@
           "redirectCutoff2026Max": 8.95,
           "flexRedirectCutoff2026Mean": 8.95,
           "flexRedirectCutoff2026Min": 8.93,
-          "flexRedirectCutoff2026Max": 8.97
+          "flexRedirectCutoff2026Max": 8.97,
+          "hybridCutoff2026Mean": 8.94,
+          "hybridCutoff2026Min": 8.92,
+          "hybridCutoff2026Max": 8.97
         },
         {
           "name": "Matematică-Informatică",
@@ -2127,7 +2331,10 @@
           "redirectCutoff2026Max": 8.95,
           "flexRedirectCutoff2026Mean": 8.92,
           "flexRedirectCutoff2026Min": 8.92,
-          "flexRedirectCutoff2026Max": 8.95
+          "flexRedirectCutoff2026Max": 8.95,
+          "hybridCutoff2026Mean": 8.92,
+          "hybridCutoff2026Min": 8.9,
+          "hybridCutoff2026Max": 8.92
         },
         {
           "name": "Ştiinţe ale Naturii (Limba română/Limba italiană)",
@@ -2155,7 +2362,10 @@
           "redirectCutoff2026Max": 8.95,
           "flexRedirectCutoff2026Mean": 8.95,
           "flexRedirectCutoff2026Min": 8.93,
-          "flexRedirectCutoff2026Max": 8.97
+          "flexRedirectCutoff2026Max": 8.97,
+          "hybridCutoff2026Mean": 8.94,
+          "hybridCutoff2026Min": 8.92,
+          "hybridCutoff2026Max": 8.97
         },
         {
           "name": "Ştiinţe Sociale",
@@ -2183,7 +2393,10 @@
           "redirectCutoff2026Max": 8.9,
           "flexRedirectCutoff2026Mean": 8.95,
           "flexRedirectCutoff2026Min": 8.95,
-          "flexRedirectCutoff2026Max": 8.97
+          "flexRedirectCutoff2026Max": 8.97,
+          "hybridCutoff2026Mean": 8.93,
+          "hybridCutoff2026Min": 8.92,
+          "hybridCutoff2026Max": 8.95
         },
         {
           "name": "Filologie",
@@ -2211,7 +2424,10 @@
           "redirectCutoff2026Max": 8.87,
           "flexRedirectCutoff2026Mean": 8.84,
           "flexRedirectCutoff2026Min": 8.82,
-          "flexRedirectCutoff2026Max": 8.85
+          "flexRedirectCutoff2026Max": 8.85,
+          "hybridCutoff2026Mean": 8.85,
+          "hybridCutoff2026Min": 8.82,
+          "hybridCutoff2026Max": 8.87
         },
         {
           "name": "Filologie (Limba română/Limba italiană)",
@@ -2239,7 +2455,10 @@
           "redirectCutoff2026Max": 8.87,
           "flexRedirectCutoff2026Mean": 8.84,
           "flexRedirectCutoff2026Min": 8.82,
-          "flexRedirectCutoff2026Max": 8.85
+          "flexRedirectCutoff2026Max": 8.85,
+          "hybridCutoff2026Mean": 8.85,
+          "hybridCutoff2026Min": 8.82,
+          "hybridCutoff2026Max": 8.87
         }
       ],
       "best_cutoffs": {
@@ -2278,7 +2497,10 @@
           "redirectCutoff2026Max": 9.2,
           "flexRedirectCutoff2026Mean": 9.17,
           "flexRedirectCutoff2026Min": 9.17,
-          "flexRedirectCutoff2026Max": 9.2
+          "flexRedirectCutoff2026Max": 9.2,
+          "hybridCutoff2026Mean": 9.17,
+          "hybridCutoff2026Min": 9.17,
+          "hybridCutoff2026Max": 9.2
         },
         {
           "name": "Matematică-Informatică",
@@ -2306,7 +2528,10 @@
           "redirectCutoff2026Max": 8.92,
           "flexRedirectCutoff2026Mean": 8.91,
           "flexRedirectCutoff2026Min": 8.9,
-          "flexRedirectCutoff2026Max": 8.95
+          "flexRedirectCutoff2026Max": 8.95,
+          "hybridCutoff2026Mean": 8.9,
+          "hybridCutoff2026Min": 8.9,
+          "hybridCutoff2026Max": 8.92
         },
         {
           "name": "Ştiinţe Sociale",
@@ -2331,7 +2556,10 @@
           "redirectCutoff2026Max": 8.85,
           "flexRedirectCutoff2026Mean": 8.88,
           "flexRedirectCutoff2026Min": 8.87,
-          "flexRedirectCutoff2026Max": 8.9
+          "flexRedirectCutoff2026Max": 8.9,
+          "hybridCutoff2026Mean": 8.87,
+          "hybridCutoff2026Min": 8.85,
+          "hybridCutoff2026Max": 8.87
         }
       ],
       "best_cutoffs": {
@@ -2365,7 +2593,10 @@
           "redirectCutoff2026Max": 7.0,
           "flexRedirectCutoff2026Mean": 7.0,
           "flexRedirectCutoff2026Min": 7.0,
-          "flexRedirectCutoff2026Max": 7.0
+          "flexRedirectCutoff2026Max": 7.0,
+          "hybridCutoff2026Mean": 7.0,
+          "hybridCutoff2026Min": 7.0,
+          "hybridCutoff2026Max": 7.0
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -2388,7 +2619,10 @@
           "redirectCutoff2026Max": 6.97,
           "flexRedirectCutoff2026Mean": 6.97,
           "flexRedirectCutoff2026Min": 6.97,
-          "flexRedirectCutoff2026Max": 6.97
+          "flexRedirectCutoff2026Max": 6.97,
+          "hybridCutoff2026Mean": 6.97,
+          "hybridCutoff2026Min": 6.97,
+          "hybridCutoff2026Max": 6.97
         },
         {
           "name": "Filologie",
@@ -2411,7 +2645,10 @@
           "redirectCutoff2026Max": 6.97,
           "flexRedirectCutoff2026Mean": 6.97,
           "flexRedirectCutoff2026Min": 6.97,
-          "flexRedirectCutoff2026Max": 6.97
+          "flexRedirectCutoff2026Max": 6.97,
+          "hybridCutoff2026Mean": 6.97,
+          "hybridCutoff2026Min": 6.97,
+          "hybridCutoff2026Max": 6.97
         }
       ],
       "best_cutoffs": {
@@ -2449,7 +2686,10 @@
           "redirectCutoff2026Max": 8.85,
           "flexRedirectCutoff2026Mean": 8.85,
           "flexRedirectCutoff2026Min": 8.82,
-          "flexRedirectCutoff2026Max": 8.85
+          "flexRedirectCutoff2026Max": 8.85,
+          "hybridCutoff2026Mean": 8.84,
+          "hybridCutoff2026Min": 8.82,
+          "hybridCutoff2026Max": 8.85
         },
         {
           "name": "Filologie",
@@ -2477,7 +2717,10 @@
           "redirectCutoff2026Max": 8.77,
           "flexRedirectCutoff2026Mean": 8.77,
           "flexRedirectCutoff2026Min": 8.75,
-          "flexRedirectCutoff2026Max": 8.77
+          "flexRedirectCutoff2026Max": 8.77,
+          "hybridCutoff2026Mean": 8.76,
+          "hybridCutoff2026Min": 8.75,
+          "hybridCutoff2026Max": 8.77
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba franceză)",
@@ -2505,7 +2748,10 @@
           "redirectCutoff2026Max": 8.85,
           "flexRedirectCutoff2026Mean": 8.85,
           "flexRedirectCutoff2026Min": 8.82,
-          "flexRedirectCutoff2026Max": 8.85
+          "flexRedirectCutoff2026Max": 8.85,
+          "hybridCutoff2026Mean": 8.84,
+          "hybridCutoff2026Min": 8.82,
+          "hybridCutoff2026Max": 8.85
         },
         {
           "name": "Filologie (Limba română/Limba franceză)",
@@ -2533,7 +2779,10 @@
           "redirectCutoff2026Max": 8.77,
           "flexRedirectCutoff2026Mean": 8.77,
           "flexRedirectCutoff2026Min": 8.75,
-          "flexRedirectCutoff2026Max": 8.77
+          "flexRedirectCutoff2026Max": 8.77,
+          "hybridCutoff2026Mean": 8.76,
+          "hybridCutoff2026Min": 8.75,
+          "hybridCutoff2026Max": 8.77
         }
       ],
       "best_cutoffs": {
@@ -2572,7 +2821,10 @@
           "redirectCutoff2026Max": 8.82,
           "flexRedirectCutoff2026Mean": 8.82,
           "flexRedirectCutoff2026Min": 8.82,
-          "flexRedirectCutoff2026Max": 8.82
+          "flexRedirectCutoff2026Max": 8.82,
+          "hybridCutoff2026Mean": 8.82,
+          "hybridCutoff2026Min": 8.8,
+          "hybridCutoff2026Max": 8.82
         },
         {
           "name": "Filologie",
@@ -2600,7 +2852,10 @@
           "redirectCutoff2026Max": 8.75,
           "flexRedirectCutoff2026Mean": 8.75,
           "flexRedirectCutoff2026Min": 8.75,
-          "flexRedirectCutoff2026Max": 8.75
+          "flexRedirectCutoff2026Max": 8.75,
+          "hybridCutoff2026Mean": 8.75,
+          "hybridCutoff2026Min": 8.72,
+          "hybridCutoff2026Max": 8.75
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba spaniolă)",
@@ -2628,7 +2883,10 @@
           "redirectCutoff2026Max": 8.82,
           "flexRedirectCutoff2026Mean": 8.82,
           "flexRedirectCutoff2026Min": 8.82,
-          "flexRedirectCutoff2026Max": 8.82
+          "flexRedirectCutoff2026Max": 8.82,
+          "hybridCutoff2026Mean": 8.82,
+          "hybridCutoff2026Min": 8.8,
+          "hybridCutoff2026Max": 8.82
         },
         {
           "name": "Filologie (Limba română/Limba spaniolă)",
@@ -2656,7 +2914,10 @@
           "redirectCutoff2026Max": 8.75,
           "flexRedirectCutoff2026Mean": 8.75,
           "flexRedirectCutoff2026Min": 8.75,
-          "flexRedirectCutoff2026Max": 8.75
+          "flexRedirectCutoff2026Max": 8.75,
+          "hybridCutoff2026Mean": 8.75,
+          "hybridCutoff2026Min": 8.72,
+          "hybridCutoff2026Max": 8.75
         }
       ],
       "best_cutoffs": {
@@ -2695,7 +2956,10 @@
           "redirectCutoff2026Max": 8.8,
           "flexRedirectCutoff2026Mean": 8.8,
           "flexRedirectCutoff2026Min": 8.8,
-          "flexRedirectCutoff2026Max": 8.82
+          "flexRedirectCutoff2026Max": 8.82,
+          "hybridCutoff2026Mean": 8.8,
+          "hybridCutoff2026Min": 8.8,
+          "hybridCutoff2026Max": 8.82
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -2723,7 +2987,10 @@
           "redirectCutoff2026Max": 8.87,
           "flexRedirectCutoff2026Mean": 8.87,
           "flexRedirectCutoff2026Min": 8.85,
-          "flexRedirectCutoff2026Max": 8.87
+          "flexRedirectCutoff2026Max": 8.87,
+          "hybridCutoff2026Mean": 8.86,
+          "hybridCutoff2026Min": 8.85,
+          "hybridCutoff2026Max": 8.87
         },
         {
           "name": "Ştiinţe Sociale",
@@ -2751,7 +3018,10 @@
           "redirectCutoff2026Max": 8.77,
           "flexRedirectCutoff2026Mean": 8.8,
           "flexRedirectCutoff2026Min": 8.8,
-          "flexRedirectCutoff2026Max": 8.8
+          "flexRedirectCutoff2026Max": 8.8,
+          "hybridCutoff2026Mean": 8.79,
+          "hybridCutoff2026Min": 8.77,
+          "hybridCutoff2026Max": 8.8
         }
       ],
       "best_cutoffs": {
@@ -2790,7 +3060,10 @@
           "redirectCutoff2026Max": 8.8,
           "flexRedirectCutoff2026Mean": 8.8,
           "flexRedirectCutoff2026Min": 8.8,
-          "flexRedirectCutoff2026Max": 8.8
+          "flexRedirectCutoff2026Max": 8.8,
+          "hybridCutoff2026Mean": 8.79,
+          "hybridCutoff2026Min": 8.77,
+          "hybridCutoff2026Max": 8.8
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -2818,7 +3091,10 @@
           "redirectCutoff2026Max": 8.8,
           "flexRedirectCutoff2026Mean": 8.8,
           "flexRedirectCutoff2026Min": 8.77,
-          "flexRedirectCutoff2026Max": 8.8
+          "flexRedirectCutoff2026Max": 8.8,
+          "hybridCutoff2026Mean": 8.78,
+          "hybridCutoff2026Min": 8.77,
+          "hybridCutoff2026Max": 8.82
         },
         {
           "name": "Ştiinţe Sociale",
@@ -2846,7 +3122,10 @@
           "redirectCutoff2026Max": 8.65,
           "flexRedirectCutoff2026Mean": 8.7,
           "flexRedirectCutoff2026Min": 8.67,
-          "flexRedirectCutoff2026Max": 8.72
+          "flexRedirectCutoff2026Max": 8.72,
+          "hybridCutoff2026Mean": 8.68,
+          "hybridCutoff2026Min": 8.67,
+          "hybridCutoff2026Max": 8.7
         }
       ],
       "best_cutoffs": {
@@ -2958,7 +3237,10 @@
           "redirectCutoff2026Max": 8.72,
           "flexRedirectCutoff2026Mean": 8.72,
           "flexRedirectCutoff2026Min": 8.72,
-          "flexRedirectCutoff2026Max": 8.72
+          "flexRedirectCutoff2026Max": 8.72,
+          "hybridCutoff2026Mean": 8.72,
+          "hybridCutoff2026Min": 8.72,
+          "hybridCutoff2026Max": 8.72
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -2986,7 +3268,10 @@
           "redirectCutoff2026Max": 8.62,
           "flexRedirectCutoff2026Mean": 8.61,
           "flexRedirectCutoff2026Min": 8.6,
-          "flexRedirectCutoff2026Max": 8.62
+          "flexRedirectCutoff2026Max": 8.62,
+          "hybridCutoff2026Mean": 8.6,
+          "hybridCutoff2026Min": 8.6,
+          "hybridCutoff2026Max": 8.62
         },
         {
           "name": "Filologie",
@@ -3014,7 +3299,10 @@
           "redirectCutoff2026Max": 8.71,
           "flexRedirectCutoff2026Mean": 8.7,
           "flexRedirectCutoff2026Min": 8.7,
-          "flexRedirectCutoff2026Max": 8.72
+          "flexRedirectCutoff2026Max": 8.72,
+          "hybridCutoff2026Mean": 8.7,
+          "hybridCutoff2026Min": 8.7,
+          "hybridCutoff2026Max": 8.7
         },
         {
           "name": "Ştiinţe Sociale",
@@ -3042,7 +3330,10 @@
           "redirectCutoff2026Max": 8.52,
           "flexRedirectCutoff2026Mean": 8.57,
           "flexRedirectCutoff2026Min": 8.55,
-          "flexRedirectCutoff2026Max": 8.6
+          "flexRedirectCutoff2026Max": 8.6,
+          "hybridCutoff2026Mean": 8.54,
+          "hybridCutoff2026Min": 8.52,
+          "hybridCutoff2026Max": 8.57
         }
       ],
       "best_cutoffs": {
@@ -3081,7 +3372,10 @@
           "redirectCutoff2026Max": 8.7,
           "flexRedirectCutoff2026Mean": 8.7,
           "flexRedirectCutoff2026Min": 8.67,
-          "flexRedirectCutoff2026Max": 8.7
+          "flexRedirectCutoff2026Max": 8.7,
+          "hybridCutoff2026Mean": 8.69,
+          "hybridCutoff2026Min": 8.67,
+          "hybridCutoff2026Max": 8.7
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3109,7 +3403,10 @@
           "redirectCutoff2026Max": 8.65,
           "flexRedirectCutoff2026Mean": 8.65,
           "flexRedirectCutoff2026Min": 8.65,
-          "flexRedirectCutoff2026Max": 8.65
+          "flexRedirectCutoff2026Max": 8.65,
+          "hybridCutoff2026Mean": 8.65,
+          "hybridCutoff2026Min": 8.65,
+          "hybridCutoff2026Max": 8.65
         },
         {
           "name": "Filologie",
@@ -3137,7 +3434,10 @@
           "redirectCutoff2026Max": 8.72,
           "flexRedirectCutoff2026Mean": 8.72,
           "flexRedirectCutoff2026Min": 8.72,
-          "flexRedirectCutoff2026Max": 8.75
+          "flexRedirectCutoff2026Max": 8.75,
+          "hybridCutoff2026Mean": 8.72,
+          "hybridCutoff2026Min": 8.72,
+          "hybridCutoff2026Max": 8.72
         }
       ],
       "best_cutoffs": {
@@ -3176,7 +3476,10 @@
           "redirectCutoff2026Max": 8.67,
           "flexRedirectCutoff2026Mean": 8.67,
           "flexRedirectCutoff2026Min": 8.67,
-          "flexRedirectCutoff2026Max": 8.67
+          "flexRedirectCutoff2026Max": 8.67,
+          "hybridCutoff2026Mean": 8.67,
+          "hybridCutoff2026Min": 8.67,
+          "hybridCutoff2026Max": 8.67
         },
         {
           "name": "Filologie",
@@ -3204,7 +3507,10 @@
           "redirectCutoff2026Max": 8.6,
           "flexRedirectCutoff2026Mean": 8.6,
           "flexRedirectCutoff2026Min": 8.6,
-          "flexRedirectCutoff2026Max": 8.6
+          "flexRedirectCutoff2026Max": 8.6,
+          "hybridCutoff2026Mean": 8.6,
+          "hybridCutoff2026Min": 8.6,
+          "hybridCutoff2026Max": 8.6
         }
       ],
       "best_cutoffs": {
@@ -3284,7 +3590,10 @@
           "redirectCutoff2026Max": 8.62,
           "flexRedirectCutoff2026Mean": 8.63,
           "flexRedirectCutoff2026Min": 8.62,
-          "flexRedirectCutoff2026Max": 8.65
+          "flexRedirectCutoff2026Max": 8.65,
+          "hybridCutoff2026Mean": 8.63,
+          "hybridCutoff2026Min": 8.62,
+          "hybridCutoff2026Max": 8.65
         },
         {
           "name": "Filologie",
@@ -3312,7 +3621,10 @@
           "redirectCutoff2026Max": 8.55,
           "flexRedirectCutoff2026Mean": 8.57,
           "flexRedirectCutoff2026Min": 8.55,
-          "flexRedirectCutoff2026Max": 8.57
+          "flexRedirectCutoff2026Max": 8.57,
+          "hybridCutoff2026Mean": 8.55,
+          "hybridCutoff2026Min": 8.55,
+          "hybridCutoff2026Max": 8.57
         },
         {
           "name": "Filologie (Limba română/Limba italiană)",
@@ -3340,7 +3652,10 @@
           "redirectCutoff2026Max": 8.55,
           "flexRedirectCutoff2026Mean": 8.57,
           "flexRedirectCutoff2026Min": 8.55,
-          "flexRedirectCutoff2026Max": 8.57
+          "flexRedirectCutoff2026Max": 8.57,
+          "hybridCutoff2026Mean": 8.55,
+          "hybridCutoff2026Min": 8.55,
+          "hybridCutoff2026Max": 8.57
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba italiană)",
@@ -3368,7 +3683,10 @@
           "redirectCutoff2026Max": 8.62,
           "flexRedirectCutoff2026Mean": 8.63,
           "flexRedirectCutoff2026Min": 8.62,
-          "flexRedirectCutoff2026Max": 8.65
+          "flexRedirectCutoff2026Max": 8.65,
+          "hybridCutoff2026Mean": 8.63,
+          "hybridCutoff2026Min": 8.62,
+          "hybridCutoff2026Max": 8.65
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3396,7 +3714,10 @@
           "redirectCutoff2026Max": 7.87,
           "flexRedirectCutoff2026Mean": 7.66,
           "flexRedirectCutoff2026Min": 7.52,
-          "flexRedirectCutoff2026Max": 7.75
+          "flexRedirectCutoff2026Max": 7.75,
+          "hybridCutoff2026Mean": 7.63,
+          "hybridCutoff2026Min": 7.5,
+          "hybridCutoff2026Max": 7.72
         }
       ],
       "best_cutoffs": {
@@ -3435,7 +3756,10 @@
           "redirectCutoff2026Max": 8.62,
           "flexRedirectCutoff2026Mean": 8.6,
           "flexRedirectCutoff2026Min": 8.6,
-          "flexRedirectCutoff2026Max": 8.62
+          "flexRedirectCutoff2026Max": 8.62,
+          "hybridCutoff2026Mean": 8.6,
+          "hybridCutoff2026Min": 8.6,
+          "hybridCutoff2026Max": 8.62
         },
         {
           "name": "Filologie",
@@ -3463,7 +3787,10 @@
           "redirectCutoff2026Max": 8.5,
           "flexRedirectCutoff2026Mean": 8.5,
           "flexRedirectCutoff2026Min": 8.47,
-          "flexRedirectCutoff2026Max": 8.55
+          "flexRedirectCutoff2026Max": 8.55,
+          "hybridCutoff2026Mean": 8.48,
+          "hybridCutoff2026Min": 8.45,
+          "hybridCutoff2026Max": 8.5
         }
       ],
       "best_cutoffs": {
@@ -3502,7 +3829,10 @@
           "redirectCutoff2026Max": 8.55,
           "flexRedirectCutoff2026Mean": 8.55,
           "flexRedirectCutoff2026Min": 8.55,
-          "flexRedirectCutoff2026Max": 8.57
+          "flexRedirectCutoff2026Max": 8.57,
+          "hybridCutoff2026Mean": 8.55,
+          "hybridCutoff2026Min": 8.52,
+          "hybridCutoff2026Max": 8.57
         },
         {
           "name": "Filologie",
@@ -3530,7 +3860,10 @@
           "redirectCutoff2026Max": 8.32,
           "flexRedirectCutoff2026Mean": 8.29,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.3
+          "flexRedirectCutoff2026Max": 8.3,
+          "hybridCutoff2026Mean": 8.27,
+          "hybridCutoff2026Min": 8.27,
+          "hybridCutoff2026Max": 8.3
         },
         {
           "name": "Ştiinţe Sociale",
@@ -3558,7 +3891,10 @@
           "redirectCutoff2026Max": 8.3,
           "flexRedirectCutoff2026Mean": 8.28,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.3
+          "flexRedirectCutoff2026Max": 8.3,
+          "hybridCutoff2026Mean": 8.27,
+          "hybridCutoff2026Min": 8.25,
+          "hybridCutoff2026Max": 8.3
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3586,7 +3922,10 @@
           "redirectCutoff2026Max": 8.15,
           "flexRedirectCutoff2026Mean": 8.18,
           "flexRedirectCutoff2026Min": 8.17,
-          "flexRedirectCutoff2026Max": 8.2
+          "flexRedirectCutoff2026Max": 8.2,
+          "hybridCutoff2026Mean": 8.16,
+          "hybridCutoff2026Min": 8.15,
+          "hybridCutoff2026Max": 8.17
         }
       ],
       "best_cutoffs": {
@@ -3625,7 +3964,10 @@
           "redirectCutoff2026Max": 8.57,
           "flexRedirectCutoff2026Mean": 8.55,
           "flexRedirectCutoff2026Min": 8.55,
-          "flexRedirectCutoff2026Max": 8.55
+          "flexRedirectCutoff2026Max": 8.55,
+          "hybridCutoff2026Mean": 8.55,
+          "hybridCutoff2026Min": 8.55,
+          "hybridCutoff2026Max": 8.55
         },
         {
           "name": "Ştiinţe Sociale",
@@ -3653,7 +3995,10 @@
           "redirectCutoff2026Max": 8.47,
           "flexRedirectCutoff2026Mean": 8.48,
           "flexRedirectCutoff2026Min": 8.47,
-          "flexRedirectCutoff2026Max": 8.5
+          "flexRedirectCutoff2026Max": 8.5,
+          "hybridCutoff2026Mean": 8.47,
+          "hybridCutoff2026Min": 8.45,
+          "hybridCutoff2026Max": 8.48
         },
         {
           "name": "Matematică-Informatică",
@@ -3681,7 +4026,10 @@
           "redirectCutoff2026Max": 8.4,
           "flexRedirectCutoff2026Mean": 8.4,
           "flexRedirectCutoff2026Min": 8.4,
-          "flexRedirectCutoff2026Max": 8.42
+          "flexRedirectCutoff2026Max": 8.42,
+          "hybridCutoff2026Mean": 8.4,
+          "hybridCutoff2026Min": 8.4,
+          "hybridCutoff2026Max": 8.4
         },
         {
           "name": "Filologie",
@@ -3709,7 +4057,10 @@
           "redirectCutoff2026Max": 8.45,
           "flexRedirectCutoff2026Mean": 8.45,
           "flexRedirectCutoff2026Min": 8.42,
-          "flexRedirectCutoff2026Max": 8.45
+          "flexRedirectCutoff2026Max": 8.45,
+          "hybridCutoff2026Mean": 8.43,
+          "hybridCutoff2026Min": 8.42,
+          "hybridCutoff2026Max": 8.45
         }
       ],
       "best_cutoffs": {
@@ -3748,7 +4099,10 @@
           "redirectCutoff2026Max": 8.47,
           "flexRedirectCutoff2026Mean": 8.5,
           "flexRedirectCutoff2026Min": 8.47,
-          "flexRedirectCutoff2026Max": 8.52
+          "flexRedirectCutoff2026Max": 8.52,
+          "hybridCutoff2026Mean": 8.48,
+          "hybridCutoff2026Min": 8.47,
+          "hybridCutoff2026Max": 8.5
         },
         {
           "name": "Filologie (Limba română/Limba germană)",
@@ -3776,7 +4130,10 @@
           "redirectCutoff2026Max": 8.47,
           "flexRedirectCutoff2026Mean": 8.5,
           "flexRedirectCutoff2026Min": 8.47,
-          "flexRedirectCutoff2026Max": 8.52
+          "flexRedirectCutoff2026Max": 8.52,
+          "hybridCutoff2026Mean": 8.48,
+          "hybridCutoff2026Min": 8.47,
+          "hybridCutoff2026Max": 8.5
         }
       ],
       "best_cutoffs": {
@@ -3872,7 +4229,10 @@
           "redirectCutoff2026Max": 8.52,
           "flexRedirectCutoff2026Mean": 8.51,
           "flexRedirectCutoff2026Min": 8.5,
-          "flexRedirectCutoff2026Max": 8.52
+          "flexRedirectCutoff2026Max": 8.52,
+          "hybridCutoff2026Mean": 8.5,
+          "hybridCutoff2026Min": 8.5,
+          "hybridCutoff2026Max": 8.52
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3900,7 +4260,10 @@
           "redirectCutoff2026Max": 8.35,
           "flexRedirectCutoff2026Mean": 8.34,
           "flexRedirectCutoff2026Min": 8.32,
-          "flexRedirectCutoff2026Max": 8.35
+          "flexRedirectCutoff2026Max": 8.35,
+          "hybridCutoff2026Mean": 8.32,
+          "hybridCutoff2026Min": 8.32,
+          "hybridCutoff2026Max": 8.32
         },
         {
           "name": "Filologie",
@@ -3928,7 +4291,10 @@
           "redirectCutoff2026Max": 8.2,
           "flexRedirectCutoff2026Mean": 8.19,
           "flexRedirectCutoff2026Min": 8.17,
-          "flexRedirectCutoff2026Max": 8.2
+          "flexRedirectCutoff2026Max": 8.2,
+          "hybridCutoff2026Mean": 8.18,
+          "hybridCutoff2026Min": 8.17,
+          "hybridCutoff2026Max": 8.2
         }
       ],
       "best_cutoffs": {
@@ -3967,7 +4333,10 @@
           "redirectCutoff2026Max": 8.47,
           "flexRedirectCutoff2026Mean": 8.48,
           "flexRedirectCutoff2026Min": 8.47,
-          "flexRedirectCutoff2026Max": 8.5
+          "flexRedirectCutoff2026Max": 8.5,
+          "hybridCutoff2026Mean": 8.46,
+          "hybridCutoff2026Min": 8.45,
+          "hybridCutoff2026Max": 8.47
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -3995,7 +4364,10 @@
           "redirectCutoff2026Max": 8.35,
           "flexRedirectCutoff2026Mean": 8.35,
           "flexRedirectCutoff2026Min": 8.35,
-          "flexRedirectCutoff2026Max": 8.37
+          "flexRedirectCutoff2026Max": 8.37,
+          "hybridCutoff2026Mean": 8.33,
+          "hybridCutoff2026Min": 8.32,
+          "hybridCutoff2026Max": 8.35
         },
         {
           "name": "Filologie",
@@ -4023,7 +4395,10 @@
           "redirectCutoff2026Max": 8.22,
           "flexRedirectCutoff2026Mean": 8.22,
           "flexRedirectCutoff2026Min": 8.2,
-          "flexRedirectCutoff2026Max": 8.22
+          "flexRedirectCutoff2026Max": 8.22,
+          "hybridCutoff2026Mean": 8.21,
+          "hybridCutoff2026Min": 8.2,
+          "hybridCutoff2026Max": 8.22
         },
         {
           "name": "Ştiinţe Sociale",
@@ -4051,7 +4426,10 @@
           "redirectCutoff2026Max": 8.2,
           "flexRedirectCutoff2026Mean": 8.18,
           "flexRedirectCutoff2026Min": 8.17,
-          "flexRedirectCutoff2026Max": 8.22
+          "flexRedirectCutoff2026Max": 8.22,
+          "hybridCutoff2026Mean": 8.16,
+          "hybridCutoff2026Min": 8.15,
+          "hybridCutoff2026Max": 8.2
         }
       ],
       "best_cutoffs": {
@@ -4090,7 +4468,10 @@
           "redirectCutoff2026Max": 8.45,
           "flexRedirectCutoff2026Mean": 8.46,
           "flexRedirectCutoff2026Min": 8.45,
-          "flexRedirectCutoff2026Max": 8.5
+          "flexRedirectCutoff2026Max": 8.5,
+          "hybridCutoff2026Mean": 8.45,
+          "hybridCutoff2026Min": 8.42,
+          "hybridCutoff2026Max": 8.47
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -4115,7 +4496,10 @@
           "redirectCutoff2026Max": 8.45,
           "flexRedirectCutoff2026Mean": 8.41,
           "flexRedirectCutoff2026Min": 8.4,
-          "flexRedirectCutoff2026Max": 8.42
+          "flexRedirectCutoff2026Max": 8.42,
+          "hybridCutoff2026Mean": 8.4,
+          "hybridCutoff2026Min": 8.37,
+          "hybridCutoff2026Max": 8.4
         },
         {
           "name": "Filologie",
@@ -4143,7 +4527,10 @@
           "redirectCutoff2026Max": 8.38,
           "flexRedirectCutoff2026Mean": 8.37,
           "flexRedirectCutoff2026Min": 8.37,
-          "flexRedirectCutoff2026Max": 8.37
+          "flexRedirectCutoff2026Max": 8.37,
+          "hybridCutoff2026Mean": 8.37,
+          "hybridCutoff2026Min": 8.37,
+          "hybridCutoff2026Max": 8.37
         }
       ],
       "best_cutoffs": {
@@ -4182,7 +4569,10 @@
           "redirectCutoff2026Max": 8.4,
           "flexRedirectCutoff2026Mean": 8.42,
           "flexRedirectCutoff2026Min": 8.42,
-          "flexRedirectCutoff2026Max": 8.45
+          "flexRedirectCutoff2026Max": 8.45,
+          "hybridCutoff2026Mean": 8.41,
+          "hybridCutoff2026Min": 8.4,
+          "hybridCutoff2026Max": 8.42
         },
         {
           "name": "Filologie",
@@ -4210,7 +4600,10 @@
           "redirectCutoff2026Max": 8.35,
           "flexRedirectCutoff2026Mean": 8.3,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.32
+          "flexRedirectCutoff2026Max": 8.32,
+          "hybridCutoff2026Mean": 8.3,
+          "hybridCutoff2026Min": 8.27,
+          "hybridCutoff2026Max": 8.32
         },
         {
           "name": "Filologie (Limba română/Limba portugheză)",
@@ -4238,7 +4631,10 @@
           "redirectCutoff2026Max": 8.35,
           "flexRedirectCutoff2026Mean": 8.3,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.32
+          "flexRedirectCutoff2026Max": 8.32,
+          "hybridCutoff2026Mean": 8.3,
+          "hybridCutoff2026Min": 8.27,
+          "hybridCutoff2026Max": 8.32
         }
       ],
       "best_cutoffs": {
@@ -4277,7 +4673,10 @@
           "redirectCutoff2026Max": 8.35,
           "flexRedirectCutoff2026Mean": 8.37,
           "flexRedirectCutoff2026Min": 8.37,
-          "flexRedirectCutoff2026Max": 8.4
+          "flexRedirectCutoff2026Max": 8.4,
+          "hybridCutoff2026Mean": 8.36,
+          "hybridCutoff2026Min": 8.35,
+          "hybridCutoff2026Max": 8.37
         },
         {
           "name": "Ştiinţe Sociale",
@@ -4305,7 +4704,10 @@
           "redirectCutoff2026Max": 8.3,
           "flexRedirectCutoff2026Mean": 8.32,
           "flexRedirectCutoff2026Min": 8.32,
-          "flexRedirectCutoff2026Max": 8.32
+          "flexRedirectCutoff2026Max": 8.32,
+          "hybridCutoff2026Mean": 8.31,
+          "hybridCutoff2026Min": 8.3,
+          "hybridCutoff2026Max": 8.32
         },
         {
           "name": "Filologie",
@@ -4333,7 +4735,10 @@
           "redirectCutoff2026Max": 8.27,
           "flexRedirectCutoff2026Mean": 8.27,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.27
+          "flexRedirectCutoff2026Max": 8.27,
+          "hybridCutoff2026Mean": 8.26,
+          "hybridCutoff2026Min": 8.25,
+          "hybridCutoff2026Max": 8.27
         }
       ],
       "best_cutoffs": {
@@ -4372,7 +4777,10 @@
           "redirectCutoff2026Max": 8.32,
           "flexRedirectCutoff2026Mean": 8.37,
           "flexRedirectCutoff2026Min": 8.35,
-          "flexRedirectCutoff2026Max": 8.4
+          "flexRedirectCutoff2026Max": 8.4,
+          "hybridCutoff2026Mean": 8.35,
+          "hybridCutoff2026Min": 8.35,
+          "hybridCutoff2026Max": 8.35
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -4400,7 +4808,10 @@
           "redirectCutoff2026Max": 8.27,
           "flexRedirectCutoff2026Mean": 8.27,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.27
+          "flexRedirectCutoff2026Max": 8.27,
+          "hybridCutoff2026Mean": 8.26,
+          "hybridCutoff2026Min": 8.25,
+          "hybridCutoff2026Max": 8.27
         },
         {
           "name": "Filologie",
@@ -4428,7 +4839,10 @@
           "redirectCutoff2026Max": 8.15,
           "flexRedirectCutoff2026Mean": 8.16,
           "flexRedirectCutoff2026Min": 8.15,
-          "flexRedirectCutoff2026Max": 8.17
+          "flexRedirectCutoff2026Max": 8.17,
+          "hybridCutoff2026Mean": 8.15,
+          "hybridCutoff2026Min": 8.15,
+          "hybridCutoff2026Max": 8.17
         },
         {
           "name": "Ştiinţe Sociale",
@@ -4456,7 +4870,10 @@
           "redirectCutoff2026Max": 8.1,
           "flexRedirectCutoff2026Mean": 8.12,
           "flexRedirectCutoff2026Min": 8.1,
-          "flexRedirectCutoff2026Max": 8.12
+          "flexRedirectCutoff2026Max": 8.12,
+          "hybridCutoff2026Mean": 8.1,
+          "hybridCutoff2026Min": 8.1,
+          "hybridCutoff2026Max": 8.12
         }
       ],
       "best_cutoffs": {
@@ -4495,7 +4912,10 @@
           "redirectCutoff2026Max": 8.4,
           "flexRedirectCutoff2026Mean": 8.35,
           "flexRedirectCutoff2026Min": 8.32,
-          "flexRedirectCutoff2026Max": 8.35
+          "flexRedirectCutoff2026Max": 8.35,
+          "hybridCutoff2026Mean": 8.32,
+          "hybridCutoff2026Min": 8.32,
+          "hybridCutoff2026Max": 8.35
         }
       ],
       "best_cutoffs": {
@@ -4534,7 +4954,10 @@
           "redirectCutoff2026Max": 8.27,
           "flexRedirectCutoff2026Mean": 8.31,
           "flexRedirectCutoff2026Min": 8.3,
-          "flexRedirectCutoff2026Max": 8.32
+          "flexRedirectCutoff2026Max": 8.32,
+          "hybridCutoff2026Mean": 8.3,
+          "hybridCutoff2026Min": 8.27,
+          "hybridCutoff2026Max": 8.3
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -4562,7 +4985,10 @@
           "redirectCutoff2026Max": 8.22,
           "flexRedirectCutoff2026Mean": 8.25,
           "flexRedirectCutoff2026Min": 8.22,
-          "flexRedirectCutoff2026Max": 8.27
+          "flexRedirectCutoff2026Max": 8.27,
+          "hybridCutoff2026Mean": 8.22,
+          "hybridCutoff2026Min": 8.2,
+          "hybridCutoff2026Max": 8.25
         },
         {
           "name": "Filologie",
@@ -4590,7 +5016,10 @@
           "redirectCutoff2026Max": 8.15,
           "flexRedirectCutoff2026Mean": 8.14,
           "flexRedirectCutoff2026Min": 8.12,
-          "flexRedirectCutoff2026Max": 8.15
+          "flexRedirectCutoff2026Max": 8.15,
+          "hybridCutoff2026Mean": 8.12,
+          "hybridCutoff2026Min": 8.12,
+          "hybridCutoff2026Max": 8.15
         }
       ],
       "best_cutoffs": {
@@ -4629,7 +5058,10 @@
           "redirectCutoff2026Max": 8.27,
           "flexRedirectCutoff2026Mean": 8.3,
           "flexRedirectCutoff2026Min": 8.27,
-          "flexRedirectCutoff2026Max": 8.32
+          "flexRedirectCutoff2026Max": 8.32,
+          "hybridCutoff2026Mean": 8.28,
+          "hybridCutoff2026Min": 8.27,
+          "hybridCutoff2026Max": 8.3
         },
         {
           "name": "Ştiinţe Sociale (Limba română/Limba germană)",
@@ -4657,7 +5089,10 @@
           "redirectCutoff2026Max": 8.15,
           "flexRedirectCutoff2026Mean": 8.17,
           "flexRedirectCutoff2026Min": 8.17,
-          "flexRedirectCutoff2026Max": 8.2
+          "flexRedirectCutoff2026Max": 8.2,
+          "hybridCutoff2026Mean": 8.16,
+          "hybridCutoff2026Min": 8.15,
+          "hybridCutoff2026Max": 8.22
         }
       ],
       "best_cutoffs": {
@@ -4737,7 +5172,10 @@
           "redirectCutoff2026Max": 8.22,
           "flexRedirectCutoff2026Mean": 8.21,
           "flexRedirectCutoff2026Min": 8.2,
-          "flexRedirectCutoff2026Max": 8.22
+          "flexRedirectCutoff2026Max": 8.22,
+          "hybridCutoff2026Mean": 8.21,
+          "hybridCutoff2026Min": 8.2,
+          "hybridCutoff2026Max": 8.22
         },
         {
           "name": "Filologie",
@@ -4765,7 +5203,10 @@
           "redirectCutoff2026Max": 8.0,
           "flexRedirectCutoff2026Mean": 8.02,
           "flexRedirectCutoff2026Min": 8.0,
-          "flexRedirectCutoff2026Max": 8.02
+          "flexRedirectCutoff2026Max": 8.02,
+          "hybridCutoff2026Mean": 8.0,
+          "hybridCutoff2026Min": 8.0,
+          "hybridCutoff2026Max": 8.02
         },
         {
           "name": "Ştiinţe Sociale",
@@ -4793,7 +5234,10 @@
           "redirectCutoff2026Max": 8.02,
           "flexRedirectCutoff2026Mean": 8.02,
           "flexRedirectCutoff2026Min": 8.02,
-          "flexRedirectCutoff2026Max": 8.05
+          "flexRedirectCutoff2026Max": 8.05,
+          "hybridCutoff2026Mean": 8.02,
+          "hybridCutoff2026Min": 8.02,
+          "hybridCutoff2026Max": 8.02
         },
         {
           "name": "Protecţia mediului",
@@ -4880,7 +5324,10 @@
           "redirectCutoff2026Max": 8.25,
           "flexRedirectCutoff2026Mean": 8.15,
           "flexRedirectCutoff2026Min": 8.13,
-          "flexRedirectCutoff2026Max": 8.17
+          "flexRedirectCutoff2026Max": 8.17,
+          "hybridCutoff2026Mean": 8.14,
+          "hybridCutoff2026Min": 8.12,
+          "hybridCutoff2026Max": 8.15
         },
         {
           "name": "Matematică-Informatică",
@@ -4908,7 +5355,10 @@
           "redirectCutoff2026Max": 8.1,
           "flexRedirectCutoff2026Mean": 8.1,
           "flexRedirectCutoff2026Min": 8.07,
-          "flexRedirectCutoff2026Max": 8.1
+          "flexRedirectCutoff2026Max": 8.1,
+          "hybridCutoff2026Mean": 8.09,
+          "hybridCutoff2026Min": 8.07,
+          "hybridCutoff2026Max": 8.1
         },
         {
           "name": "Filologie",
@@ -4936,7 +5386,10 @@
           "redirectCutoff2026Max": 8.12,
           "flexRedirectCutoff2026Mean": 8.13,
           "flexRedirectCutoff2026Min": 8.12,
-          "flexRedirectCutoff2026Max": 8.15
+          "flexRedirectCutoff2026Max": 8.15,
+          "hybridCutoff2026Mean": 8.12,
+          "hybridCutoff2026Min": 8.1,
+          "hybridCutoff2026Max": 8.17
         }
       ],
       "best_cutoffs": {
@@ -4975,7 +5428,10 @@
           "redirectCutoff2026Max": 8.12,
           "flexRedirectCutoff2026Mean": 8.13,
           "flexRedirectCutoff2026Min": 8.12,
-          "flexRedirectCutoff2026Max": 8.15
+          "flexRedirectCutoff2026Max": 8.15,
+          "hybridCutoff2026Mean": 8.12,
+          "hybridCutoff2026Min": 8.12,
+          "hybridCutoff2026Max": 8.12
         },
         {
           "name": "Matematică-Informatică",
@@ -5003,7 +5459,10 @@
           "redirectCutoff2026Max": 8.07,
           "flexRedirectCutoff2026Mean": 8.07,
           "flexRedirectCutoff2026Min": 8.07,
-          "flexRedirectCutoff2026Max": 8.1
+          "flexRedirectCutoff2026Max": 8.1,
+          "hybridCutoff2026Mean": 8.07,
+          "hybridCutoff2026Min": 8.07,
+          "hybridCutoff2026Max": 8.07
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -5031,7 +5490,10 @@
           "redirectCutoff2026Max": 8.02,
           "flexRedirectCutoff2026Mean": 8.04,
           "flexRedirectCutoff2026Min": 8.02,
-          "flexRedirectCutoff2026Max": 8.05
+          "flexRedirectCutoff2026Max": 8.05,
+          "hybridCutoff2026Mean": 8.02,
+          "hybridCutoff2026Min": 8.02,
+          "hybridCutoff2026Max": 8.05
         },
         {
           "name": "Filologie",
@@ -5059,7 +5521,10 @@
           "redirectCutoff2026Max": 7.97,
           "flexRedirectCutoff2026Mean": 8.0,
           "flexRedirectCutoff2026Min": 7.97,
-          "flexRedirectCutoff2026Max": 8.0
+          "flexRedirectCutoff2026Max": 8.0,
+          "hybridCutoff2026Mean": 7.97,
+          "hybridCutoff2026Min": 7.95,
+          "hybridCutoff2026Max": 8.0
         }
       ],
       "best_cutoffs": {
@@ -5098,7 +5563,10 @@
           "redirectCutoff2026Max": 8.07,
           "flexRedirectCutoff2026Mean": 8.07,
           "flexRedirectCutoff2026Min": 8.05,
-          "flexRedirectCutoff2026Max": 8.07
+          "flexRedirectCutoff2026Max": 8.07,
+          "hybridCutoff2026Mean": 8.06,
+          "hybridCutoff2026Min": 8.05,
+          "hybridCutoff2026Max": 8.07
         },
         {
           "name": "Construcţii, instalaţii şi lucrări publice",
@@ -5194,7 +5662,10 @@
           "redirectCutoff2026Max": 8.05,
           "flexRedirectCutoff2026Mean": 8.04,
           "flexRedirectCutoff2026Min": 8.02,
-          "flexRedirectCutoff2026Max": 8.05
+          "flexRedirectCutoff2026Max": 8.05,
+          "hybridCutoff2026Mean": 8.05,
+          "hybridCutoff2026Min": 8.05,
+          "hybridCutoff2026Max": 8.05
         },
         {
           "name": "Filologie",
@@ -5222,7 +5693,10 @@
           "redirectCutoff2026Max": 7.67,
           "flexRedirectCutoff2026Mean": 7.68,
           "flexRedirectCutoff2026Min": 7.67,
-          "flexRedirectCutoff2026Max": 7.7
+          "flexRedirectCutoff2026Max": 7.7,
+          "hybridCutoff2026Mean": 7.67,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.67
         },
         {
           "name": "Filologie (Limba română/Limba engleză)",
@@ -5245,7 +5719,10 @@
           "redirectCutoff2026Max": 7.67,
           "flexRedirectCutoff2026Mean": 7.68,
           "flexRedirectCutoff2026Min": 7.67,
-          "flexRedirectCutoff2026Max": 7.7
+          "flexRedirectCutoff2026Max": 7.7,
+          "hybridCutoff2026Mean": 7.67,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.67
         },
         {
           "name": "Ştiinţe Sociale",
@@ -5273,7 +5750,10 @@
           "redirectCutoff2026Max": 7.65,
           "flexRedirectCutoff2026Mean": 7.66,
           "flexRedirectCutoff2026Min": 7.65,
-          "flexRedirectCutoff2026Max": 7.67
+          "flexRedirectCutoff2026Max": 7.67,
+          "hybridCutoff2026Mean": 7.65,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.65
         }
       ],
       "best_cutoffs": {
@@ -5312,7 +5792,10 @@
           "redirectCutoff2026Max": 8.0,
           "flexRedirectCutoff2026Mean": 8.0,
           "flexRedirectCutoff2026Min": 8.0,
-          "flexRedirectCutoff2026Max": 8.0
+          "flexRedirectCutoff2026Max": 8.0,
+          "hybridCutoff2026Mean": 8.0,
+          "hybridCutoff2026Min": 8.0,
+          "hybridCutoff2026Max": 8.0
         },
         {
           "name": "Ştiinţe Sociale",
@@ -5340,7 +5823,10 @@
           "redirectCutoff2026Max": 8.0,
           "flexRedirectCutoff2026Mean": 8.0,
           "flexRedirectCutoff2026Min": 8.0,
-          "flexRedirectCutoff2026Max": 8.0
+          "flexRedirectCutoff2026Max": 8.0,
+          "hybridCutoff2026Mean": 7.99,
+          "hybridCutoff2026Min": 7.97,
+          "hybridCutoff2026Max": 8.0
         }
       ],
       "best_cutoffs": {
@@ -5379,7 +5865,10 @@
           "redirectCutoff2026Max": 8.1,
           "flexRedirectCutoff2026Mean": 8.05,
           "flexRedirectCutoff2026Min": 8.02,
-          "flexRedirectCutoff2026Max": 8.07
+          "flexRedirectCutoff2026Max": 8.07,
+          "hybridCutoff2026Mean": 8.07,
+          "hybridCutoff2026Min": 8.05,
+          "hybridCutoff2026Max": 8.1
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -5407,7 +5896,10 @@
           "redirectCutoff2026Max": 7.92,
           "flexRedirectCutoff2026Mean": 7.92,
           "flexRedirectCutoff2026Min": 7.92,
-          "flexRedirectCutoff2026Max": 7.95
+          "flexRedirectCutoff2026Max": 7.95,
+          "hybridCutoff2026Mean": 7.91,
+          "hybridCutoff2026Min": 7.9,
+          "hybridCutoff2026Max": 7.92
         },
         {
           "name": "Filologie",
@@ -5435,7 +5927,10 @@
           "redirectCutoff2026Max": 7.85,
           "flexRedirectCutoff2026Mean": 7.83,
           "flexRedirectCutoff2026Min": 7.82,
-          "flexRedirectCutoff2026Max": 7.85
+          "flexRedirectCutoff2026Max": 7.85,
+          "hybridCutoff2026Mean": 7.82,
+          "hybridCutoff2026Min": 7.8,
+          "hybridCutoff2026Max": 7.85
         },
         {
           "name": "Ştiinţe Sociale",
@@ -5463,7 +5958,10 @@
           "redirectCutoff2026Max": 7.77,
           "flexRedirectCutoff2026Mean": 7.77,
           "flexRedirectCutoff2026Min": 7.75,
-          "flexRedirectCutoff2026Max": 7.8
+          "flexRedirectCutoff2026Max": 7.8,
+          "hybridCutoff2026Mean": 7.76,
+          "hybridCutoff2026Min": 7.75,
+          "hybridCutoff2026Max": 7.77
         }
       ],
       "best_cutoffs": {
@@ -5502,7 +6000,10 @@
           "redirectCutoff2026Max": 8.0,
           "flexRedirectCutoff2026Mean": 7.98,
           "flexRedirectCutoff2026Min": 7.97,
-          "flexRedirectCutoff2026Max": 8.0
+          "flexRedirectCutoff2026Max": 8.0,
+          "hybridCutoff2026Mean": 7.97,
+          "hybridCutoff2026Min": 7.97,
+          "hybridCutoff2026Max": 8.0
         },
         {
           "name": "Ştiinţe Sociale",
@@ -5530,7 +6031,10 @@
           "redirectCutoff2026Max": 7.9,
           "flexRedirectCutoff2026Mean": 7.88,
           "flexRedirectCutoff2026Min": 7.87,
-          "flexRedirectCutoff2026Max": 7.9
+          "flexRedirectCutoff2026Max": 7.9,
+          "hybridCutoff2026Mean": 7.87,
+          "hybridCutoff2026Min": 7.85,
+          "hybridCutoff2026Max": 7.9
         }
       ],
       "best_cutoffs": {
@@ -5569,7 +6073,10 @@
           "redirectCutoff2026Max": 7.95,
           "flexRedirectCutoff2026Mean": 7.96,
           "flexRedirectCutoff2026Min": 7.95,
-          "flexRedirectCutoff2026Max": 7.97
+          "flexRedirectCutoff2026Max": 7.97,
+          "hybridCutoff2026Mean": 7.96,
+          "hybridCutoff2026Min": 7.95,
+          "hybridCutoff2026Max": 7.97
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -5597,7 +6104,10 @@
           "redirectCutoff2026Max": 7.87,
           "flexRedirectCutoff2026Mean": 7.87,
           "flexRedirectCutoff2026Min": 7.87,
-          "flexRedirectCutoff2026Max": 7.9
+          "flexRedirectCutoff2026Max": 7.9,
+          "hybridCutoff2026Mean": 7.87,
+          "hybridCutoff2026Min": 7.85,
+          "hybridCutoff2026Max": 7.87
         },
         {
           "name": "Filologie",
@@ -5625,7 +6135,10 @@
           "redirectCutoff2026Max": 7.87,
           "flexRedirectCutoff2026Mean": 7.87,
           "flexRedirectCutoff2026Min": 7.87,
-          "flexRedirectCutoff2026Max": 7.9
+          "flexRedirectCutoff2026Max": 7.9,
+          "hybridCutoff2026Mean": 7.87,
+          "hybridCutoff2026Min": 7.87,
+          "hybridCutoff2026Max": 7.87
         },
         {
           "name": "Ştiinţe Sociale",
@@ -5653,7 +6166,10 @@
           "redirectCutoff2026Max": 7.82,
           "flexRedirectCutoff2026Mean": 7.83,
           "flexRedirectCutoff2026Min": 7.82,
-          "flexRedirectCutoff2026Max": 7.85
+          "flexRedirectCutoff2026Max": 7.85,
+          "hybridCutoff2026Mean": 7.82,
+          "hybridCutoff2026Min": 7.82,
+          "hybridCutoff2026Max": 7.82
         }
       ],
       "best_cutoffs": {
@@ -5692,7 +6208,10 @@
           "redirectCutoff2026Max": 7.92,
           "flexRedirectCutoff2026Mean": 7.94,
           "flexRedirectCutoff2026Min": 7.92,
-          "flexRedirectCutoff2026Max": 7.95
+          "flexRedirectCutoff2026Max": 7.95,
+          "hybridCutoff2026Mean": 7.93,
+          "hybridCutoff2026Min": 7.92,
+          "hybridCutoff2026Max": 7.95
         }
       ],
       "best_cutoffs": {
@@ -5788,7 +6307,10 @@
           "redirectCutoff2026Max": 7.82,
           "flexRedirectCutoff2026Mean": 7.82,
           "flexRedirectCutoff2026Min": 7.82,
-          "flexRedirectCutoff2026Max": 7.82
+          "flexRedirectCutoff2026Max": 7.82,
+          "hybridCutoff2026Mean": 7.81,
+          "hybridCutoff2026Min": 7.8,
+          "hybridCutoff2026Max": 7.82
         },
         {
           "name": "Ştiinţe Sociale",
@@ -5816,7 +6338,10 @@
           "redirectCutoff2026Max": 7.7,
           "flexRedirectCutoff2026Mean": 7.67,
           "flexRedirectCutoff2026Min": 7.67,
-          "flexRedirectCutoff2026Max": 7.7
+          "flexRedirectCutoff2026Max": 7.7,
+          "hybridCutoff2026Mean": 7.66,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.67
         },
         {
           "name": "Producţie media",
@@ -5887,7 +6412,10 @@
           "redirectCutoff2026Max": 7.8,
           "flexRedirectCutoff2026Mean": 7.77,
           "flexRedirectCutoff2026Min": 7.75,
-          "flexRedirectCutoff2026Max": 7.8
+          "flexRedirectCutoff2026Max": 7.8,
+          "hybridCutoff2026Mean": 7.77,
+          "hybridCutoff2026Min": 7.75,
+          "hybridCutoff2026Max": 7.82
         },
         {
           "name": "Filologie",
@@ -5915,7 +6443,10 @@
           "redirectCutoff2026Max": 7.66,
           "flexRedirectCutoff2026Mean": 7.67,
           "flexRedirectCutoff2026Min": 7.67,
-          "flexRedirectCutoff2026Max": 7.7
+          "flexRedirectCutoff2026Max": 7.7,
+          "hybridCutoff2026Mean": 7.66,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.67
         },
         {
           "name": "Mecanică",
@@ -5986,7 +6517,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.57,
-          "flexRedirectCutoff2026Max": 7.57
+          "flexRedirectCutoff2026Max": 7.57,
+          "hybridCutoff2026Mean": 7.56,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.57
         },
         {
           "name": "Filologie (Limba română/Limba neogreacă)",
@@ -6014,7 +6548,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.57,
-          "flexRedirectCutoff2026Max": 7.57
+          "flexRedirectCutoff2026Max": 7.57,
+          "hybridCutoff2026Mean": 7.56,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.57
         },
         {
           "name": "Filologie (Limba română/Limba rusă)",
@@ -6042,7 +6579,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.57,
-          "flexRedirectCutoff2026Max": 7.57
+          "flexRedirectCutoff2026Max": 7.57,
+          "hybridCutoff2026Mean": 7.56,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.57
         },
         {
           "name": "Filologie (Limba română/Limba bulgară)",
@@ -6070,7 +6610,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.57,
-          "flexRedirectCutoff2026Max": 7.57
+          "flexRedirectCutoff2026Max": 7.57,
+          "hybridCutoff2026Mean": 7.56,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.57
         },
         {
           "name": "Matematică-Informatică (Limba română/Limba bulgară)",
@@ -6114,7 +6657,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.57,
-          "flexRedirectCutoff2026Max": 7.57
+          "flexRedirectCutoff2026Max": 7.57,
+          "hybridCutoff2026Mean": 7.56,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.57
         }
       ],
       "best_cutoffs": {
@@ -6153,7 +6699,10 @@
           "redirectCutoff2026Max": 7.6,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.57,
-          "flexRedirectCutoff2026Max": 7.6
+          "flexRedirectCutoff2026Max": 7.6,
+          "hybridCutoff2026Mean": 7.58,
+          "hybridCutoff2026Min": 7.57,
+          "hybridCutoff2026Max": 7.6
         },
         {
           "name": "Turism şi alimentaţie",
@@ -6256,7 +6805,10 @@
           "redirectCutoff2026Max": 7.67,
           "flexRedirectCutoff2026Mean": 7.66,
           "flexRedirectCutoff2026Min": 7.62,
-          "flexRedirectCutoff2026Max": 7.67
+          "flexRedirectCutoff2026Max": 7.67,
+          "hybridCutoff2026Mean": 7.65,
+          "hybridCutoff2026Min": 7.62,
+          "hybridCutoff2026Max": 7.67
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -6284,7 +6836,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.51,
           "flexRedirectCutoff2026Min": 7.5,
-          "flexRedirectCutoff2026Max": 7.52
+          "flexRedirectCutoff2026Max": 7.52,
+          "hybridCutoff2026Mean": 7.53,
+          "hybridCutoff2026Min": 7.52,
+          "hybridCutoff2026Max": 7.55
         },
         {
           "name": "Protecţia mediului",
@@ -6347,7 +6902,10 @@
           "redirectCutoff2026Max": 7.5,
           "flexRedirectCutoff2026Mean": 7.51,
           "flexRedirectCutoff2026Min": 7.5,
-          "flexRedirectCutoff2026Max": 7.52
+          "flexRedirectCutoff2026Max": 7.52,
+          "hybridCutoff2026Mean": 7.5,
+          "hybridCutoff2026Min": 7.5,
+          "hybridCutoff2026Max": 7.5
         }
       ],
       "best_cutoffs": {
@@ -6386,7 +6944,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.56,
           "flexRedirectCutoff2026Min": 7.55,
-          "flexRedirectCutoff2026Max": 7.57
+          "flexRedirectCutoff2026Max": 7.57,
+          "hybridCutoff2026Mean": 7.55,
+          "hybridCutoff2026Min": 7.52,
+          "hybridCutoff2026Max": 7.55
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -6414,7 +6975,10 @@
           "redirectCutoff2026Max": 7.72,
           "flexRedirectCutoff2026Mean": 7.68,
           "flexRedirectCutoff2026Min": 7.55,
-          "flexRedirectCutoff2026Max": 7.7
+          "flexRedirectCutoff2026Max": 7.7,
+          "hybridCutoff2026Mean": 7.69,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.72
         },
         {
           "name": "Ştiinţe Sociale",
@@ -6442,7 +7006,10 @@
           "redirectCutoff2026Max": 7.67,
           "flexRedirectCutoff2026Mean": 7.66,
           "flexRedirectCutoff2026Min": 7.5,
-          "flexRedirectCutoff2026Max": 7.67
+          "flexRedirectCutoff2026Max": 7.67,
+          "hybridCutoff2026Mean": 7.67,
+          "hybridCutoff2026Min": 7.65,
+          "hybridCutoff2026Max": 7.67
         },
         {
           "name": "Chimie industrială",
@@ -6545,7 +7112,10 @@
           "redirectCutoff2026Max": 7.52,
           "flexRedirectCutoff2026Mean": 7.55,
           "flexRedirectCutoff2026Min": 7.55,
-          "flexRedirectCutoff2026Max": 7.55
+          "flexRedirectCutoff2026Max": 7.55,
+          "hybridCutoff2026Mean": 7.53,
+          "hybridCutoff2026Min": 7.52,
+          "hybridCutoff2026Max": 7.55
         },
         {
           "name": "Turism şi alimentaţie",
@@ -6616,7 +7186,10 @@
           "redirectCutoff2026Max": 7.52,
           "flexRedirectCutoff2026Mean": 7.53,
           "flexRedirectCutoff2026Min": 7.52,
-          "flexRedirectCutoff2026Max": 7.55
+          "flexRedirectCutoff2026Max": 7.55,
+          "hybridCutoff2026Mean": 7.52,
+          "hybridCutoff2026Min": 7.5,
+          "hybridCutoff2026Max": 7.52
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -6644,7 +7217,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.55,
           "flexRedirectCutoff2026Min": 7.55,
-          "flexRedirectCutoff2026Max": 7.55
+          "flexRedirectCutoff2026Max": 7.55,
+          "hybridCutoff2026Mean": 7.55,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.55
         },
         {
           "name": "Economic",
@@ -6742,7 +7318,10 @@
           "redirectCutoff2026Max": 7.5,
           "flexRedirectCutoff2026Mean": 7.5,
           "flexRedirectCutoff2026Min": 7.5,
-          "flexRedirectCutoff2026Max": 7.52
+          "flexRedirectCutoff2026Max": 7.52,
+          "hybridCutoff2026Mean": 7.5,
+          "hybridCutoff2026Min": 7.5,
+          "hybridCutoff2026Max": 7.5
         },
         {
           "name": "Producţie media",
@@ -6813,7 +7392,10 @@
           "redirectCutoff2026Max": 7.5,
           "flexRedirectCutoff2026Mean": 7.5,
           "flexRedirectCutoff2026Min": 7.5,
-          "flexRedirectCutoff2026Max": 7.5
+          "flexRedirectCutoff2026Max": 7.5,
+          "hybridCutoff2026Mean": 7.5,
+          "hybridCutoff2026Min": 7.5,
+          "hybridCutoff2026Max": 7.5
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -6841,7 +7423,10 @@
           "redirectCutoff2026Max": 7.52,
           "flexRedirectCutoff2026Mean": 7.5,
           "flexRedirectCutoff2026Min": 7.47,
-          "flexRedirectCutoff2026Max": 7.5
+          "flexRedirectCutoff2026Max": 7.5,
+          "hybridCutoff2026Mean": 7.49,
+          "hybridCutoff2026Min": 7.47,
+          "hybridCutoff2026Max": 7.5
         },
         {
           "name": "Mecanică",
@@ -6896,7 +7481,10 @@
           "redirectCutoff2026Max": 7.6,
           "flexRedirectCutoff2026Mean": 7.57,
           "flexRedirectCutoff2026Min": 7.52,
-          "flexRedirectCutoff2026Max": 7.6
+          "flexRedirectCutoff2026Max": 7.6,
+          "hybridCutoff2026Mean": 7.59,
+          "hybridCutoff2026Min": 7.55,
+          "hybridCutoff2026Max": 7.6
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -6924,7 +7512,10 @@
           "redirectCutoff2026Max": 7.25,
           "flexRedirectCutoff2026Mean": 7.25,
           "flexRedirectCutoff2026Min": 7.25,
-          "flexRedirectCutoff2026Max": 7.25
+          "flexRedirectCutoff2026Max": 7.25,
+          "hybridCutoff2026Mean": 7.25,
+          "hybridCutoff2026Min": 7.25,
+          "hybridCutoff2026Max": 7.25
         },
         {
           "name": "Electric",
@@ -6979,7 +7570,10 @@
           "redirectCutoff2026Max": 7.55,
           "flexRedirectCutoff2026Mean": 7.5,
           "flexRedirectCutoff2026Min": 7.5,
-          "flexRedirectCutoff2026Max": 7.52
+          "flexRedirectCutoff2026Max": 7.52,
+          "hybridCutoff2026Mean": 7.5,
+          "hybridCutoff2026Min": 7.47,
+          "hybridCutoff2026Max": 7.52
         },
         {
           "name": "Filologie",
@@ -7007,7 +7601,10 @@
           "redirectCutoff2026Max": 7.45,
           "flexRedirectCutoff2026Mean": 7.46,
           "flexRedirectCutoff2026Min": 7.45,
-          "flexRedirectCutoff2026Max": 7.47
+          "flexRedirectCutoff2026Max": 7.47,
+          "hybridCutoff2026Mean": 7.45,
+          "hybridCutoff2026Min": 7.45,
+          "hybridCutoff2026Max": 7.47
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -7035,7 +7632,10 @@
           "redirectCutoff2026Max": 7.42,
           "flexRedirectCutoff2026Mean": 7.42,
           "flexRedirectCutoff2026Min": 7.42,
-          "flexRedirectCutoff2026Max": 7.42
+          "flexRedirectCutoff2026Max": 7.42,
+          "hybridCutoff2026Mean": 7.42,
+          "hybridCutoff2026Min": 7.42,
+          "hybridCutoff2026Max": 7.42
         },
         {
           "name": "Protecţia mediului",
@@ -7125,7 +7725,10 @@
           "flexRedirectCutoff2026Mean": 7.4,
           "flexRedirectCutoff2026Min": 7.4,
           "flexRedirectCutoff2026Max": 7.42,
-          "stableCutoff2026": 7.4
+          "stableCutoff2026": 7.4,
+          "hybridCutoff2026Mean": 7.4,
+          "hybridCutoff2026Min": 7.4,
+          "hybridCutoff2026Max": 7.42
         },
         {
           "name": "Ştiinţe sociale",
@@ -7140,7 +7743,10 @@
           "flexRedirectCutoff2026Mean": 7.39,
           "flexRedirectCutoff2026Min": 7.37,
           "flexRedirectCutoff2026Max": 7.4,
-          "stableCutoff2026": 7.37
+          "stableCutoff2026": 7.37,
+          "hybridCutoff2026Mean": 7.38,
+          "hybridCutoff2026Min": 7.37,
+          "hybridCutoff2026Max": 7.4
         }
       ],
       "best_cutoffs": {
@@ -7174,7 +7780,10 @@
           "redirectCutoff2026Max": 7.47,
           "flexRedirectCutoff2026Mean": 7.48,
           "flexRedirectCutoff2026Min": 7.47,
-          "flexRedirectCutoff2026Max": 7.5
+          "flexRedirectCutoff2026Max": 7.5,
+          "hybridCutoff2026Mean": 7.47,
+          "hybridCutoff2026Min": 7.47,
+          "hybridCutoff2026Max": 7.5
         }
       ],
       "best_cutoffs": {
@@ -7212,7 +7821,10 @@
           "redirectCutoff2026Max": 7.37,
           "flexRedirectCutoff2026Mean": 7.38,
           "flexRedirectCutoff2026Min": 7.37,
-          "flexRedirectCutoff2026Max": 7.4
+          "flexRedirectCutoff2026Max": 7.4,
+          "hybridCutoff2026Mean": 7.37,
+          "hybridCutoff2026Min": 7.37,
+          "hybridCutoff2026Max": 7.4
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -7240,7 +7852,10 @@
           "redirectCutoff2026Max": 7.35,
           "flexRedirectCutoff2026Mean": 7.35,
           "flexRedirectCutoff2026Min": 7.35,
-          "flexRedirectCutoff2026Max": 7.37
+          "flexRedirectCutoff2026Max": 7.37,
+          "hybridCutoff2026Mean": 7.35,
+          "hybridCutoff2026Min": 7.35,
+          "hybridCutoff2026Max": 7.35
         },
         {
           "name": "Protecţia mediului",
@@ -7338,7 +7953,10 @@
           "redirectCutoff2026Max": 7.37,
           "flexRedirectCutoff2026Mean": 7.37,
           "flexRedirectCutoff2026Min": 7.37,
-          "flexRedirectCutoff2026Max": 7.37
+          "flexRedirectCutoff2026Max": 7.37,
+          "hybridCutoff2026Mean": 7.37,
+          "hybridCutoff2026Min": 7.37,
+          "hybridCutoff2026Max": 7.37
         },
         {
           "name": "Ştiinţe Sociale",
@@ -7366,7 +7984,10 @@
           "redirectCutoff2026Max": 7.32,
           "flexRedirectCutoff2026Mean": 7.32,
           "flexRedirectCutoff2026Min": 7.32,
-          "flexRedirectCutoff2026Max": 7.32
+          "flexRedirectCutoff2026Max": 7.32,
+          "hybridCutoff2026Mean": 7.32,
+          "hybridCutoff2026Min": 7.32,
+          "hybridCutoff2026Max": 7.32
         },
         {
           "name": "Economic",
@@ -7448,7 +8069,10 @@
           "redirectCutoff2026Max": 7.37,
           "flexRedirectCutoff2026Mean": 7.37,
           "flexRedirectCutoff2026Min": 7.37,
-          "flexRedirectCutoff2026Max": 7.37
+          "flexRedirectCutoff2026Max": 7.37,
+          "hybridCutoff2026Mean": 7.37,
+          "hybridCutoff2026Min": 7.37,
+          "hybridCutoff2026Max": 7.37
         },
         {
           "name": "Turism şi alimentaţie",
@@ -7508,7 +8132,10 @@
           "redirectCutoff2026Max": 7.35,
           "flexRedirectCutoff2026Mean": 7.35,
           "flexRedirectCutoff2026Min": 7.35,
-          "flexRedirectCutoff2026Max": 7.35
+          "flexRedirectCutoff2026Max": 7.35,
+          "hybridCutoff2026Mean": 7.35,
+          "hybridCutoff2026Min": 7.35,
+          "hybridCutoff2026Max": 7.35
         },
         {
           "name": "Electronică automatizări",
@@ -7595,7 +8222,10 @@
           "redirectCutoff2026Max": 7.4,
           "flexRedirectCutoff2026Mean": 7.32,
           "flexRedirectCutoff2026Min": 7.32,
-          "flexRedirectCutoff2026Max": 7.32
+          "flexRedirectCutoff2026Max": 7.32,
+          "hybridCutoff2026Mean": 7.32,
+          "hybridCutoff2026Min": 7.32,
+          "hybridCutoff2026Max": 7.37
         },
         {
           "name": "Filologie",
@@ -7623,7 +8253,10 @@
           "redirectCutoff2026Max": 7.27,
           "flexRedirectCutoff2026Mean": 7.27,
           "flexRedirectCutoff2026Min": 7.25,
-          "flexRedirectCutoff2026Max": 7.27
+          "flexRedirectCutoff2026Max": 7.27,
+          "hybridCutoff2026Mean": 7.26,
+          "hybridCutoff2026Min": 7.25,
+          "hybridCutoff2026Max": 7.27
         },
         {
           "name": "Turism şi alimentaţie",
@@ -7721,7 +8354,10 @@
           "redirectCutoff2026Max": 7.3,
           "flexRedirectCutoff2026Mean": 7.31,
           "flexRedirectCutoff2026Min": 7.3,
-          "flexRedirectCutoff2026Max": 7.32
+          "flexRedirectCutoff2026Max": 7.32,
+          "hybridCutoff2026Mean": 7.31,
+          "hybridCutoff2026Min": 7.3,
+          "hybridCutoff2026Max": 7.32
         },
         {
           "name": "Ştiinţe ale Naturii",
@@ -7749,7 +8385,10 @@
           "redirectCutoff2026Max": 7.3,
           "flexRedirectCutoff2026Mean": 7.3,
           "flexRedirectCutoff2026Min": 7.3,
-          "flexRedirectCutoff2026Max": 7.3
+          "flexRedirectCutoff2026Max": 7.3,
+          "hybridCutoff2026Mean": 7.3,
+          "hybridCutoff2026Min": 7.3,
+          "hybridCutoff2026Max": 7.3
         },
         {
           "name": "Mecanică",
@@ -7866,7 +8505,10 @@
           "redirectCutoff2026Max": 7.3,
           "flexRedirectCutoff2026Mean": 7.29,
           "flexRedirectCutoff2026Min": 7.27,
-          "flexRedirectCutoff2026Max": 7.3
+          "flexRedirectCutoff2026Max": 7.3,
+          "hybridCutoff2026Mean": 7.29,
+          "hybridCutoff2026Min": 7.27,
+          "hybridCutoff2026Max": 7.3
         },
         {
           "name": "Ştiinţe sociale",
@@ -7881,7 +8523,10 @@
           "redirectCutoff2026Max": 7.27,
           "flexRedirectCutoff2026Mean": 7.27,
           "flexRedirectCutoff2026Min": 7.27,
-          "flexRedirectCutoff2026Max": 7.27
+          "flexRedirectCutoff2026Max": 7.27,
+          "hybridCutoff2026Mean": 7.27,
+          "hybridCutoff2026Min": 7.27,
+          "hybridCutoff2026Max": 7.27
         }
       ],
       "best_cutoffs": {
@@ -7958,7 +8603,10 @@
           "redirectCutoff2026Max": 7.25,
           "flexRedirectCutoff2026Mean": 7.25,
           "flexRedirectCutoff2026Min": 7.25,
-          "flexRedirectCutoff2026Max": 7.25
+          "flexRedirectCutoff2026Max": 7.25,
+          "hybridCutoff2026Mean": 7.25,
+          "hybridCutoff2026Min": 7.25,
+          "hybridCutoff2026Max": 7.25
         },
         {
           "name": "Ştiinţe Sociale",
@@ -7986,7 +8634,10 @@
           "redirectCutoff2026Max": 7.22,
           "flexRedirectCutoff2026Mean": 7.2,
           "flexRedirectCutoff2026Min": 7.2,
-          "flexRedirectCutoff2026Max": 7.22
+          "flexRedirectCutoff2026Max": 7.22,
+          "hybridCutoff2026Mean": 7.21,
+          "hybridCutoff2026Min": 7.2,
+          "hybridCutoff2026Max": 7.22
         },
         {
           "name": "Turism şi alimentaţie",
@@ -8192,7 +8843,10 @@
           "redirectCutoff2026Max": 7.2,
           "flexRedirectCutoff2026Mean": 7.2,
           "flexRedirectCutoff2026Min": 7.2,
-          "flexRedirectCutoff2026Max": 7.2
+          "flexRedirectCutoff2026Max": 7.2,
+          "hybridCutoff2026Mean": 7.2,
+          "hybridCutoff2026Min": 7.2,
+          "hybridCutoff2026Max": 7.2
         }
       ],
       "best_cutoffs": {
@@ -8364,7 +9018,10 @@
           "redirectCutoff2026Max": 7.17,
           "flexRedirectCutoff2026Mean": 7.17,
           "flexRedirectCutoff2026Min": 7.17,
-          "flexRedirectCutoff2026Max": 7.17
+          "flexRedirectCutoff2026Max": 7.17,
+          "hybridCutoff2026Mean": 7.17,
+          "hybridCutoff2026Min": 7.17,
+          "hybridCutoff2026Max": 7.17
         },
         {
           "name": "Ştiinţe sociale",
@@ -8379,7 +9036,10 @@
           "redirectCutoff2026Max": 7.17,
           "flexRedirectCutoff2026Mean": 7.17,
           "flexRedirectCutoff2026Min": 7.17,
-          "flexRedirectCutoff2026Max": 7.17
+          "flexRedirectCutoff2026Max": 7.17,
+          "hybridCutoff2026Mean": 7.17,
+          "hybridCutoff2026Min": 7.17,
+          "hybridCutoff2026Max": 7.17
         }
       ],
       "best_cutoffs": {
@@ -8451,7 +9111,10 @@
           "redirectCutoff2026Max": 7.15,
           "flexRedirectCutoff2026Mean": 7.15,
           "flexRedirectCutoff2026Min": 7.15,
-          "flexRedirectCutoff2026Max": 7.15
+          "flexRedirectCutoff2026Max": 7.15,
+          "hybridCutoff2026Mean": 7.15,
+          "hybridCutoff2026Min": 7.15,
+          "hybridCutoff2026Max": 7.15
         },
         {
           "name": "Economic",
@@ -8649,7 +9312,10 @@
           "redirectCutoff2026Max": 7.15,
           "flexRedirectCutoff2026Mean": 7.15,
           "flexRedirectCutoff2026Min": 7.15,
-          "flexRedirectCutoff2026Max": 7.15
+          "flexRedirectCutoff2026Max": 7.15,
+          "hybridCutoff2026Mean": 7.15,
+          "hybridCutoff2026Min": 7.15,
+          "hybridCutoff2026Max": 7.15
         },
         {
           "name": "Ştiinţe sociale",
@@ -8664,7 +9330,10 @@
           "redirectCutoff2026Max": 7.12,
           "flexRedirectCutoff2026Mean": 7.12,
           "flexRedirectCutoff2026Min": 7.12,
-          "flexRedirectCutoff2026Max": 7.12
+          "flexRedirectCutoff2026Max": 7.12,
+          "hybridCutoff2026Mean": 7.12,
+          "hybridCutoff2026Min": 7.12,
+          "hybridCutoff2026Max": 7.12
         }
       ],
       "best_cutoffs": {
@@ -8749,7 +9418,10 @@
           "redirectCutoff2026Max": 7.12,
           "flexRedirectCutoff2026Mean": 7.12,
           "flexRedirectCutoff2026Min": 7.12,
-          "flexRedirectCutoff2026Max": 7.12
+          "flexRedirectCutoff2026Max": 7.12,
+          "hybridCutoff2026Mean": 7.12,
+          "hybridCutoff2026Min": 7.12,
+          "hybridCutoff2026Max": 7.12
         },
         {
           "name": "Ştiinţe sociale",
@@ -8764,7 +9436,10 @@
           "redirectCutoff2026Max": 7.1,
           "flexRedirectCutoff2026Mean": 7.1,
           "flexRedirectCutoff2026Min": 7.1,
-          "flexRedirectCutoff2026Max": 7.1
+          "flexRedirectCutoff2026Max": 7.1,
+          "hybridCutoff2026Mean": 7.1,
+          "hybridCutoff2026Min": 7.1,
+          "hybridCutoff2026Max": 7.1
         }
       ],
       "best_cutoffs": {
@@ -8907,7 +9582,10 @@
           "redirectCutoff2026Max": 7.1,
           "flexRedirectCutoff2026Mean": 7.1,
           "flexRedirectCutoff2026Min": 7.1,
-          "flexRedirectCutoff2026Max": 7.1
+          "flexRedirectCutoff2026Max": 7.1,
+          "hybridCutoff2026Mean": 7.1,
+          "hybridCutoff2026Min": 7.1,
+          "hybridCutoff2026Max": 7.1
         },
         {
           "name": "Ştiinţe sociale",
@@ -8922,7 +9600,10 @@
           "redirectCutoff2026Max": 7.1,
           "flexRedirectCutoff2026Mean": 7.1,
           "flexRedirectCutoff2026Min": 7.1,
-          "flexRedirectCutoff2026Max": 7.1
+          "flexRedirectCutoff2026Max": 7.1,
+          "hybridCutoff2026Mean": 7.1,
+          "hybridCutoff2026Min": 7.1,
+          "hybridCutoff2026Max": 7.1
         }
       ],
       "best_cutoffs": {
@@ -8980,7 +9661,10 @@
           "redirectCutoff2026Max": 7.07,
           "flexRedirectCutoff2026Mean": 7.07,
           "flexRedirectCutoff2026Min": 7.07,
-          "flexRedirectCutoff2026Max": 7.07
+          "flexRedirectCutoff2026Max": 7.07,
+          "hybridCutoff2026Mean": 7.07,
+          "hybridCutoff2026Min": 7.07,
+          "hybridCutoff2026Max": 7.07
         },
         {
           "name": "Ştiinţe sociale",
@@ -8995,7 +9679,10 @@
           "redirectCutoff2026Max": 7.07,
           "flexRedirectCutoff2026Mean": 7.07,
           "flexRedirectCutoff2026Min": 7.07,
-          "flexRedirectCutoff2026Max": 7.07
+          "flexRedirectCutoff2026Max": 7.07,
+          "hybridCutoff2026Mean": 7.07,
+          "hybridCutoff2026Min": 7.07,
+          "hybridCutoff2026Max": 7.07
         }
       ],
       "best_cutoffs": {
@@ -9091,7 +9778,10 @@
           "redirectCutoff2026Max": 7.05,
           "flexRedirectCutoff2026Mean": 7.05,
           "flexRedirectCutoff2026Min": 7.05,
-          "flexRedirectCutoff2026Max": 7.05
+          "flexRedirectCutoff2026Max": 7.05,
+          "hybridCutoff2026Mean": 7.05,
+          "hybridCutoff2026Min": 7.05,
+          "hybridCutoff2026Max": 7.05
         },
         {
           "name": "Ştiinţe sociale",
@@ -9106,7 +9796,10 @@
           "redirectCutoff2026Max": 7.02,
           "flexRedirectCutoff2026Mean": 7.02,
           "flexRedirectCutoff2026Min": 7.02,
-          "flexRedirectCutoff2026Max": 7.02
+          "flexRedirectCutoff2026Max": 7.02,
+          "hybridCutoff2026Mean": 7.02,
+          "hybridCutoff2026Min": 7.02,
+          "hybridCutoff2026Max": 7.02
         }
       ],
       "best_cutoffs": {
