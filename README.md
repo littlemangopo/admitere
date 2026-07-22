@@ -26,6 +26,20 @@ Site neoficial cu statistici de admitere la liceu în București, construit cu A
 | `2026/brosura.json` | Date extrase din broșura oficială 2026 |
 | `2025/repartizareB.json` | Date brute repartizare 2025, candidați din București |
 | `2024/repartizareB.json` | Date brute repartizare 2024, candidați din București |
+| `2026/repartizareB.json` | Repartizare finală 2026, **parțial** — doar candidați cu media de admitere ≥ 7.37 (vezi mai jos) |
+
+## Repartizarea finală 2026 (parțial)
+
+Repartizarea oficială 2026 a fost afișată pe admitere.edu.ro pe 22.07.2026. Scraping-ul (`scrape_repartizare2026.py`)
+a reușit să descarce doar candidații cu media de admitere ≥ 7.37 (paginile cu medii mai mici au picat repetat cu
+erori de server); fișierul cache per-pagină (`2026/repartizareB_by_page.json`) permite reluarea descărcării doar
+pentru paginile lipsă, fără a relua tot procesul.
+
+Cutoff-ul unei specializări e considerat **final confirmat** doar dacă ultimul admis observat are media > 7.37 —
+algoritmul de repartizare umple fiecare specializare ireversibil în ordine descrescătoare a mediei, deci niciun
+candidat cu media mai mică (lipsă din date) n-ar mai fi putut ajunge acolo. Aceste cutoff-uri sunt marcate
+`years['2026'].real = true` în `stats.json` și afișate cu eticheta „final" (verde) în site, cu delta față de
+estimarea din simulare. Restul specializărilor rămân cu valorile simulate (`stableCutoff2026` etc.).
 
 ## Rulare locală
 
@@ -113,3 +127,6 @@ Scripturile de procesare se află în `utils/`:
 - `simulate_repartizare2026.py` — simulează repartizarea 2026 (EST1 + EST2), reproducibil cu `random.seed(42)`
 - `scrape_ierarhie2026.py` — descarcă ierarhia oficială EN 2026 de pe evaluare.edu.ro
 - `scrape_evaluare2026.py` — descarcă notele EN 2026 per școală de proveniență
+- `scrape_repartizare2026.py` — descarcă repartizarea finală reală 2026 de pe admitere.edu.ro (`2026/repartizareB.json`); rezumabil (cache per pagină în `2026/repartizareB_by_page.json`), reface doar paginile lipsă la o nouă rulare
+- `build_real_cutoffs2026.py` — integrează în `stats.json` cutoff-urile reale confirmate din `2026/repartizareB.json` (`years['2026'].real = true`), păstrează simularea pentru restul
+- `build_real_students2026.py` — suprascrie `estSchools`/`estSpecs` din `students.json['2026']` cu alocarea reală acolo unde există (`realAlloc`), păstrează simularea pentru rest

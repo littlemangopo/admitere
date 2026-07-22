@@ -1101,7 +1101,7 @@ body {
       <div class="result-info" id="resultInfo"></div>
     </div>
     <div id="est-disclaimer" style="display:none;margin-bottom:12px;padding:8px 12px;background:#FFF5F5;border-left:3px solid #A03030;border-radius:0 4px 4px 0;font-size:0.73rem;color:#6B2020;line-height:1.6">
-      <strong style="color:#A03030">Estimare 2026</strong> — Simulare repartizare pe baza ierarhiei EN 2026 (note oficiale după contestații) și preferințelor din 2025. Repartizarea oficială nu a avut loc — acestea sunt estimări care pot conține erori.
+      <strong style="color:#A03030">Repartizare 2026</strong> — Repartizarea oficială a avut loc; rezultatele finale reale (etichetate <span style="color:var(--green);font-weight:600">final</span>) sunt disponibile deocamdată doar pentru candidații cu media de admitere ≥ 7.37. Pentru restul specializărilor se afișează în continuare o simulare pe baza ierarhiei EN 2026 și preferințelor din 2025, care poate conține erori.
     </div>
     <div class="school-list" id="schoolList"></div>
   </main>
@@ -1405,7 +1405,7 @@ function schoolSpecCutoff(school, year) {
     ? school.specs
     : school.specs.filter(s => activeSpecs.has(s.base));
   if (year === '2026') {
-    const cutoffs = specs.map(s => s.hybridCutoff2026Mean).filter(v => v != null);
+    const cutoffs = specs.map(s => s.years['2026']?.real ? s.years['2026'].cutoff : s.hybridCutoff2026Mean).filter(v => v != null);
     return cutoffs.length ? Math.min(...cutoffs) : null;
   }
   const cutoffs = specs.map(s => s.years[year]?.cutoff).filter(v => v != null);
@@ -1510,14 +1510,23 @@ function buildCard(school, displayRank, qualifies) {
   // For 2025: primary = 2025, secondary = 2024
   let primaryBlock = '', secondaryBlock = '';
   if (is2026view) {
-    const simVals2 = relevantSpecs.map(s=>s.hybridCutoff2026Mean).filter(v=>v!=null);
-    const sim2 = simVals2.length ? Math.min(...simVals2) : null;
+    // Lowest estimate and lowest real cutoff computed independently across specs
+    // (they may come from different specs — we don't pair them by spec on purpose)
+    const estVals2 = relevantSpecs.map(s => s.hybridCutoff2026Mean).filter(v => v != null);
+    const realVals2 = relevantSpecs.map(s => s.years['2026']?.real ? s.years['2026'].cutoff : null).filter(v => v != null);
+    const minEst2 = estVals2.length ? Math.min(...estVals2) : null;
+    const minReal2 = realVals2.length ? Math.min(...realVals2) : null;
+    const sim2 = minReal2 ?? minEst2;
     const delta2 = sim2 != null && cOther != null
       ? (sim2 - cOther).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
-    primaryBlock = sim2 != null ? `<div class="yr-block" title="Estimare 2026 — medie EN după contestații">
-      <div class="yr-tag" style="color:#A03030">Estimare 2026</div>
-      <div class="yr-grade" style="color:#A03030;font-style:italic">${sim2.toFixed(2)}</div>
-      <div>${delta2 ? `<span style="font-size:0.62rem;color:#A03030">${delta2}</span>` : ''}</div>
+    const color2 = minReal2 != null ? 'var(--green)' : '#A03030';
+    const label2 = minReal2 != null ? 'Repartizare 2026' : 'Estimare 2026';
+    const estParen2 = minReal2 != null && minEst2 != null
+      ? ` <span style="font-size:0.62rem;font-weight:400;color:#A03030">(est. ${minEst2.toFixed(2)})</span>` : '';
+    primaryBlock = sim2 != null ? `<div class="yr-block" title="${label2} — cea mai mică medie/estimare dintre specializările afișate">
+      <div class="yr-tag" style="color:${color2}">${label2}</div>
+      <div class="yr-grade" style="color:${color2};font-style:${minReal2 != null ? 'normal' : 'italic'}">${sim2.toFixed(2)}${estParen2}</div>
+      <div>${delta2 ? `<span style="font-size:0.62rem;color:${color2}">${delta2}</span>` : ''}</div>
     </div>` : '';
     secondaryBlock = cOther != null ? `<div class="yr-block">
       <div class="yr-tag">2025</div>
@@ -1580,7 +1589,7 @@ function buildSpecsTable(school) {
           : `<th>Ultima medie ${activeYear}</th><th class="col-hide-mobile">Admiși ${activeYear}</th>`}
         <th class="col-hide-mobile">Clase 2026</th>
         <th>Locuri 2026</th>
-        <th style="color:#A03030" title="Medie EN după contestații — simulare repartizare cu preferințe flexibile (20% redirect)">Estimare 2026</th>
+        <th title="Medie EN după contestații — real acolo unde repartizarea finală a confirmat-o, altfel simulare cu preferințe flexibile (20% redirect)">Repartizare 2026</th>
       </tr>
     </thead>
     <tbody>`;
@@ -1590,22 +1599,23 @@ function buildSpecsTable(school) {
     .sort((a, b) => {
       if (a.new2026 && !b.new2026) return 1;
       if (!a.new2026 && b.new2026) return -1;
-      const ca = is2026view ? (a.hybridCutoff2026Mean ?? a.years[otherYear]?.cutoff ?? 0) : ((a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0);
-      const cb = is2026view ? (b.hybridCutoff2026Mean ?? b.years[otherYear]?.cutoff ?? 0) : ((b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0);
+      const ca = is2026view ? (a.years['2026']?.cutoff ?? a.hybridCutoff2026Mean ?? a.years[otherYear]?.cutoff ?? 0) : ((a.years[activeYear] || a.years[otherYear] || {}).cutoff || 0);
+      const cb = is2026view ? (b.years['2026']?.cutoff ?? b.hybridCutoff2026Mean ?? b.years[otherYear]?.cutoff ?? 0) : ((b.years[activeYear] || b.years[otherYear] || {}).cutoff || 0);
       return cb - ca;
     });
 
   sortedSpecs.forEach(sp => {
     // For 2026 view, show 2025 actual data as reference
     const d = sp.years[refYear];
+    const real2026 = sp.years['2026']?.real ? sp.years['2026'] : null;
     const qFlag = myGrade != null;
-    const estCutoff2026 = sp.hybridCutoff2026Mean;
+    const cutoff2026 = real2026 ? real2026.cutoff : sp.hybridCutoff2026Mean;
     const q = myGrade != null
       ? (is2026view
-          ? (estCutoff2026 != null ? myGrade >= estCutoff2026 : null)
+          ? (cutoff2026 != null ? myGrade >= cutoff2026 : null)
           : (d ? myGrade >= d.cutoff : null))
       : null;
-    const badge = qFlag && (is2026view ? estCutoff2026 != null : d != null)
+    const badge = qFlag && (is2026view ? cutoff2026 != null : d != null)
       ? (q ? '<span class="qualify-check">✓</span>' : '<span class="no-qualify-x">✗</span>')
       : '';
     const dOther = is2026view ? sp.years['2024'] : sp.years[otherYear];
@@ -1629,12 +1639,14 @@ function buildSpecsTable(school) {
         const d=v-(r??0), ds=d>0?`<span class="yr-delta up">+${d}</span>`:d<0?`<span class="yr-delta dn">${d}</span>`:'';
         return v+(r!=null&&d!==0?' '+ds:'');
       })()}</td>
-      <td class="spec-count" style="color:#A03030;font-weight:700">${(()=>{
-        const est = sp.hybridCutoff2026Mean;
-        if(est==null) return '–';
+      <td class="spec-count" style="${real2026 ? 'color:var(--green);font-weight:700' : 'color:#A03030;font-weight:700'}">${(()=>{
+        if(cutoff2026==null) return '–';
         const ref = sp.years['2025']?.cutoff;
-        const delta = ref ? (est-ref).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
-        return est.toFixed(2) + (delta ? ` <span style="font-size:0.62rem;font-weight:400">${delta}</span>` : '');
+        const delta = ref ? (cutoff2026-ref).toFixed(2).replace(/^-/,'▼').replace(/^(?!▼)/,'▲') : '';
+        const estParen = real2026 && sp.hybridCutoff2026Mean != null
+          ? ` <span style="font-size:0.62rem;font-weight:400;color:#A03030" title="Estimare din simulare">(est. ${sp.hybridCutoff2026Mean.toFixed(2)})</span>`
+          : '';
+        return cutoff2026.toFixed(2) + (delta ? ` <span style="font-size:0.62rem;font-weight:400">${delta}</span>` : '') + estParen;
       })()}</td>
     </tr>`;
   });
@@ -1771,7 +1783,7 @@ function renderStudentsTable() {
 
   // 2026 uses a different flat format: [nro*100, nmate*100, mev*100, ...]
   const is2026 = activeYear === '2026';
-  const { flat, ids, origins, originNames, note } = yr;
+  const { flat, ids, origins, originNames, note, estSchools, estSpecs, realAlloc } = yr;
   const stride = is2026 ? 3 : 3;
   const totalAll = flat.length / stride;
 
@@ -1804,13 +1816,19 @@ function renderStudentsTable() {
       const mev = flat[i * stride + 2] / 100;
       const origin = originNames?.[origins?.[i]] ?? '–';
       const isYour = myGrade != null && Math.abs(mev - myGrade) < 0.005;
+      const isReal = realAlloc?.[i] === 1;
+      const sidx = isReal ? (estSchools?.[i] ?? -1) : -1;
+      const sc = estSpecs?.[i] ?? 4;
+      const school = sidx >= 0 ? (DATA_JSON.schools[sidx]?.name ?? '–') : '–';
+      const spec = sidx >= 0 ? (SPEC_NAMES[sc] ?? '–') : '–';
+      const schoolStyle = sidx >= 0 ? ' style="color:var(--green)"' : '';
       rows += `<tr${isYour ? ' class="your-row"' : ''}>
         <td>${i + 1}</td>
         <td>${mev.toFixed(2)}</td>
         <td style="color:var(--text-2);font-size:0.75rem">${id}</td>
         <td>${origin}</td>
-        <td style="color:var(--text-2)">–</td>
-        <td style="color:var(--text-2)">–</td>
+        <td${schoolStyle}>${school}</td>
+        <td>${spec}</td>
       </tr>`;
     } else {
       const grade = flat[i * stride] / 100;
@@ -1843,7 +1861,7 @@ function renderStudentsTable() {
     : q ? `${total.toLocaleString('ro')} rezultate pentru „${searchQuery}"`
     : `${total.toLocaleString('ro')} candidați`;
 
-  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--surface);border-left:3px solid var(--border);border-radius:0 4px 4px 0;font-size:0.75rem;color:var(--text-2);line-height:1.5">Ierarhia EN 2026 — note oficiale după contestații. Repartizarea oficială nu a avut loc — liceu admis indisponibil.</div>` : '';
+  const disclaimer2026 = is2026 ? `<div style="margin-bottom:12px;padding:8px 12px;background:var(--surface);border-left:3px solid var(--border);border-radius:0 4px 4px 0;font-size:0.75rem;color:var(--text-2);line-height:1.5">Ierarhia EN 2026 — note oficiale după contestații. Liceul admis afișat doar acolo unde e confirmat din repartizarea oficială reală (candidați cu media de admitere ≥ 7.37); pentru restul candidaților nu se afișează încă (necunoscut).</div>` : '';
 
   document.getElementById('studentsContent').innerHTML = `
     ${disclaimer2026}
